@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time-of-Use Rates & HVAC: Shift Cooling Without Losing Comfort | HVAC Zone</title>
+  <meta name="description" content="Under time-of-use rates, the price you pay to run your AC can differ by the clock. Here's what EIA and DOE say about demand response, load shifting, precooling, and when not to chase lower rates." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Smart Grid &amp; Controls</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Jul 24, 2026 · 7 min read</span>
+          </div>
+        </div>
+        <h1>Time-of-Use Rates &amp; HVAC: Shift Cooling Without Losing Comfort</h1>
+        <p class="article-lead">Under time-of-use pricing, the cost to run your AC can change by the hour. Here's what EIA and DOE say about demand response, load shifting, and precooling — and when chasing a lower rate isn't worth it.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Diagram: a 24-hour price curve with a high afternoon-evening peak, and an HVAC load bar shifted earlier into a low-price precool window">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <!-- axes -->
+        <line x1="70" y1="260" x2="760" y2="260" stroke="var(--color-text-faint)" stroke-width="1.5"/>
+        <line x1="70" y1="60" x2="70" y2="260" stroke="var(--color-text-faint)" stroke-width="1.5"/>
+        <!-- price curve: low overnight, peak afternoon/evening -->
+        <path d="M70 230 L180 225 L300 215 L400 170 L480 95 L560 90 L640 160 L720 225 L760 235" fill="none" stroke="var(--color-primary)" stroke-width="3"/>
+        <!-- peak band -->
+        <rect x="420" y="60" width="180" height="200" fill="var(--color-accent)" opacity="0.12"/>
+        <text x="510" y="78" text-anchor="middle" font-family="Inter" font-size="12" fill="var(--color-accent)">peak window</text>
+        <!-- precool block (shifted load) -->
+        <rect x="250" y="240" width="120" height="18" rx="4" fill="var(--color-cool)"/>
+        <text x="310" y="234" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-cool)">pre-cool (low-price)</text>
+        <!-- avoided peak block (faded) -->
+        <rect x="470" y="240" width="80" height="18" rx="4" fill="var(--color-text-faint)" opacity="0.4"/>
+        <text x="510" y="284" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-faint)">shifted out of peak</text>
+        <text x="70" y="300" font-family="Inter" font-size="12" fill="var(--color-text-faint)">Hour of day</text>
+        <text x="40" y="120" font-family="Inter" font-size="12" fill="var(--color-text-faint)" transform="rotate(-90 40 120)">Price / demand</text>
+      </svg>
+      <figcaption>EIA notes grid demand — and the cost to supply it — is usually highest in the afternoon and early evening ([EIA](https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php)). Load shifting moves cooling work into cheaper hours; precooling is the classic lever.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Under time-of-use (TOU) and other time-variable pricing, the price you pay to run your air conditioner can differ by the clock ([DOE FEMP](https://www.energy.gov/cmei/femp/demand-response-and-time-variable-pricing-programs)) — and even where you're on a flat rate, the underlying cost of supplying electricity is far from flat. The U.S. Energy Information Administration explains that electricity demand is usually highest in the afternoon and early evening, that prices are "usually highest in the summer when total demand is high," and that "some utilities offer their customers time-of-day pricing to encourage electricity conservation and to reduce peak demand" ([EIA](https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php)). Because HVAC is controllable on a schedule, it's also one of the most useful loads to shift.</p>
+
+        <h2>What TOU and demand response actually are</h2>
+        <p>The U.S. Department of Energy defines demand response (DR) as "a short-term, voluntary decrease in electrical consumption by end-use customers that is generally triggered by compromised grid reliability or high wholesale market prices," and notes that time-variable pricing (TVP) — where "electricity prices vary at different times of day (and often seasonally)" — is widespread in U.S. electricity markets ([DOE FEMP](https://www.energy.gov/cmei/femp/demand-response-and-time-variable-pricing-programs)). The DOE's foundational report on the topic breaks the price-based side into real-time pricing, critical-peak pricing, and TOU tariffs, and finds that "customers tend to use less electricity at times when electricity prices are high" ([DOE](https://www.energy.gov/oe/articles/benefits-demand-response-electricity-markets-and-recommendations-achieving-them-report)). In other words: when the price signal is visible, behavior follows it.</p>
+
+        <h2>Shed versus shift — and why HVAC fits shift</h2>
+        <p>DOE's grid-interactive buildings work draws a useful line. "Load shedding allows the building to cut demand during peak hours," while "load shifting takes advantage of cheaper or cleaner power by shifting demand from one time of day to another" ([DOE](https://www.energy.gov/cmei/articles/does-national-roadmap-grid-interactive-efficient-buildings)). In practice, HVAC is a natural fit for shifting rather than shedding: a building's own thermal mass — its floors, walls, and contents — can hold coolth for a while, so pre-cooling the space before the peak window banks comfort in the building's fabric instead of buying it at the peak price.</p>
+
+        <p>That idea is backed by peer-reviewed modeling. A 2022 study of optimal pre-cooling for air conditioners in connected homes found that scheduling strategies can move air-conditioning load toward renewable-generation and lower-price periods "while ensuring that user-defined thermal comfort can be achieved" ([Anwar et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9571678/)). The key qualifier is "user-defined" — precooling works when the building can hold the cool and the occupant's comfort band allows it, not as a universal money-saver.</p>
+
+        <h2>The HVAC levers</h2>
+        <table class="compare-table">
+          <thead><tr><th>Lever</th><th>What it does</th><th>Best for / tradeoff</th></tr></thead>
+          <tbody>
+            <tr><td>Pre-cool before peak</td><td>Lower the setpoint 1–3°F in the cheaper morning hours, then let the building coast</td><td>Homes with thermal mass; weak insulation or fast-rebound homes lose the benefit quickly</td></tr>
+            <tr><td>Raise setpoint during peak</td><td>Bump the setpoint up a few degrees through the high-price window</td><td>Anyone on a TOU tariff; avoid for elderly, infant, or medically sensitive occupants</td></tr>
+            <tr><td>Smart-thermostat schedule</td><td>Automate setback/recovery around your tariff's on-peak hours</td><td>Homes with a compatible thermostat; only helps if the schedule matches the actual rate periods</td></tr>
+            <tr><td>Utility DR / cycling program</td><td>Let the utility briefly cycle your AC during grid events in exchange for a bill credit or rebate</td><td>Bill savings via incentive, not rate-shifting; comfort dips during events; check the cycling terms</td></tr>
+          </tbody>
+        </table>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>Shift, don't sacrifice.</b> Load shifting can lower your bill or your peak demand — but it may not reduce your total kWh, and over-cooling to "bank" comfort can raise total energy use (the rebound effect). Comfort and health come first: elderly or infant occupants, medical needs, high indoor humidity, and filtration/IAQ requirements all override rate optimization. If your home has poor insulation or rebounds fast, the building can't hold the pre-cool long enough to pay off.</p>
+        </div>
+
+        <h2>When it isn't worth it</h2>
+        <p>TOU shifting only saves money if two things are true at once: your utility tariff actually rewards off-peak use, and your home can physically shift load — through thermal mass, a compatible thermostat, and an occupancy schedule that tolerates a wider comfort band. If you're on a flat residential rate, the price signal isn't there to respond to. And don't confuse residential TOU with commercial demand charges, which bill large users on their peak kW draw — a different mechanism that rewards shaving peak demand, not just moving kWh around. Finally, aggressive short-cycling to chase a rate can add compressor starts; a sensible schedule avoids hammering the equipment for pennies.</p>
+
+        <h2>The bottom line</h2>
+        <p>Time-of-use rates turn the clock into a price signal, and HVAC is one of the first controllable loads to consider. The playbook is simple: confirm your tariff rewards shifting, pre-cool into the building's thermal mass before the peak, automate it with a thermostat schedule that matches your actual on-peak hours, and stop short of anything that trades comfort, humidity, or air quality for a few cents. Done right, load shifting trims your peak — done wrong, it just moves the same energy around while adding unnecessary compressor starts.</p>
+
+        <p><em>HVAC Zone Inc is a multi-brand dealer; this article is brand-neutral and names no product as "best." This content is educational and not a substitute for a site-specific assessment by a licensed professional.</em> Want help setting up a thermostat schedule that matches your utility's TOU rate — or checking whether your home's envelope can even hold a pre-cool? <a href="../index.html#contact">Request a consultation</a> and we'll start with your actual rate structure and building.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Time-of-Use</span><span class="tag">Demand Response</span><span class="tag">Load Shifting</span><span class="tag">Precooling</span><span class="tag">Smart Grid</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="../article.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Thermostat"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="58" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="3"/><path d="M200 112 L200 80" stroke="var(--color-accent)" stroke-width="4" stroke-linecap="round"/></svg>
+              <span class="card-cat">Smart Thermostats</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Smart Thermostat Shootout: Which Learning Thermostat Actually Saves Money?</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+          <a href="cold-climate-heat-pumps-electrification.html" class="card" data-cat="equipment">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Heat pump"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="150" y="70" width="100" height="90" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><path d="M180 120 q20 -30 40 0 q20 30 40 0" fill="none" stroke="var(--color-cool)" stroke-width="2.5"/></svg>
+              <span class="card-cat">Heat Pumps &amp; Electrification</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Cold-Climate Heat Pumps &amp; Electrification: What Actually Works</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="indoor-humidity-dehumidification-mold.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Humidity"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="56" fill="var(--color-surface)" stroke="var(--color-cool)" stroke-width="2.5"/><text x="200" y="122" text-anchor="middle" font-family="Space Grotesk" font-size="22" font-weight="700" fill="var(--color-cool)">50%</text></svg>
+              <span class="card-cat">Humidity &amp; IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Indoor Humidity, Dehumidifiers &amp; Mold: A Contractor's Guide</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

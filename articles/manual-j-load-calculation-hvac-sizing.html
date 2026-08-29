@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manual J and HVAC Sizing: Why Oversizing Is the Most Common Installation Mistake | HVAC Zone</title>
+  <meta name="description" content="DOE research found that 33-48% of residential HVAC systems are oversized. A study of 941 homes found only 1% had right-sized heating equipment. Here's what Manual J does, why contractors skip it, and what it costs you." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Building</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 6, 2026 · 8 min read</span>
+          </div>
+        </div>
+        <h1>Manual J and HVAC Sizing: Why Oversizing Is the Most Common Installation Mistake</h1>
+        <p class="article-lead">DOE research found that 33-48% of residential HVAC systems are oversized. A study of 941 homes found only 1% had right-sized heating equipment and 6% had right-sized cooling. The fix — an ACCA Manual J load calculation — takes 30-60 minutes. Here's why most contractors skip it and what it costs you.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Diagram showing the HVAC sizing process from Manual J load calculation through Manual S equipment selection to Manual D duct design">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <text x="400" y="30" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="var(--color-text)">The ACCA Sizing Sequence: Load → Equipment → Ducts</text>
+        <g font-family="Inter" font-size="11" fill="var(--color-text-muted)">
+          <rect x="40" y="60" width="220" height="200" rx="10" fill="var(--color-primary)" opacity="0.08" stroke="var(--color-primary)" stroke-width="2"/>
+          <text x="150" y="90" text-anchor="middle" font-weight="700" font-size="14" fill="var(--color-primary)">Manual J</text>
+          <text x="150" y="110" text-anchor="middle" font-size="10">Load Calculation</text>
+          <text x="150" y="135" text-anchor="middle" font-size="9">Inputs:</text>
+          <text x="150" y="150" text-anchor="middle" font-size="9">• Wall/ceiling/floor area</text>
+          <text x="150" y="165" text-anchor="middle" font-size="9">• Insulation R-values</text>
+          <text x="150" y="180" text-anchor="middle" font-size="9">• Window area + SHGC</text>
+          <text x="150" y="195" text-anchor="middle" font-size="9">• Building orientation</text>
+          <text x="150" y="210" text-anchor="middle" font-size="9">• Air infiltration rate</text>
+          <text x="150" y="225" text-anchor="middle" font-size="9">• Duct leakage</text>
+          <text x="150" y="245" text-anchor="middle" font-size="9">• Occupants, internal gains</text>
+
+          <path d="M260 160 L300 160" stroke="var(--color-text-muted)" stroke-width="2" fill="none"/>
+          <path d="M295 155 L300 160 L295 165" stroke="var(--color-text-muted)" stroke-width="2" fill="none"/>
+
+          <rect x="300" y="60" width="220" height="200" rx="10" fill="var(--color-accent)" opacity="0.08" stroke="var(--color-accent)" stroke-width="2"/>
+          <text x="410" y="90" text-anchor="middle" font-weight="700" font-size="14" fill="var(--color-accent)">Manual S</text>
+          <text x="410" y="110" text-anchor="middle" font-size="10">Equipment Selection</text>
+          <text x="410" y="135" text-anchor="middle" font-size="9">Output: Btu/h capacity</text>
+          <text x="410" y="155" text-anchor="middle" font-size="9">Limits:</text>
+          <text x="410" y="170" text-anchor="middle" font-size="9">• Cooling: ≤115% of load</text>
+          <text x="410" y="185" text-anchor="middle" font-size="9">  (≤125% HP CZ 4-8)</text>
+          <text x="410" y="200" text-anchor="middle" font-size="9">• Heating: ≤140% of load</text>
+          <text x="410" y="220" text-anchor="middle" font-size="9">• Match SHR (sensible/latent)</text>
+          <text x="410" y="240" text-anchor="middle" font-size="9">• Verify AHRI certificate</text>
+
+          <path d="M520 160 L560 160" stroke="var(--color-text-muted)" stroke-width="2" fill="none"/>
+          <path d="M555 155 L560 160 L555 165" stroke="var(--color-text-muted)" stroke-width="2" fill="none"/>
+
+          <rect x="560" y="60" width="220" height="200" rx="10" fill="var(--color-success)" opacity="0.08" stroke="var(--color-success)" stroke-width="2"/>
+          <text x="670" y="90" text-anchor="middle" font-weight="700" font-size="14" fill="var(--color-success)">Manual D</text>
+          <text x="670" y="110" text-anchor="middle" font-size="10">Duct Design</text>
+          <text x="670" y="135" text-anchor="middle" font-size="9">Output: cfm per room</text>
+          <text x="670" y="155" text-anchor="middle" font-size="9">Designs:</text>
+          <text x="670" y="170" text-anchor="middle" font-size="9">• Supply/return layout</text>
+          <text x="670" y="185" text-anchor="middle" font-size="9">• Duct diameter + length</text>
+          <text x="670" y="200" text-anchor="middle" font-size="9">• Register/grille sizing</text>
+          <text x="670" y="220" text-anchor="middle" font-size="9">• Static pressure budget</text>
+          <text x="670" y="240" text-anchor="middle" font-size="9">• Friction rate ≤ 0.08 in.WC</text>
+        </g>
+        <text x="400" y="290" text-anchor="middle" font-family="Inter" font-size="10" fill="var(--color-text-faint)">Sources: ACCA Manuals J/S/D, DOE Building America, ENERGY STAR QI Guidebook</text>
+      </svg>
+      <figcaption>The ACCA sizing sequence: Manual J calculates the load, Manual S selects equipment to match, and Manual D designs the ductwork. Each step feeds the next. Skip step one and everything downstream is wrong.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>If you ask most HVAC contractors how they size equipment, the answer is some version of "500 square feet per ton" or "I've been doing this for 20 years and I know what works." DOE's research tells a different story: residential HVAC systems are typically oversized by 33-48% compared to their actual design loads ([DOE](https://www.energy.gov/sites/default/files/2018/06/f53/bto-ResidentialHVACLitReview-06-2018.pdf)). A study of 941 dwellings in the Northeast found that only 1% had right-sized heating equipment and 6% had right-sized cooling equipment — within 25% of the design load ([DOE/OSTI](https://www.osti.gov/biblio/1215252)).</p>
+
+        <p>The fix is a 30-60 minute calculation called Manual J. Here's what it is, why contractors skip it, and what oversizing actually costs.</p>
+
+        <h2>What Manual J does</h2>
+        <p>Manual J is the residential load calculation procedure published by the Air Conditioning Contractors of America (ACCA). It calculates the design heating and cooling loads — the amount of energy the HVAC system must add or remove to maintain comfort — based on the specific characteristics of the building ([DOE](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/31318.pdf)).</p>
+
+        <p>The inputs include:</p>
+        <ul>
+          <li>Wall, ceiling, and floor area with their insulation R-values</li>
+          <li>Window area, glass type, solar heat gain coefficient (SHGC), and shading</li>
+          <li>Building orientation (south-facing windows gain more solar heat than north-facing)</li>
+          <li>Air infiltration rate (typically 0.35 ACH if no blower door test is available)</li>
+          <li>Duct leakage and duct location (attic, crawlspace, conditioned space)</li>
+          <li>Number of occupants and internal gains (appliances, lighting)</li>
+          <li>Local outdoor design temperatures (97.5th percentile for cooling, 2.5th percentile for heating)</li>
+        </ul>
+
+        <p>DOE's Building America program emphasizes that "the most recent version of Manual J should be used, since it incorporates large impacts on efficiency, such as duct leakage and duct heat gains and losses" ([DOE](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/31318.pdf)).</p>
+
+        <h2>Why contractors skip it</h2>
+        <p>DOE's research is blunt about why most equipment is oversized: "most heating, ventilation, and air conditioning (HVAC) equipment is planned without utilizing sophisticated load calculations, and thus is often oversized. Installers tend to oversize equipment to ensure that there will be ample cooling and reduce the risk of a callback requiring a complete system change out" ([DOE](https://www.energy.gov/cmei/buildings/articles/hvac-sizing-research)).</p>
+
+        <p>The rule-of-thumb approach — square feet per ton — ignores every variable that Manual J accounts for. Two identical 2,000 sq ft houses, one with R-19 walls and single-pane windows facing west, the other with R-30 walls and low-e windows facing south, can have completely different cooling loads. Rule-of-thumb sizing treats them identically.</p>
+
+        <p>DOE's own guidance is direct: "Before hiring any HVAC contractor, you should require a minimum of Manual J and S calculations to be completed in your bid request. If a contractor is either unfamiliar or unwilling to do these calculations, you are better off looking elsewhere for a contractor" ([DOE](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/forced_air_hvac_guide.pdf)).</p>
+
+        <h2>What oversizing costs you</h2>
+        <p>DOE identifies three primary penalties of oversizing: "reduced efficiency, increased wear on equipment, and, for the case of air conditioners and heat pumps, increased indoor humidity during summer months" ([DOE](https://www.energy.gov/cmei/buildings/articles/hvac-sizing-research)).</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Problem</th><th>What happens</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Short cycling</td><td>System turns on and off frequently</td><td>Equipment is too large for the load, reaches setpoint fast, shuts off</td></tr>
+            <tr><td>Poor dehumidification</td><td>Indoor humidity stays high even when temperature is met</td><td>AC needs 10-15 min of run time to start condensing moisture; short cycles don't get there</td></tr>
+            <tr><td>Temperature swings</td><td>Overshoots setpoint, then drifts back</td><td>Single-stage system blasts at 100% capacity, overshoots, shuts off</td></tr>
+            <tr><td>Higher energy bills</td><td>9% more cooling energy at 50% oversize (Florida study)</td><td>Parasitic power from crankcase heaters and controls during off cycles</td></tr>
+            <tr><td>Shorter equipment life</td><td>More starts and stops per hour</td><td>Compressor startup is the highest-wear event; more cycles = more wear</td></tr>
+            <tr><td>Higher upfront cost</td><td>You pay for capacity you don't need</td><td>Larger equipment costs more; larger ducts, larger electrical circuit, larger pad</td></tr>
+          </tbody>
+        </table>
+
+        <p>NREL's research found a nuance: "the penalty is not due to unit cycling efficiency but rather to off-cycle parasitic power consumption from components such as controls and crankcase heaters" ([NREL](https://docs.nrel.gov/docs/fy15osti/64189.pdf)). Oversized units are off more often, and when they're off, parasitic loads like crankcase heaters run continuously, accounting for a larger percentage of total energy use. A Florida study cited by DOE showed "a typical 9 percent increase in annual space cooling electricity usage for units that were oversized by 50 percent or more" ([DOE](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/31318.pdf)).</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>The dehumidification problem.</b>This is the oversizing penalty homeowners notice most. An air conditioner dehumidifies by running long enough for the evaporator coil to get cold and condense moisture from the air. A properly sized system runs 15-20 minutes per cycle, pulling out gallons of water. An oversized system runs 5-8 minutes, barely starts condensing, then shuts off. The result: your thermostat says 72°F but the air feels clammy because the relative humidity is 65% or higher. DOE specifically calls out "increased indoor humidity during summer months" as a key penalty of oversizing ([DOE](https://www.energy.gov/cmei/buildings/articles/hvac-sizing-research)).</p>
+        </div>
+
+        <h2>The sizing limits</h2>
+        <p>Once Manual J calculates the load, ACCA Manual S guides equipment selection. The limits are specific ([DOE](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/strategy_guide_hvac_sizing.pdf)):</p>
+        <ul>
+          <li><strong>Cooling:</strong>Total capacity must not exceed the design load by more than 15% (25% for heat pumps in Climate Zones 4-8)</li>
+          <li><strong>Heating:</strong>Furnace size within 140% of peak heating load</li>
+          <li><strong>Sensible/latent match:</strong>Both sensible and latent equipment capacities must meet the building's loads — not just total capacity</li>
+        </ul>
+
+        <p>ENERGY STAR's Quality Installation specification requires that listed total cooling capacity is 95-115% of design total heat gain, or 95-125% for heat pumps in Climate Zones 4-8 ([ENERGY STAR](https://www.energystar.gov/ia/partners/bldrs_lenders_raters/downloads/ENERGY_STAR_V3_HVAC_Quality_Installation_Guidebook_2.21.2011.pdf)). DOE adds: "additional safety factors shouldn't be applied when sizing a system" — Manual J already includes built-in safety margins ([DOE](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/forced_air_hvac_guide.pdf)).</p>
+
+        <h2>The variable-speed exception</h2>
+        <p>DOE's research found one important exception to the oversizing penalty: "oversizing residential HVAC systems can be beneficial when using variable speed equipment." Variable-capacity systems can modulate down to match the actual load, so oversizing for cooling doesn't cause the same short-cycling and dehumidification problems as with single-stage equipment ([DOE](https://www.energy.gov/sites/default/files/2018/06/f53/bto-ResidentialHVACLitReview-06-2018.pdf)). ORNL's research for DOE found that variable-speed heat pumps sized up to 1.6-2.0x the cooling load in cold climates can provide 3-10 percentage points of additional energy savings and significant peak heating power reductions ([DOE](https://www.energy.gov/documents/rbi21munk041515pdf)). ACCA even increased the oversize limit for variable-speed heat pumps from 1.20 to 1.30 in Manual S 2nd Edition 2014.</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Not an endorsement.</b>Naming the ACCA Manual J/S/D procedures, ENERGY STAR Quality Installation specification, or sizing limits does not constitute a recommendation for any brand or product. HVAC Zone Inc is brand-neutral. The right equipment size depends on your home's specific load calculation, climate zone, duct system, and equipment type. This article is informational only.</p>
+        </div>
+
+        <h2>What to ask for</h2>
+        <p>If you're getting an HVAC quote, ask the contractor for the Manual J load calculation. It takes 30-60 minutes for an average home using measurements from construction drawings, and Manual S equipment selection takes another 15-30 minutes ([DOE](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/38360.pdf)). The calculation should include: outdoor design temperatures for your location, building orientation, insulation values, window specifications, infiltration rate, and duct leakage assumptions. If the contractor can't or won't provide it, that's a red flag.</p>
+
+        <p>Want a proper load calculation for your home? <a href="../index.html#contact">Request a consultation</a> — we'll run a Manual J calculation, match equipment to your actual loads, and design the ductwork to deliver the right airflow to every room.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Manual J</span><span class="tag">Load Calculation</span><span class="tag">Oversizing</span><span class="tag">ACCA</span><span class="tag">Right-Sizing</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="variable-speed-vs-two-stage-compressor-hvac.html" class="card" data-cat="equipment">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Compressor types"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M100 140 Q200 80 300 140" fill="none" stroke="var(--color-success)" stroke-width="2.5"/></svg>
+              <span class="card-cat">Compressors & Efficiency</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Variable-Speed vs Two-Stage vs Single-Stage Compressor Technology</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+          <a href="attic-insulation-ventilation-radiant-barriers.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Attic insulation"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M100 140 L200 80 L300 140 Z" fill="none" stroke="var(--color-accent)" stroke-width="2.5"/></svg>
+              <span class="card-cat">Building Science & Envelope</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Your Attic Is Costing You: Insulation, Ventilation, and Radiant Barriers</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="duct-leakage-sealing-distribution-system.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Duct leakage"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="120" y="80" width="160" height="65" rx="8" fill="none" stroke="var(--color-cool)" stroke-width="2"/><path d="M140 112 L260 112" stroke="var(--color-cool)" stroke-width="2" stroke-dasharray="6 4"/></svg>
+              <span class="card-cat">Building Science & Envelope</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Duct Leakage and Sealing: The Distribution System Problem</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

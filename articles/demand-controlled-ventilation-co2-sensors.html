@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demand-Controlled Ventilation: CO₂ Sensors That Cut Waste, Not Air | HVAC Zone</title>
+  <meta name="description" content="CO2-based demand-controlled ventilation modulates outdoor air based on actual occupancy. Here's what DOE, NIST, EPA, and peer-reviewed research say about energy savings, IAQ tradeoffs, and sensor calibration." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Smart Ventilation &amp; IAQ</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Jul 28, 2026 · 7 min read</span>
+          </div>
+        </div>
+        <h1>Demand-Controlled Ventilation: CO₂ Sensors That Cut Waste, Not Air</h1>
+        <p class="article-lead">Buildings are often overventilated by up to six times the required minimum, according to DOE. CO₂-based demand-controlled ventilation matches outdoor air to actual occupancy — but CO₂ is a ventilation proxy, not a complete IAQ score. Here's what DOE, NIST, EPA, and field research say about the savings and the tradeoffs.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Diagram showing a CO2 sensor in a room connected to a controller that modulates an outdoor air damper on an air handler">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <!-- Room -->
+        <rect x="40" y="60" width="260" height="200" rx="12" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <text x="170" y="90" text-anchor="middle" font-family="Space Grotesk" font-size="16" fill="var(--color-primary)" font-weight="700">Occupied Zone</text>
+        <!-- People icons -->
+        <circle cx="120" cy="130" r="10" fill="none" stroke="var(--color-text-muted)" stroke-width="2"/><path d="M108 170 v-20 a12 12 0 0 1 24 0 v20" fill="none" stroke="var(--color-text-muted)" stroke-width="2"/>
+        <circle cx="170" cy="130" r="10" fill="none" stroke="var(--color-text-muted)" stroke-width="2"/><path d="M158 170 v-20 a12 12 0 0 1 24 0 v20" fill="none" stroke="var(--color-text-muted)" stroke-width="2"/>
+        <circle cx="220" cy="130" r="10" fill="none" stroke="var(--color-text-muted)" stroke-width="2"/><path d="M208 170 v-20 a12 12 0 0 1 24 0 v20" fill="none" stroke="var(--color-text-muted)" stroke-width="2"/>
+        <!-- CO2 sensor -->
+        <rect x="110" y="200" width="120" height="40" rx="8" fill="var(--color-cool)" opacity="0.15" stroke="var(--color-cool)" stroke-width="2"/>
+        <text x="170" y="225" text-anchor="middle" font-family="Inter" font-size="13" fill="var(--color-cool)" font-weight="600">CO₂ Sensor</text>
+        <!-- Arrow to controller -->
+        <path d="M230 220 L340 220" stroke="var(--color-cool)" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow1)"/>
+        <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="var(--color-cool)"/></marker></defs>
+        <!-- Controller -->
+        <rect x="340" y="190" width="120" height="60" rx="8" fill="var(--color-surface)" stroke="var(--color-accent)" stroke-width="2.5"/>
+        <text x="400" y="215" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-accent)" font-weight="700">BAS / Controller</text>
+        <text x="400" y="234" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">damper signal</text>
+        <!-- Arrow to damper -->
+        <path d="M460 220 L560 220" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#arrow2)"/>
+        <defs><marker id="arrow2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="var(--color-accent)"/></marker></defs>
+        <!-- Air handler with damper -->
+        <rect x="560" y="120" width="200" height="140" rx="12" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <text x="660" y="148" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-primary)" font-weight="700">Air Handler</text>
+        <!-- Outdoor air damper -->
+        <rect x="600" y="60" width="50" height="60" rx="4" fill="none" stroke="var(--color-success)" stroke-width="2.5"/>
+        <line x1="625" y1="60" x2="625" y2="120" stroke="var(--color-success)" stroke-width="2" stroke-dasharray="4 3"/>
+        <text x="625" y="52" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-success)">Outdoor Air</text>
+        <!-- Return air -->
+        <rect x="680" y="60" width="50" height="60" rx="4" fill="none" stroke="var(--color-text-faint)" stroke-width="2"/>
+        <text x="705" y="52" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-faint)">Return</text>
+        <!-- Supply -->
+        <rect x="600" y="200" width="120" height="40" rx="4" fill="var(--color-primary)" opacity="0.1" stroke="var(--color-primary)" stroke-width="2"/>
+        <text x="660" y="225" text-anchor="middle" font-family="Inter" font-size="12" fill="var(--color-primary)" font-weight="600">Supply Air</text>
+        <text x="40" y="295" font-family="Inter" font-size="12" fill="var(--color-text-faint)">CO₂ levels in the breathing zone signal the controller to open or close the outdoor air damper — more fresh air when the room is full, less when it's empty.</text>
+      </svg>
+      <figcaption>CO₂ levels in the breathing zone signal the controller to modulate the outdoor air damper — more fresh air when the room is full, less when it's empty.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Many conventional systems are designed around fixed ventilation rates set for design occupancy. In practice, conference rooms sit empty for hours, classrooms clear out at 3 PM, and restaurants cycle between packed and deserted. The U.S. Department of Energy notes that buildings are often overventilated by as much as six times the required minimum rates, leading to significant energy waste for heating, cooling, and moving air that nobody needs ([DOE](https://www.energy.gov/cmei/buildings/articles/ultra-low-swap-co2-sensing-demand-control-ventilation)). Demand-controlled ventilation (DCV) can help close that gap.</p>
+
+        <h2>What DCV does</h2>
+        <p>DCV uses occupancy or CO₂ sensors to adjust the ventilation rate automatically in response to changing occupancy, as DOE explains in its HVAC retrofit guidance ([DOE HVAC Retrofit](https://www.energy.gov/cmei/buildings/hvac-retrofit)). The most common implementation modulates outdoor air dampers according to feedback from breathing-zone or return-air CO₂ sensors, according to DOE's Federal Energy Management Program ventilation guide ([DOE FEMP Ventilation Assessment](https://www.energy.gov/sites/default/files/2025-09/ventilation-assessment-and-action-guide_september-2025.pdf)). When CO₂ rises — meaning more people are exhaling — the damper opens wider. When the room empties, the damper closes down, saving the energy that would otherwise go into conditioning unnecessary outdoor air.</p>
+
+        <p>The EPA has long recognized CO₂ as an indicator of ventilation adequacy, noting that indoor CO₂ concentrations can provide a good indication of whether enough outdoor air is being supplied to a space ([EPA IAQ Guidelines](https://www.epa.gov/sites/default/files/2014-08/documents/iaq.pdf)). A NIST state-of-the-art review of CO₂-based DCV, published in 2003 and still widely cited, examined the concept, its energy savings potential as a function of climate and building occupancy, and the IAQ impacts of the approach ([NIST](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir6729.pdf)).</p>
+
+        <h2>The savings — and the catch</h2>
+        <p>DOE reported an average 17.8% energy-savings potential across U.S. climate zones for CO₂-based DCV ([DOE](https://www.energy.gov/cmei/buildings/articles/ultra-low-swap-co2-sensing-demand-control-ventilation)). Peer-reviewed research has found even larger savings in specific settings: a 2022 modeling study of a CO₂-based DCV strategy reported energy savings of about 30–50% compared with a fixed ventilation scheme, while maintaining indoor air quality targets ([Li &amp; Cai 2022, PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9132786/)). The savings come from reducing the volume of outdoor air that must be heated, cooled, and moved during low-occupancy periods.</p>
+
+        <p>The catch: CO₂ is a ventilation proxy, not a complete indoor air quality metric. It tells you whether enough outdoor air is being delivered for the number of people present — but it does not capture particulate matter (PM2.5), volatile organic compounds (VOCs), formaldehyde, or other pollutants that don't correlate with occupancy. A building with excellent CO₂ levels could still have poor filtration, off-gassing materials, or infiltrating wildfire smoke. DOE's FEMP guide acknowledges this by recommending that DCV be paired with adequate MERV filtration and regular sensor maintenance ([DOE FEMP Ventilation Assessment](https://www.energy.gov/sites/default/files/2025-09/ventilation-assessment-and-action-guide_september-2025.pdf)).</p>
+
+        <h2>How DCV compares to other ventilation approaches</h2>
+        <table class="compare-table">
+          <thead><tr><th>Approach</th><th>How it works</th><th>Best for</th><th>Key limitation</th></tr></thead>
+          <tbody>
+            <tr><td>Fixed ventilation</td><td>Constant outdoor air rate set for design occupancy</td><td>Simple code compliance; low-cost buildings</td><td>Wastes energy at low occupancy; under-ventilates if overcrowded</td></tr>
+            <tr><td>CO₂-based DCV</td><td>CO₂ sensors modulate dampers based on actual occupancy</td><td>Offices, schools, restaurants, gyms — spaces with variable occupancy</td><td>Sensor calibration required; CO₂ is a ventilation proxy, not a complete IAQ metric</td></tr>
+            <tr><td>ERV / HRV</td><td>Recovers heat and moisture from exhaust air</td><td>Tight homes needing continuous balanced ventilation</td><td>Does not respond to occupancy changes; complements but doesn't replace DCV</td></tr>
+            <tr><td>Standalone IAQ monitor</td><td>Measures pollutants but doesn't control ventilation</td><td>Diagnostics; spotting patterns and trends</td><td>No automatic action; requires human intervention to adjust ventilation</td></tr>
+          </tbody>
+        </table>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>What contractors and building managers should know.</b> CO₂ sensors drift. DOE's FEMP guide recommends calibrating BAS-integrated CO₂ sensors on a regular schedule and replacing them as they become dysfunctional — an uncalibrated sensor can drive a DCV system to over-ventilate (wasting energy) or under-ventilate (compromising IAQ). Before adding DCV to an existing building, test and balance the air handling system first. DCV is a control strategy, not a substitute for proper equipment sizing, duct design, or filtration. And during an airborne-infection event, the priority may shift toward maximizing outdoor air for dilution — while during wildfire smoke events, the strategy reverses: reduce outdoor-air intake where possible and prioritize high-MERV or HEPA filtration.</p>
+        </div>
+
+        <h2>Where DCV fits and where it doesn't</h2>
+        <p>DCV delivers the most value in spaces where occupancy swings widely throughout the day — conference rooms, classrooms, auditoriums, restaurants, and gyms. In a residence with 2–4 occupants at relatively stable levels, the savings potential is smaller, though smart ventilation systems for homes are an active research area. The technology requires a modulating outdoor air damper (not just open/closed), a CO₂ sensor in the breathing zone or return air, and a controller — typically a building automation system (BAS) — that can translate sensor readings into damper positions. DOE's HVAC retrofit guidance notes that DCV can be enabled or disabled by changing setpoints in a BAS, making it one of the lower-cost efficiency measures for buildings that already have controls infrastructure ([DOE HVAC Retrofit](https://www.energy.gov/cmei/buildings/hvac-retrofit)).</p>
+
+        <h2>The bottom line</h2>
+        <p>Demand-controlled ventilation is one of the most cost-effective ways to cut ventilation energy in buildings with variable occupancy — DOE's average savings estimate of 17.8% across climate zones is a useful benchmark, though actual savings depend on climate, building type, and occupancy patterns. But DCV is a ventilation control strategy, not an IAQ guarantee. It optimizes outdoor air delivery for occupancy, not for every pollutant. Pair it with good filtration, regular sensor calibration, and the judgment to open dampers fully when health risks override efficiency. For tight homes, an <a href="erv-vs-hrv-ventilation-recovery.html">ERV or HRV</a> provides continuous balanced ventilation that DCV can complement but not replace.</p>
+
+        <p><em>HVAC Zone Inc is a multi-brand dealer; this article is brand-neutral and names no product as "best." Energy savings figures are attributed to the sources cited and vary by climate, building type, and occupancy pattern. This content is educational and not a substitute for a site-specific assessment by a licensed professional.</em> Want help evaluating ventilation controls for your building? <a href="../index.html#contact">Request a consultation</a> and we'll look at your actual occupancy patterns and system capabilities.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Demand-Controlled Ventilation</span><span class="tag">CO2 Sensors</span><span class="tag">Smart Ventilation</span><span class="tag">Energy Savings</span><span class="tag">IAQ</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="erv-vs-hrv-ventilation-recovery.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ventilation recovery"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="120" y="70" width="160" height="85" rx="8" fill="var(--color-surface)" stroke="var(--color-cool)" stroke-width="2.5"/><path d="M140 90 h120 M140 105 h120 M140 120 h90" stroke="var(--color-cool)" stroke-width="2" fill="none"/></svg>
+              <span class="card-cat">Ventilation &amp; IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">ERV vs HRV: Heat &amp; Energy Recovery Ventilation Explained</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="iaq-monitors-explained.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="IAQ monitor"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="150" y="55" width="100" height="120" rx="16" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><circle cx="200" cy="105" r="34" fill="none" stroke="var(--color-primary)" stroke-width="3"/></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">IAQ Monitors Explained: PM2.5, CO₂, VOCs &amp; What to Track</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="time-of-use-rates-hvac-load-shifting.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Smart grid"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="50" fill="none" stroke="var(--color-accent)" stroke-width="3"/><path d="M200 80 v32 M200 112 l20 12" stroke="var(--color-accent)" stroke-width="3" stroke-linecap="round"/></svg>
+              <span class="card-cat">Smart Grid &amp; Controls</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Time-of-Use Rates &amp; HVAC: Shift Cooling Without Losing Comfort</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

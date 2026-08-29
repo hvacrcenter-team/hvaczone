@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wildfire Smoke & HVAC: Does Your System Actually Filter It? | HVAC Zone</title>
+  <meta name="description" content="Wildfire smoke is mostly PM2.5, and not every AC filters it. Here's what MERV 13, portable HEPA, and DIY filters actually do — and what your HVAC system can and can't handle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Air Filtration &amp; IAQ</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Jul 18, 2026 · 7 min read</span>
+          </div>
+        </div>
+        <h1>Wildfire Smoke &amp; HVAC: Does Your System Actually Filter It?</h1>
+        <p class="article-lead">Smoke is mostly fine particles (PM2.5), and not every air conditioner is built to catch them. Here's what MERV 13, portable HEPA, and DIY filters really do — and the gap between "the AC is on" and "the air is clean."</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Diagram of a home: wildfire smoke particles outside, a MERV 13 filter at the air handler catching particles, a portable HEPA unit in one room, and a low indoor PM2.5 reading">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <!-- house -->
+        <path d="M150 250 L150 130 L340 70 L530 130 L530 250 Z" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <line x1="340" y1="70" x2="340" y2="250" stroke="var(--color-divider)" stroke-width="2"/>
+        <!-- smoke dots outside -->
+        <g fill="var(--color-text-faint)">
+          <circle cx="80" cy="110" r="5"/><circle cx="105" cy="140" r="4"/><circle cx="60" cy="160" r="6"/><circle cx="640" cy="120" r="5"/><circle cx="680" cy="150" r="4"/><circle cx="710" cy="100" r="5"/>
+        </g>
+        <text x="40" y="240" font-family="Inter" font-size="12" fill="var(--color-text-faint)">Smoke (PM2.5)</text>
+        <!-- air handler + MERV filter -->
+        <rect x="180" y="170" width="120" height="55" rx="6" fill="var(--color-surface-offset)" stroke="var(--color-primary)" stroke-width="2"/>
+        <line x1="240" y1="170" x2="240" y2="225" stroke="var(--color-cool)" stroke-width="6"/>
+        <text x="240" y="158" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">Air handler</text>
+        <text x="318" y="205" font-family="Inter" font-size="11" font-weight="600" fill="var(--color-cool)">MERV 13</text>
+        <!-- portable HEPA -->
+        <rect x="420" y="180" width="55" height="65" rx="8" fill="var(--color-surface-offset)" stroke="var(--color-success)" stroke-width="2"/>
+        <circle cx="447" cy="205" r="14" fill="none" stroke="var(--color-success)" stroke-width="2"/>
+        <text x="447" y="266" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">Portable HEPA</text>
+        <!-- AQI badge -->
+        <rect x="430" y="120" width="120" height="40" rx="20" fill="var(--color-success)"/>
+        <text x="490" y="146" text-anchor="middle" font-family="Space Grotesk" font-size="18" font-weight="700" fill="#fff">PM2.5 low</text>
+        <text x="60" y="300" font-family="Inter" font-size="12" fill="var(--color-text-faint)">A whole-house MERV 13 filter plus a portable HEPA in the room you sleep in is the practical pairing.</text>
+      </svg>
+      <figcaption>Whole-house filtration through the HVAC return plus a portable HEPA in the room you spend the most time in is how you actually cut wildfire-smoke PM2.5 indoors.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Wildfire smoke travels far from the fire. The EPA warned this month that outdoor smoke "can enter your home and make the air indoors unhealthy to breathe," and urged precautions once the Air Quality Index reaches unhealthy, very unhealthy, or hazardous levels ([EPA](https://www.epa.gov/newsreleases/epa-statement-cross-border-wildfire-smoke-and-air-quality-impact-us)). The pollutant to worry about is <strong>PM2.5</strong> — fine particulate matter under 2.5 micrometers that slips deep into the lungs. A 2023 editorial in the American Journal of Respiratory and Critical Care Medicine noted that wildfire smoke can account for as much as one-fourth of ambient PM2.5 in the United States ([Wu, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10806428/)).</p>
+
+        <p>Here's the catch most people miss: an air conditioner cools air, but it doesn't necessarily clean it. Whether your system filters smoke depends on the filter it holds and whether air is actually running through it.</p>
+
+        <h2>Your HVAC + a MERV 13 filter</h2>
+        <p>For central forced-air systems, the EPA recommends installing "the highest-efficiency filters your system can use to filter the PM2.5 in smoke," and specifically calls <strong>MERV 13 or higher filters best, if they are compatible with your HVAC system</strong> ([EPA](https://www.epa.gov/system/files/documents/2026-06/heat-and-smoke-factsheet_1.pdf)). MERV (Minimum Efficiency Reporting Value) is the ASHRAE 52.2 rating scale; a MERV 13 captures a meaningful share of fine particles that lower-rated fiberglass filters let through.</p>
+
+        <p>Two operating steps matter as much as the filter. During a smoke event, set the fan to <strong>"On" rather than "Auto"</strong> so air is cleaned continuously instead of only while cooling, and — if your system has the control — <strong>close the fresh-air intake or switch the system to "recirculate"</strong> so it isn't pulling smoky outside air in ([EPA](https://www.epa.gov/system/files/documents/2026-06/heat-and-smoke-factsheet_1.pdf)). Both are temporary, smoke-event settings — not a reason to disable normal ventilation permanently.</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>MERV 13 only helps if air actually moves through it — and if your blower can push it.</b>A higher-MERV filter raises static pressure (pressure drop), especially if it's undersized or loaded with dust. That can slow airflow, stress the blower, or even freeze the coil. Confirm your system can take the filter's pressure drop before you upgrade; we cover how static pressure is checked in our <a href="hvac-commissioning-tests-explained.html">commissioning article</a>.</p>
+        </div>
+
+        <h2>Window units, portable ACs, and mini-splits usually don't filter smoke</h2>
+        <p>This is the part that surprises people. The EPA notes that window air conditioners, portable air conditioners, and mini-split heat exchangers "typically do not have filters designed for the PM2.5 in smoke" — so running them won't clean the air the way a MERV 13 central system can ([EPA](https://www.epa.gov/system/files/documents/2026-06/heat-and-smoke-factsheet_1.pdf)). For those setups — or for any room where you want cleaner air — the answer is a <strong>portable HEPA air cleaner</strong>.</p>
+
+        <h2>Portable HEPA: the evidence</h2>
+        <p>Peer-reviewed field work backs this up. A University of Washington study of Seattle homes during a 2020 wildfire episode found that auto-mode portable HEPA cleaners <strong>cut indoor PM2.5 by 48–78%</strong> after adjusting for outdoor levels and indoor sources — and that the PM2.5 infiltration factor ranged from 0.33 to 0.76, meaning "staying indoors ... is insufficient to prevent people's excess exposure to wildfire smoke" ([Xiang et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8026580/)). A 2023 editorial put the typical reduction from HEPA purifiers at roughly <strong>50–80%</strong> ([Wu, 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10806428/)). Size the unit to the room using its <strong>Clean Air Delivery Rate (CADR)</strong>, and run it in the room you sleep in.</p>
+
+        <p>On a budget, the EPA also references a <strong>DIY portable air cleaner</strong> — a box fan taped to a high-efficiency furnace filter — as a low-cost fallback ([EPA](https://www.epa.gov/system/files/documents/2026-06/heat-and-smoke-factsheet_1.pdf)). It's a reasonable stopgap, not a substitute for a properly sized HEPA unit, and it should be built and placed with fire safety in mind.</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Approach</th><th>What it does</th><th>Limitation</th></tr></thead>
+          <tbody>
+            <tr><td>Central HVAC + MERV 13</td><td>Filters whole-house air through the return</td><td>Only if compatible with the system; raises static pressure; fan must run "On" during the event</td></tr>
+            <tr><td>Portable HEPA cleaner</td><td>Cleans a single room continuously</td><td>Protects one space; size to room via CADR</td></tr>
+            <tr><td>DIY box-fan + MERV filter</td><td>Low-cost single-room fallback</td><td>Not equivalent to a properly sized HEPA; build/safety caveats</td></tr>
+            <tr><td>Mini-split / window / portable AC</td><td>Cools the space</td><td>Typically not designed for PM2.5 filtration</td></tr>
+          </tbody>
+        </table>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Filters catch particles, not all the smell.</b>PM2.5 filtration targets the fine particles in smoke. It does not remove every smoke gas or odor. For gases and odors you need a sorbent stage such as activated carbon — a separate media, sized and maintained for the load.</p>
+        </div>
+
+        <h2>What to actually do</h2>
+        <ul>
+          <li><strong>Pick one room and make it the "clean room"</strong> — run a properly sized portable HEPA there during smoke events, with windows and doors closed.</li>
+          <li><strong>If you have central air</strong>, upgrade to the highest MERV rating your system can handle (often MERV 13), run the fan "On," and recirculate if you can.</li>
+          <li><strong>Change the filter when it's loaded</strong> — a smoke event can clog a filter in days. A loaded filter both stops cleaning and chokes airflow.</li>
+          <li><strong>Verify with a monitor.</strong> A PM2.5 sensor tells you whether your setup is actually working. (We break down which numbers matter in our <a href="iaq-monitors-explained.html">IAQ monitors article</a>.)</li>
+        </ul>
+
+        <h2>The bottom line</h2>
+        <p>"The AC is running" is not the same as "the air is clean." Wildfire smoke is a PM2.5 problem, and it takes a MERV 13 filter your blower can handle (run with the fan on) and/or a properly sized portable HEPA in the room you sleep in to make a real dent. Staying indoors alone isn't enough — the science is clear on that.</p>
+
+        <p><em>HVAC Zone Inc is a multi-brand dealer; this article is brand-neutral and names no product as "best." This content is educational and not a substitute for a site-specific assessment by a licensed professional.</em> Not sure whether your system can take a MERV 13, or want a portable-HEPA and filtration plan sized to your home? <a href="../index.html#contact">Request a consultation</a> and we'll match the filter to your equipment — not the other way around.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Wildfire Smoke</span><span class="tag">MERV 13</span><span class="tag">HEPA</span><span class="tag">PM2.5</span><span class="tag">Filtration</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="iaq-monitors-explained.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="IAQ monitor"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="150" y="45" width="100" height="135" rx="12" fill="var(--color-surface)" stroke="var(--color-cool)" stroke-width="2.5"/><circle cx="200" cy="90" r="10" fill="var(--color-success)"/></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">IAQ Monitors Explained: PM2.5, CO₂, VOCs &amp; What to Track</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="hvac-commissioning-tests-explained.html" class="card" data-cat="tools">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Gauge"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="125" r="60" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="3"/><path d="M200 125 L230 95" stroke="var(--color-primary)" stroke-width="3" stroke-linecap="round"/></svg>
+              <span class="card-cat">Field Tools &amp; Methods</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">The Tests Behind a Real HVAC Install: Commissioning Explained</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="thermal-envelope.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="House"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M90 180 L90 110 L200 60 L310 110 L310 180 Z" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/></svg>
+              <span class="card-cat">Building Science</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">The Thermal Envelope: Why Your HVAC Can't Fix a Bad Building</h3><div class="card-meta"><span>9 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid-Interactive Efficient Buildings: How HVAC Demand Response Reshapes the Grid | HVAC Zone</title>
+  <meta name="description" content="Buildings consume 75% of U.S. electricity. Grid-interactive efficient buildings use HVAC demand response to shed and shift load, reducing peak demand by up to 246 GW. Here's how it works." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Outlook</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 25, 2026 · 8 min read</span>
+          </div>
+        </div>
+        <h1>Grid-Interactive Efficient Buildings: How HVAC Demand Response Reshapes the Grid</h1>
+        <p class="article-lead">Buildings consume 75% of U.S. electricity. The DOE, ASHRAE, and NREL are advancing a framework where HVAC systems don't just consume power — they actively help balance the grid by shedding and shifting load. Here's what's coming and why it matters for your next equipment decision.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Diagram showing a building HVAC system communicating with the electrical grid, with shed and shift load strategies">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <!-- Grid tower -->
+        <rect x="50" y="80" width="6" height="140" fill="var(--color-cool)"/>
+        <path d="M40 100 L66 100 M35 130 L71 130 M40 160 L66 160" stroke="var(--color-cool)" stroke-width="2"/>
+        <text x="53" y="245" text-anchor="middle" font-family="Inter" font-size="12" fill="var(--color-cool)" font-weight="600">Grid</text>
+        <!-- Signal lines -->
+        <path d="M60 150 Q 200 120 350 150" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="6 4"/>
+        <path d="M350 170 Q 200 200 60 170" fill="none" stroke="var(--color-success)" stroke-width="2" stroke-dasharray="6 4"/>
+        <text x="200" y="115" font-family="Inter" font-size="11" fill="var(--color-accent)">Price / DR Signal</text>
+        <text x="200" y="210" font-family="Inter" font-size="11" fill="var(--color-success)">Load Response</text>
+        <!-- Building -->
+        <rect x="350" y="60" width="200" height="180" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <text x="450" y="90" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-primary)" font-weight="700">Building</text>
+        <!-- HVAC unit inside -->
+        <rect x="380" y="110" width="140" height="50" rx="6" fill="var(--color-surface-offset)" stroke="var(--color-warm)" stroke-width="2"/>
+        <text x="450" y="140" text-anchor="middle" font-family="Inter" font-size="13" fill="var(--color-warm)" font-weight="600">HVAC System</text>
+        <!-- Smart thermostat -->
+        <rect x="395" y="175" width="110" height="35" rx="6" fill="var(--color-surface-offset)" stroke="var(--color-cool)" stroke-width="1.5"/>
+        <circle cx="415" cy="192" r="6" fill="none" stroke="var(--color-cool)" stroke-width="2"/>
+        <text x="450" y="197" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-cool)">Smart T-stat</text>
+        <!-- Arrows for shed/shift -->
+        <text x="450" y="265" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">Shed (reduce) · Shift (move off-peak)</text>
+        <!-- Right side: strategies -->
+        <rect x="600" y="60" width="170" height="180" rx="8" fill="var(--color-surface)" stroke="var(--color-border)" stroke-width="1.5"/>
+        <text x="685" y="85" text-anchor="middle" font-family="Inter" font-size="12" fill="var(--color-text)" font-weight="600">Strategies</text>
+        <text x="615" y="110" font-family="Inter" font-size="11" fill="var(--color-text)">• Pre-cool before peak</text>
+        <text x="615" y="130" font-family="Inter" font-size="11" fill="var(--color-text)">• Setpoint setup (cooling)</text>
+        <text x="615" y="150" font-family="Inter" font-size="11" fill="var(--color-text)">• Thermal storage</text>
+        <text x="615" y="170" font-family="Inter" font-size="11" fill="var(--color-text)">• Compressor cycling</text>
+        <text x="615" y="190" font-family="Inter" font-size="11" fill="var(--color-text)">• OpenADR automation</text>
+        <text x="615" y="210" font-family="Inter" font-size="11" fill="var(--color-text)">• Time-of-use pricing</text>
+      </svg>
+      <figcaption>Grid-interactive buildings use HVAC load flexibility — shedding peak demand and shifting consumption to off-peak hours — in response to utility signals, acting as a distributed grid resource.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Buildings comprise <strong>75% of U.S. electricity demand</strong>, according to a joint report from Lawrence Berkeley National Laboratory and the National Renewable Energy Laboratory ([DOE, Grid-Interactive Efficient Buildings](https://www.energy.gov/sites/prod/files/2020/06/f76/bto-geb-potential-062520.pdf)). That makes HVAC systems — the largest single electrical load in most buildings — a massive untapped resource for grid stability. The emerging framework is called Grid-Interactive Efficient Buildings (GEB), and it's changing how HVAC equipment is specified, controlled, and operated.</p>
+
+        <h2>What is a grid-interactive building?</h2>
+        <p>ASHRAE defines the concept clearly: <em>"Grid-interactive buildings actively engage with the energy grid. They utilize smart technologies, renewable energy sources, and energy storage systems to optimize energy consumption and generation. This allows them to respond in real-time to grid signals, thereby reducing overall demand and GHG emissions"</em> ([ASHRAE, Grid-Interactive Buildings Guide](https://www.ashrae.org/about/news/2023/ashrae-releases-guide-on-the-role-of-grid-interactivity-in-decarbonization)). The guide was developed by the ASHRAE Task Force for Building Decarbonization.</p>
+
+        <p>In practice, grid-interactive buildings do two things with their HVAC load:</p>
+        <ul>
+          <li><strong>Shed</strong> — reduce load during peak hours (e.g., raise the cooling setpoint by 2–4°F during the hottest afternoon hours).</li>
+          <li><strong>Shift</strong> — move electricity use out of the peak period (e.g., pre-cool the building overnight so the compressor runs less during peak afternoon rates).</li>
+        </ul>
+        <p>The DOE report explains that demand flexibility can <em>"reduce load during peak hours ('shed') or move electricity use out of the peak period ('shift')"</em> and that this demand-side flexibility can <em>"support variable renewable electricity penetration cost-effectively"</em> ([DOE, GEB Potential](https://www.energy.gov/sites/prod/files/2020/06/f76/bto-geb-potential-062520.pdf)).</p>
+
+        <h2>The scale: 246 GW of peak demand reduction</h2>
+        <p>The potential is enormous. A National Renewable Energy Laboratory study cited by NEMA found that demand response can make <strong>about 5% of annual demand flexible or dispatchable by 2035</strong>. If demand response eliminates the peak of the top 1% of demand in 2035, it could reduce U.S. coincident peak demand by <strong>as much as 246 GW</strong>. Additionally, aggressive energy efficiency combined with demand-side flexibility can <strong>decrease the need for new clean generation by about 25% by 2035</strong> ([NEMA, Demand Response QuickFacts](https://energytransition.nema.org/wp-content/uploads/2024/08/NEMA-QuickFacts-Demand-Response.pdf)).</p>
+
+        <p>To put that in perspective: 246 GW is roughly equivalent to eliminating the need for hundreds of large power plants. And the enabling technology is HVAC equipment that's already installed or being installed today.</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Strategy</th><th>How it works</th><th>HVAC role</th><th>Typical savings</th></tr></thead>
+          <tbody>
+            <tr><td>Pre-cooling / pre-heating</td><td>Lower/raise setpoints before peak period, then coast through it</td><td>Compressor runs off-peak, cycles off during peak</td><td>20–44% peak reduction</td></tr>
+            <tr><td>Setpoint adjustment</td><td>Raise cooling setpoint 2–4°F during DR event</td><td>Reduced runtime, lower demand</td><td>0.5–1 kW per ton</td></tr>
+            <tr><td>Thermal energy storage</td><td>Make ice or chilled water at night, use it for daytime cooling</td><td>Shifts entire cooling load off-peak</td><td>Up to 100% peak shift</td></tr>
+            <tr><td>Compressor cycling / DLC</td><td>Utility cycles AC compressor on/off for short intervals</td><td>Direct load control by utility</td><td>25–100% AC load shed</td></tr>
+          </tbody>
+        </table>
+
+        <p>Research published through ASHRAE's Buildings XV conference found that load shifting is the <strong>dominant flexibility type in 60% of applications</strong>, followed by shedding (19%), modulation (6%), and generation (16%). The same study documented that heat pump load shifting achieved a <strong>44% reduction in peak-time power demand</strong> by using pre-conditioning and setpoint adjustments ([ASHRAE, Buildings XV — Load Shifting with Heat Pumps](https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/Buildings%20XV%20-%20Papers/C048.pdf)).</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>Why 44% matters.</b>A 44% peak-demand reduction from load shifting alone means a building can cut its grid contribution nearly in half during the most expensive, most carbon-intensive hours — without sacrificing comfort, because the pre-conditioning happens while rates are low. This is the core economic argument for grid-interactive HVAC.</p>
+        </div>
+
+        <h2>How utilities and buildings communicate: OpenADR</h2>
+        <p>The communication backbone for automated demand response is OpenADR — the Open Automated Demand Response specification. ASHRAE explains that <em>"the utility uses demand response automation software to send price and reliability signals over the Internet to an OpenADR gateway controller at the facility"</em>, which then <em>"interprets the message and initiates pre-programmed load reductions in select control systems, overriding the system's current setting to a predefined, more energy-efficient setting"</em> ([ASHRAE, Getting Smart on the Electrical Grid](https://www.ashrae.org/file%20library/technical%20resources/bookstore/getting-smart-on-the-electrical-grid.pdf)).</p>
+
+        <p>This automation removes the human factor — no one has to remember to raise the setpoint at 3 PM. The building responds automatically, which makes the resource dispatchable and predictable for grid operators.</p>
+
+        <h2>ASHRAE standards driving grid interactivity</h2>
+        <p>Several ASHRAE standards already embed demand response requirements:</p>
+        <ul>
+          <li><strong>Standard 189.1</strong> (High-Performance Green Buildings) requires building projects to have the <strong>capability to reduce peak electric demand by 10%</strong> (5% in certain sections), through systems that can shed load on command ([ASHRAE, Standard 189.1 Interpretation](https://www.ashrae.org/File%20Library/Technical%20Resources/Standards%20and%20Guidelines/Standards%20Intepretations/IC189-1-2011-1.pdf)).</li>
+          <li><strong>Standard 223P</strong> — a proposed Semantic Data Model for Analytics and Automation Applications in Buildings, intended to <em>"provide conformity in energy management, load control and smart buildings and grid management"</em> ([ASHRAE, Smart Building Acceleration Letter](https://www.ashrae.org/file%20library/about/government%20affairs/public%20policy%20resources/ashrae-ltr_smart-building-acceleration.pdf)).</li>
+          <li><strong>ASHRAE's AI Data Center Energy Performance Framework</strong> includes grid-interactive design as a core strategy, using thermal energy storage, cooling thermostat resets, and OpenADR-coordinated load flexibility ([ASHRAE, Grid-Interactive Design](https://www.ashrae.org/technical-resources/ai-data-center-framework/grid-interactive-design-demand-flexibility)).</li>
+        </ul>
+
+        <h2>What this means for homeowners and contractors</h2>
+        <p>For residential HVAC, the entry point is the smart thermostat. ASHRAE notes that smart thermostats can <em>"significantly reduce or eliminate normal use during critical peak periods in response to either a price or demand response signal"</em>, and that utilities have historically provided <em>"a seasonal financial incentive in exchange for allowing the utility to shed between 25% and 100% of the AC load"</em> ([ASHRAE, Electric Utilities and the HVAC Industry](https://www.ashrae.org/file%20library/technical%20resources/bookstore/electric-utilities.pdf)).</p>
+
+        <p>For commercial buildings, the enabling technology stack includes smart meters and submetering, building energy management systems, OpenADR gateway controllers, and HVAC systems with configurable setpoint schedules. The NEMA framework identifies the key elements as <em>"smart meters and submeters, building energy management systems, sensors, smart thermostats, smart appliances, smart load controls (for lighting, HVAC, plug loads, etc.), and networked EV charging systems"</em> ([NEMA, Demand Response](https://energytransition.nema.org/demand-response/)).</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Not all HVAC systems can do this.</b>Grid-interactive demand response requires equipment that can accept external control signals — programmable thermostats with DR capability, BACnet-connected building automation systems, or OpenADR-compatible controllers. A basic mercury thermostat on a 20-year-old condenser can't participate. When replacing equipment, ask whether the new system supports utility DR programs or OpenADR.</p>
+        </div>
+
+        <h2>The outlook</h2>
+        <p>Grid-interactive efficient buildings represent a fundamental shift in how we think about HVAC: from passive consumers of electricity to active grid resources. The DOE's framework, ASHRAE's standards, and NREL's projections all point in the same direction — buildings that can flex their HVAC load will increasingly be compensated for that flexibility through utility programs, dynamic pricing, and capacity markets. As renewable energy penetration grows (with its inherent intermittency), demand-side flexibility becomes essential, not optional.</p>
+
+        <p>For homeowners, the practical steps are: install a smart thermostat enrolled in your utility's DR program; when replacing equipment, choose systems with communicable controls; and consider time-of-use rate plans that reward off-peak consumption. For commercial building owners, the path runs through building automation systems, OpenADR integration, and thermal energy storage.</p>
+
+        <p><em>Naming a product or manufacturer in this article is for identification purposes only and does not constitute an endorsement by HVAC Zone Inc. We are a multi-brand dealer and remain neutral on brand preference.</em></p>
+
+        <p>Want to know whether your current HVAC system can participate in demand response programs, or what to look for when upgrading? <a href="../index.html#contact">Request a consultation</a> — we'll evaluate your equipment, controls, and utility program options to find the right strategy for your building.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Outlook</span><span class="tag">Grid-Interactive</span><span class="tag">Demand Response</span><span class="tag">OpenADR</span><span class="tag">Smart Grid</span><span class="tag">Decarbonization</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="time-of-use-rates-hvac-load-shifting.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Time of use rates"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M50 180 L150 120 L250 100 L350 60" fill="none" stroke="var(--color-accent)" stroke-width="3"/><circle cx="150" cy="120" r="5" fill="var(--color-accent)"/><circle cx="250" cy="100" r="5" fill="var(--color-accent)"/></svg>
+              <span class="card-cat">Smart</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Time-of-Use Rates &amp; HVAC Load Shifting</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="building-automation-systems-bacnet-hvac-smart-controls.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Building automation"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="130" y="60" width="140" height="100" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><rect x="150" y="80" width="40" height="30" rx="4" fill="var(--color-cool)" opacity="0.3"/><rect x="200" y="80" width="40" height="30" rx="4" fill="var(--color-warm)" opacity="0.3"/><rect x="150" y="120" width="90" height="25" rx="4" fill="var(--color-success)" opacity="0.3"/></svg>
+              <span class="card-cat">Smart</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Building Automation Systems &amp; BACnet</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+          <a href="demand-controlled-ventilation-co2-sensors.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="CO2 sensor"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="45" fill="none" stroke="var(--color-cool)" stroke-width="3"/><text x="200" y="120" text-anchor="middle" font-family="Inter" font-size="14" fill="var(--color-cool)" font-weight="600">CO₂</text></svg>
+              <span class="card-cat">Smart</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Demand-Controlled Ventilation &amp; CO₂ Sensors</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

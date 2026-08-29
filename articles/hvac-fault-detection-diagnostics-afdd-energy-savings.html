@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HVAC Fault Detection &amp; Diagnostics (FDD): How Automated Monitoring Cuts Energy Waste | HVAC Zone</title>
+  <meta name="description" content="5-30% of commercial building energy is wasted due to HVAC control faults. Automated Fault Detection and Diagnostics (FDD) catches these problems automatically, delivering median savings of 8-9%. Here's how it works." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Smart</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 26, 2026 · 7 min read</span>
+          </div>
+        </div>
+        <h1>HVAC Fault Detection &amp; Diagnostics: How Automated Monitoring Cuts Energy Waste</h1>
+        <p class="article-lead">Between 5% and 30% of commercial building energy is wasted due to faults in HVAC controls and operation. Automated Fault Detection and Diagnostics (FDD) tools catch these problems automatically — before they show up on your utility bill. Here's what the data shows.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Diagram showing HVAC system data flowing through FDD software to detect faults">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <!-- HVAC system -->
+        <rect x="40" y="100" width="160" height="120" rx="10" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <text x="120" y="130" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-primary)" font-weight="700">HVAC System</text>
+        <rect x="60" y="145" width="55" height="30" rx="4" fill="var(--color-cool)" opacity="0.2"/>
+        <rect x="125" y="145" width="55" height="30" rx="4" fill="var(--color-warm)" opacity="0.2"/>
+        <text x="120" y="195" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">Sensors · BAS</text>
+        <!-- Data arrow -->
+        <path d="M205 160 L320 160" stroke="var(--color-cool)" stroke-width="2.5" marker-end="url(#arr)" fill="none"/>
+        <text x="262" y="148" text-anchor="middle" font-family="Inter" font-size="10" fill="var(--color-cool)">Data stream</text>
+        <defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="var(--color-cool)"/></marker></defs>
+        <!-- FDD engine -->
+        <rect x="325" y="80" width="180" height="160" rx="10" fill="var(--color-surface)" stroke="var(--color-accent)" stroke-width="2.5"/>
+        <text x="415" y="110" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-accent)" font-weight="700">FDD Software</text>
+        <text x="340" y="135" font-family="Inter" font-size="11" fill="var(--color-text)">• Rule-based checks</text>
+        <text x="340" y="153" font-family="Inter" font-size="11" fill="var(--color-text)">• Model comparison</text>
+        <text x="340" y="171" font-family="Inter" font-size="11" fill="var(--color-text)">• ML pattern detection</text>
+        <text x="340" y="189" font-family="Inter" font-size="11" fill="var(--color-text)">• Fault prioritization</text>
+        <text x="340" y="207" font-family="Inter" font-size="11" fill="var(--color-text)">• Automated alerts</text>
+        <text x="340" y="225" font-family="Inter" font-size="11" fill="var(--color-text)">• Energy impact est.</text>
+        <!-- Output arrow -->
+        <path d="M510 160 L625 160" stroke="var(--color-success)" stroke-width="2.5" marker-end="url(#arr2)" fill="none"/>
+        <text x="567" y="148" text-anchor="middle" font-family="Inter" font-size="10" fill="var(--color-success)">Alerts</text>
+        <defs><marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="var(--color-success)"/></marker></defs>
+        <!-- Outputs -->
+        <rect x="630" y="90" width="150" height="140" rx="10" fill="var(--color-surface)" stroke="var(--color-border)" stroke-width="1.5"/>
+        <text x="705" y="115" text-anchor="middle" font-family="Inter" font-size="12" fill="var(--color-text)" font-weight="600">Detected Faults</text>
+        <text x="645" y="140" font-family="Inter" font-size="11" fill="var(--color-warm)">⚠ Simultaneous heat/cool</text>
+        <text x="645" y="158" font-family="Inter" font-size="11" fill="var(--color-warm)">⚠ Damper stuck open</text>
+        <text x="645" y="176" font-family="Inter" font-size="11" fill="var(--color-warm)">⚠ Sensor drift</text>
+        <text x="645" y="194" font-family="Inter" font-size="11" fill="var(--color-warm)">⚠ Schedule error</text>
+        <text x="645" y="212" font-family="Inter" font-size="11" fill="var(--color-warm)">⚠ Refrigerant leak</text>
+        <!-- Bottom note -->
+        <text x="400" y="290" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">Median savings: 8-9% whole-building energy · Payback &lt; 2 years</text>
+      </svg>
+      <figcaption>FDD software continuously analyzes HVAC operational data — temperatures, pressures, damper positions, scheduling — to detect faults, estimate their energy impact, and prioritize repairs before they escalate.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Most HVAC systems don't fail dramatically. They drift. A damper actuator sticks. A sensor reads 3°F off. A schedule reverts to 24/7 operation after a maintenance override was never removed. These silent failures waste enormous amounts of energy — the Lawrence Berkeley National Laboratory estimates that <strong>5% to 30% of commercial building energy is wasted due to problems associated with controls</strong> ([DOE Better Buildings, FDD Achieved Savings](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/building_fault_detection_and_diagnostic-paper.pdf)).</p>
+
+        <h2>What is FDD?</h2>
+        <p>Fault Detection and Diagnostics (FDD) is the process of <em>"identifying (detecting) deviations from normal or expected operation (faults) and resolving (diagnosing) the type of problem or its location"</em> ([LBNL, FDD Characterization](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/lbnl-2001075.pdf)). In practice, FDD software continuously analyzes data from a building automation system (BAS) — temperatures, pressures, damper positions, valve positions, schedules, energy meters — and flags anomalies that indicate something is wrong.</p>
+
+        <p>The DOE's Building Technologies Office defines the national opportunity starkly: <em>"annual building energy use can be cut by an average of 29% through corrections to existing building controls infrastructure"</em> — about 4-5% of overall U.S. energy consumption. The BTO's target is <strong>20% end-use energy savings through improved automated FDD solutions</strong> ([DOE, FDD Test Datasets](https://www.energy.gov/cmei/buildings/articles/fault-detection-and-diagnostics-test-datasets-and-prioritization-methods)).</p>
+
+        <table class="compare-table">
+          <thead><tr><th>FDD Method</th><th>How it works</th><th>Best for</th><th>Limitation</th></tr></thead>
+          <tbody>
+            <tr><td>Rule-based</td><td>Predefined if-then rules (e.g., "if heating valve &gt;80% open AND cooling valve &gt;80% open, flag simultaneous heating/cooling")</td><td>Known fault patterns, common issues</td><td>Can't detect novel faults; high false positive rate</td></tr>
+            <tr><td>Physical model</td><td>Compares measured data against thermodynamic/physical models of expected performance</td><td>Equipment-level diagnostics</td><td>Requires detailed system knowledge; setup cost</td></tr>
+            <tr><td>Black-box / ML</td><td>Statistical or machine learning models trained on historical data to detect deviations</td><td>Complex systems with enough data</td><td>Needs training period; less interpretable</td></tr>
+            <tr><td>Hybrid</td><td>Combines rules, models, and ML for layered detection</td><td>Enterprise deployments</td><td>Higher implementation complexity</td></tr>
+          </tbody>
+        </table>
+
+        <h2>The numbers: what FDD actually saves</h2>
+        <p>The DOE's Smart Energy Analytics Campaign — a multi-year study by LBNL covering 96 organizations, nearly 6,000 buildings, and 518 million square feet — found that FDD software delivered <strong>median energy savings of 9% ($0.24/sf)</strong> after just two years, compared to 4% ($0.04/sf) for basic energy information systems alone ([DOE, Smart Energy Analytics Campaign](https://www.energy.gov/cmei/buildings/articles/smart-energy-analytics-campaign-reveals-continued-energy-and-cost-savings)).</p>
+
+        <p>A deeper analysis of 26 organizations using FDD across 550 buildings and 97 million square feet found:</p>
+        <ul>
+          <li><strong>Median whole-building savings: 8%</strong> (range: -1% to 31%)</li>
+          <li><strong>Median utility cost savings: $0.27 per square foot</strong> (range: -$0.06 to $1.30/sf)</li>
+          <li><strong>21 of 26 organizations</strong> had annual energy cost savings exceeding median annual recurring costs</li>
+          <li>Median FDD base deployment cost: <strong>$0.05/sf</strong>; annual recurring software + labor: <strong>$0.07/sf</strong> ([DOE Better Buildings, FDD Achieved Savings](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/building_fault_detection_and_diagnostic-paper.pdf))</li>
+        </ul>
+
+        <p>Microsoft's campus-wide deployment of FDD (the Energy-Smart Buildings Program) achieved an <strong>18.5% reduction in annual electricity consumption</strong> between 2009 and 2015. Case studies from Austria documented yearly savings of <strong>8-20% in electricity and 13-28% in gas</strong> across three buildings ([DOE Better Buildings, FDD Achieved Savings](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/building_fault_detection_and_diagnostic-paper.pdf)).</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>245 faults per building, every month.</b>A 2024 DOE/LBNL study found that building operators using FDD see an average of 245 faults per building per month — just in air-handling units (AHUs) and air-terminal units (ATUs). That's not a sign of bad buildings; it's a sign that modern HVAC systems generate enormous operational complexity, and automated monitoring is the only practical way to keep up ([DOE/LBNL, Accelerating Fault-Free Optimal Control](https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-32601-Accelerating-Fault-Free-Optimal-Control-Granderson.pdf)).</p>
+        </div>
+
+        <h2>The residential side: $2.5 billion in annual waste</h2>
+        <p>FDD isn't just for commercial buildings. NREL researchers estimate that central air conditioners and air-source heat pumps in U.S. homes waste <strong>20.7 terawatt hours of energy per year due to equipment faults</strong> — that's <strong>9% of national CAC/ASHP energy consumption, costing equipment owners $2.5 billion annually</strong> ([PNNL, Residential Smart Diagnostic Tools](https://www.pnnl.gov/sites/default/files/media/file/SmartDiagnosticTools_EERE%20fact%20sheet_3.12.21_0.pdf)).</p>
+
+        <p>The DOE is promoting smart diagnostic tools that pair digital manifold gauges with a smartphone app, allowing HVAC contractors to <em>"monitor temperature, pressure, refrigerant charge, airflow, and other equipment-performance metrics"</em> during service calls — catching faults that traditional visual inspection would miss.</p>
+
+        <h2>Standards and the path forward</h2>
+        <p>ASHRAE Guideline 36-2018 (High-Performance Sequences of Operation for HVAC Systems) already includes built-in AFDD routines for air-handling units. These <em>"continually assess AHU performance by comparing the values of BAS inputs and outputs to a subset of potential fault conditions"</em>, with the specific checks depending on the operating state of cooling valves, heating valves, and economizer dampers ([ASHRAE Guideline 36](https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/g36_2018_u_20210330.pdf)).</p>
+
+        <p>NIST has also developed system-level FDD methods that integrate multiple equipment-specific FDD tools into a unified diagnostic view, using <em>"source-load hierarchical relationships between the different pieces of equipment and subsystems"</em> to resolve conflicting fault reports and avoid alert fatigue ([NIST IR 7216](https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir7216.pdf)).</p>
+
+        <p>The national potential is significant: DOE-funded research estimates that <strong>FDD could save 927 TBtu per year — a 50% reduction across all HVAC and refrigeration energy sectors</strong> ([DOE, FDD for Retro-Commissioning](https://www.energy.gov/cmei/buildings/articles/fault-detection-and-diagnosis-fdd-tools-retro-commissioning-and-continuous)). A more recent analysis projects that scaling advanced FDD and optimal control sequences to existing buildings could deliver <strong>940 TBtu and $18 billion in savings</strong>, with monitoring-based commissioning and FDD delivering <strong>9% savings with payback under 2 years</strong> ([DOE/LBNL, Accelerating Fault-Free Optimal Control](https://www.energy.gov/sites/default/files/2024-11/bto-peer-2024-32601-Accelerating-Fault-Free-Optimal-Control-Granderson.pdf)).</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>FDD needs data to work.</b>Buildings without a BAS or IoT sensors can't run FDD. The technology requires connected equipment, trend logging, and — for commercial deployments — someone to review and act on the alerts. FDD software detects problems, but a technician still has to fix them. If your building doesn't have networked controls, the first step is upgrading to a connected thermostat or BAS before FDD can add value.</p>
+        </div>
+
+        <h2>What this means for building owners</h2>
+        <p>For commercial buildings, the math is compelling: FDD deployment costs roughly $0.05/sf upfront and $0.07/sf annually, while delivering $0.27/sf in median annual savings. That's a payback period of under one year for the median participant. For smaller commercial buildings, cloud-based FDD platforms are reducing implementation costs to as low as $0.12/sf with payback under 3 years.</p>
+
+        <p>For homeowners, the entry point is working with a contractor who uses smart diagnostic tools — digital manifold gauges that connect to smartphone apps and automatically flag refrigerant charge issues, airflow problems, and efficiency degradation during service calls. These tools cost the contractor a few hundred dollars and can catch faults that would otherwise go undiagnosed for years.</p>
+
+        <p>The bottom line: HVAC faults are silent energy thieves. FDD is the technology that catches them. Whether you manage 500 buildings or own a single home, automated fault detection pays for itself — usually faster than any other energy efficiency investment.</p>
+
+        <p><em>Naming a product or manufacturer in this article is for identification purposes only and does not constitute an endorsement by HVAC Zone Inc. We are a multi-brand dealer and remain neutral on brand preference.</em></p>
+
+        <p>Want to know if your HVAC system could benefit from fault detection and diagnostics? <a href="../index.html#contact">Request a consultation</a> — we'll evaluate your equipment, controls, and monitoring setup to identify where automated diagnostics can save you energy and money.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Smart</span><span class="tag">FDD</span><span class="tag">Fault Detection</span><span class="tag">Energy Efficiency</span><span class="tag">Diagnostics</span><span class="tag">Building Automation</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="building-automation-systems-bacnet-hvac-smart-controls.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Building automation"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="130" y="60" width="140" height="100" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><rect x="150" y="80" width="40" height="30" rx="4" fill="var(--color-cool)" opacity="0.3"/><rect x="200" y="80" width="40" height="30" rx="4" fill="var(--color-warm)" opacity="0.3"/><rect x="150" y="120" width="90" height="25" rx="4" fill="var(--color-success)" opacity="0.3"/></svg>
+              <span class="card-cat">Smart</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Building Automation Systems &amp; BACnet</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+          <a href="grid-interactive-efficient-buildings-hvac-demand-response.html" class="card" data-cat="outlook">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Grid interactive"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="50" y="80" width="6" height="100" fill="var(--color-cool)"/><path d="M60 120 Q 200 100 340 130" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="6 4"/><rect x="150" y="70" width="100" height="80" rx="6" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2"/></svg>
+              <span class="card-cat">Outlook</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Grid-Interactive Efficient Buildings</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+          <a href="hvac-commissioning-tests-explained.html" class="card" data-cat="tools">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Commissioning"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="50" fill="none" stroke="var(--color-warm)" stroke-width="3"/><path d="M200 82v30l20 15" stroke="var(--color-warm)" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+              <span class="card-cat">Tools</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">HVAC Commissioning Tests Explained</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

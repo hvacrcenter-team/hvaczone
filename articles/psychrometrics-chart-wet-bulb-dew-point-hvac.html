@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psychrometrics for HVAC: The Psychrometric Chart, Wet Bulb &amp; Dew Point | HVAC Zone</title>
+  <meta name="description" content="What dry bulb, wet bulb, and dew point mean, how the psychrometric chart works, and why understanding psychrometrics is essential for HVAC comfort, dehumidification, and mold prevention." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Tools</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 23, 2026 · 9 min read</span>
+          </div>
+        </div>
+        <h1>Psychrometrics for HVAC: The Psychrometric Chart, Wet Bulb &amp; Dew Point</h1>
+        <p class="article-lead">Dry bulb, wet bulb, dew point, relative humidity, enthalpy — these aren't just textbook terms. They're the measurements every HVAC technician uses to diagnose comfort problems, verify dehumidification, and prevent the condensation that leads to mold and equipment damage.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Psychrometric chart diagram showing dry bulb, wet bulb, and dew point lines intersecting at a single air state point">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <!-- Chart axes -->
+        <line x1="80" y1="270" x2="740" y2="270" stroke="var(--color-text-faint)" stroke-width="2"/>
+        <line x1="80" y1="40" x2="80" y2="270" stroke="var(--color-text-faint)" stroke-width="2"/>
+        <text x="410" y="300" text-anchor="middle" font-family="Inter" font-size="13" fill="var(--color-text-muted)">Dry-Bulb Temperature (°F)</text>
+        <text x="35" y="155" text-anchor="middle" font-family="Inter" font-size="13" fill="var(--color-text-muted)" transform="rotate(-90 35 155)">Humidity Ratio / RH</text>
+        <!-- Saturation curve -->
+        <path d="M 80 270 Q 250 180 400 90 Q 560 50 740 40" fill="none" stroke="var(--color-cool)" stroke-width="2.5"/>
+        <text x="680" y="55" font-family="Inter" font-size="11" fill="var(--color-cool)">100% RH</text>
+        <!-- RH lines -->
+        <path d="M 80 270 Q 300 230 500 150 Q 620 100 740 75" fill="none" stroke="var(--color-text-faint)" stroke-width="1" stroke-dasharray="4 4"/>
+        <text x="720" y="88" font-family="Inter" font-size="11" fill="var(--color-text-faint)">50% RH</text>
+        <!-- State point -->
+        <circle cx="420" cy="170" r="6" fill="var(--color-accent)"/>
+        <!-- Dry bulb line -->
+        <line x1="420" y1="170" x2="420" y2="270" stroke="var(--color-accent)" stroke-width="2" stroke-dasharray="3 3"/>
+        <text x="425" y="265" font-family="Inter" font-size="11" fill="var(--color-accent)" font-weight="600">75°F DB</text>
+        <!-- Wet bulb line (diagonal) -->
+        <line x1="420" y1="170" x2="320" y2="270" stroke="var(--color-warm)" stroke-width="2" stroke-dasharray="3 3"/>
+        <text x="300" y="265" font-family="Inter" font-size="11" fill="var(--color-warm)" font-weight="600">62°F WB</text>
+        <!-- Dew point line (horizontal) -->
+        <line x1="420" y1="170" x2="200" y2="170" stroke="var(--color-success)" stroke-width="2" stroke-dasharray="3 3"/>
+        <text x="120" y="165" font-family="Inter" font-size="11" fill="var(--color-success)" font-weight="600">55°F DP</text>
+        <!-- Labels -->
+        <text x="440" y="160" font-family="Space Grotesk" font-size="12" fill="var(--color-text)" font-weight="600">Air State</text>
+      </svg>
+      <figcaption>The psychrometric chart plots moist-air properties on a single graph. Any two values (e.g., dry bulb and relative humidity) define a point from which all other properties — wet bulb, dew point, enthalpy — can be read.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Psychrometrics is the study of the thermodynamic properties of moist air — the mixture of dry air and water vapor that HVAC systems heat, cool, humidify, and dehumidify every minute of every day. The U.S. Centers for Disease Control explains that <em>"any two properties (temperature, total heat content, dew point, relative humidity, etc.) completely define the thermodynamic state of the air-water vapor mixture,"</em> and that the psychrometric chart is the graphical tool for mapping those relationships ([CDC/NIOSH, Thermal Standards and Measurement](https://stacks.cdc.gov/view/cdc/178844/cdc_178844_DS1.pdf)).</p>
+
+        <p>For HVAC technicians, psychrometrics isn't academic. It's how you verify that a cooling coil is actually dehumidifying, confirm that supply air won't condense on a cold duct, and diagnose why a home feels clammy at 74°F. Here are the three temperatures that matter most.</p>
+
+        <h2>Dry bulb, wet bulb, and dew point — the three temperatures</h2>
+        <p><strong>Dry-bulb temperature</strong> is what an ordinary thermometer reads. It's the air temperature you see on your thermostat. By itself, it tells you nothing about moisture.</p>
+
+        <p><strong>Wet-bulb temperature</strong> is the lowest temperature air can reach through evaporative cooling alone. A traditional sling psychrometer measures it directly: two thermometers mounted in a frame with a swivel handle, one wrapped in a moist cotton wick. When whirled, water evaporates from the wick, cooling that bulb below the dry-bulb reading. The CDC notes that <em>"the rate of evaporation from the wick is a function of the vapor pressure gradient, determining in turn the depression of the wet bulb thermometer reading below the dry bulb"</em> ([CDC/NIOSH, Thermal Standards](https://stacks.cdc.gov/view/cdc/178844/cdc_178844_DS1.pdf)). A large wet-bulb depression means dry air; a small one means humid air. At saturation (100% RH), all three temperatures are equal.</p>
+
+        <p><strong>Dew point</strong> is the temperature at which moisture begins to condense out of the air. The EPA defines it plainly: <em>"The dew point is the temperature of the air at which condensation occurs. The higher the dew point, the greater the risk of condensation on cold surfaces"</em> ([EPA, Moisture Control Guidance](https://www.epa.gov/sites/default/files/2014-08/documents/moisture-control.pdf)). If your indoor air has a 55°F dew point, any surface at or below 55°F — a cold duct, a window, a poorly insulated wall cavity — will collect water.</p>
+
+        <h2>Reading the psychrometric chart</h2>
+        <p>The psychrometric chart plots all of these properties on a single graph. The horizontal axis is dry-bulb temperature. The curved boundary on the left is the saturation line (100% RH). Lines of constant relative humidity fan out from there. Once you locate a point using any two known values — say, 75°F dry bulb and 50% RH — you can read every other property: wet bulb (about 62.3°F), dew point (about 55°F), humidity ratio (about 0.009 lb water per lb dry air), and enthalpy (about 28.1 Btu/lb).</p>
+
+        <p>This matters because HVAC processes follow predictable paths on the chart. A cooling coil moves air leftward and downward — lowering both temperature and moisture. A heating-only process moves air horizontally right at constant humidity ratio, which drops the relative humidity. An evaporative cooler follows a constant-wet-bulb line. Understanding these paths lets a technician verify whether equipment is performing as designed.</p>
+
+        <h2>The tools: sling psychrometers and digital instruments</h2>
+        <p>The sling psychrometer remains the reference instrument. The CDC describes its operation: <em>"This instrument consists of two thermometers clamped in a frame which in turn is fastened to a swivel handle. A cotton wick dipped in distilled water covers one thermometer; the other is bare"</em> ([CDC/NIOSH, Thermal Standards](https://stacks.cdc.gov/view/cdc/178844/cdc_178844_DS1.pdf)). A CDC laboratory study found that the wet-bulb wick should extend at least 0.8 inch above the top of the bulb to eliminate errors from stem conduction ([CDC, Inaccuracies of the Sling Psychrometer](https://stacks.cdc.gov/view/cdc/183766/cdc_183766_DS1.pdf)).</p>
+
+        <p>Modern digital psychrometers use capacitive or resistive humidity sensors paired with a temperature sensor to calculate wet-bulb and dew point electronically. They're faster and eliminate operator error, but a sling psychrometer has no electronics to drift — which is why many technicians carry both.</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Instrument</th><th>Measures</th><th>Accuracy</th><th>Typical cost</th></tr></thead>
+          <tbody>
+            <tr><td>Sling psychrometer</td><td>Dry bulb + wet bulb (direct)</td><td>High (no sensor drift)</td><td>$20–$80</td></tr>
+            <tr><td>Digital psychrometer</td><td>Dry bulb + RH, calculates WB/DP</td><td>±2–3% RH (requires calibration)</td><td>$40–$300</td></tr>
+            <tr><td>Hygrometer / humidity meter</td><td>Relative humidity only</td><td>±3–5% RH</td><td>$10–$50</td></tr>
+          </tbody>
+        </table>
+
+        <p>The EPA notes that a simple humidity meter — <em>"a small, inexpensive ($10-$50) instrument available at many hardware stores"</em> — is sufficient for homeowners to monitor RH ([EPA, A Brief Guide to Mold](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home)). For HVAC diagnostics, a psychrometer that reports wet-bulb and dew point is the minimum.</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>How technicians use wet bulb in the field.</b>Measuring return-air and supply-air wet bulb across a cooling coil lets you calculate total capacity (sensible + latent). If the wet-bulb drop is small, the coil isn't dehumidifying — possibly due to low airflow, a dirty coil, or an oversized system that short-cycles off before removing moisture.</p>
+        </div>
+
+        <h2>ASHRAE Standard 55: the comfort zone</h2>
+        <p>ASHRAE Standard 55, <em>Thermal Environmental Conditions for Human Occupancy</em>, defines the acceptable range of temperature and humidity for occupant comfort. The standard's comfort zone is bounded by a Predicted Mean Vote (PMV) of ±0.5 — a model that predicts thermal sensation on a seven-point scale. ASHRAE notes that <em>"within comfort zones bounded by this ±0.5 value were found satisfactory by roughly 80% of occupants"</em> ([ASHRAE Standard 55-2020 Addendum h](https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/55_2020_h_20221230.pdf)).</p>
+
+        <p>The EPA publishes recommended temperature ranges adapted from ASHRAE Standard 55. At 50% RH, the acceptable range is roughly 68.0–74.5°F in winter and 73.0–79.0°F in summer ([EPA, Reference Guide for IAQ in Schools](https://www.epa.gov/iaq-schools/reference-guide-indoor-air-quality-schools)). Notably, ASHRAE states there are <em>"no established higher or lower humidity limits for thermal comfort"</em> — the humidity boundaries are driven not by comfort alone but by health factors like mold growth, dust mites, and respiratory irritation.</p>
+
+        <h2>Dew point and mold: the 55°F rule</h2>
+        <p>For HVAC design, dew point is the critical moisture metric. The EPA's Moisture Control Guidance is explicit: <em>"Effective condensation control requires keeping the dew point below the temperature of surfaces indoors and within building cavities"</em> and <em>"keep the indoor dew point below 55°F (e.g., maximum 50 percent relative humidity when the indoor air temperature is 75°F)"</em> during the cooling season ([EPA, Moisture Control Guidance](https://www.epa.gov/sites/default/files/2014-08/documents/moisture-control.pdf)).</p>
+
+        <p>The EPA's reasoning is practical: supply air leaving a cooling coil at 55°F will condense moisture on any surface at or below that temperature if indoor dew point is higher. By keeping indoor dew point at or below 55°F, you prevent condensation on ducts, diffusers, and chilled-water piping. For heating season in cold climates, the EPA recommends keeping indoor dew point near or below 35°F when outdoor temperatures fall below freezing — which is why ASHRAE's recommended maximum indoor humidity drops as outdoor temperature falls: 35% at +20°F, 30% at +10°F, 25% at 0°F, 20% at −10°F, and 15% at −20°F ([EPA, Controlling Moisture in Your Home](https://www.epa.gov/mold/what-are-main-ways-control-moisture-your-home)).</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>The coldest surface sets the limit.</b>The EPA warns that <em>"the highest RH in a room is always next to the coldest surface"</em> — the so-called first condensing surface ([EPA, Reference Guide for IAQ in Schools](https://www.epa.gov/iaq-schools/reference-guide-indoor-air-quality-schools)). Even if room RH reads 45%, a poorly insulated window or wall cavity can be at the dew point, growing mold invisibly inside the assembly. This is why psychrometric analysis must consider surface temperatures, not just bulk air conditions.</p>
+        </div>
+
+        <h2>Why psychrometrics matters for every system</h2>
+        <p>Research published in <em>Indoor Air</em> found that <em>"moderate indoor relative humidity (RH) levels (i.e., 40%–60%) may minimize transmission and viability of some viruses, maximize human immune function, and minimize health risks from mold"</em> ([Indoor Air, NIH/PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10924614/)). The study notes ASHRAE recommends indoor dew point be controlled to 15°C (59°F) or lower in occupied spaces — at a typical indoor temperature of 23.3°C (74°F), that corresponds to a maximum of roughly 59% RH.</p>
+
+        <p>For HVAC technicians and homeowners alike, the practical takeaways are:</p>
+        <ul>
+          <li><strong>Measure dew point, not just RH.</strong> Relative humidity changes with temperature, but dew point tracks the actual moisture load. A home at 75°F and 50% RH has a dew point of 55°F — safe. Drop the temperature to 65°F without removing moisture, and RH jumps to 71% — a mold risk.</li>
+          <li><strong>Size cooling for latent load, not just sensible.</strong> An oversized AC short-cycles, satisfying the thermostat before removing moisture. The result is a cool, clammy house with high indoor dew point.</li>
+          <li><strong>Keep indoor dew point below 55°F in cooling season</strong> to prevent condensation on supply ducts and cold surfaces (EPA guidance).</li>
+          <li><strong>Lower humidity targets in winter</strong> based on outdoor temperature — follow ASHRAE's sliding scale to prevent wall and window condensation.</li>
+          <li><strong>Use a psychrometer to verify performance.</strong> Measure return and supply wet bulb across the coil. No wet-bulb drop means no dehumidification.</li>
+        </ul>
+
+        <p><em>Naming a product or manufacturer in this article is for identification purposes only and does not constitute an endorsement by HVAC Zone Inc. We are a multi-brand dealer and remain neutral on brand preference.</em></p>
+
+        <p>Psychrometrics connects every part of HVAC — comfort, efficiency, indoor air quality, and moisture control. If your home feels humid even when the AC is running, or you're concerned about condensation and mold, a psychrometric assessment can pinpoint the problem. <a href="../index.html#contact">Request a consultation</a> — we'll measure the actual conditions in your home and recommend solutions based on the data, not guesswork.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Tools</span><span class="tag">Psychrometrics</span><span class="tag">Wet Bulb</span><span class="tag">Dew Point</span><span class="tag">ASHRAE 55</span><span class="tag">Mold Prevention</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="indoor-humidity-dehumidification-mold.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Humidity"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M200 50 a55 55 0 0 1 0 110 a40 40 0 0 1 0 -110z" fill="var(--color-cool)" opacity="0.85"/></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Indoor Humidity &amp; Dehumidification: When AC Alone Isn't Enough</h3><div class="card-meta"><span>6 min read</span></div></div>
+          </a>
+          <a href="merv-ratings-hvac-air-filters-explained.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Air filter"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="120" y="60" width="160" height="105" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><line x1="140" y1="75" x2="260" y2="75" stroke="var(--color-text-faint)" stroke-width="1.5"/><line x1="140" y1="95" x2="260" y2="95" stroke="var(--color-text-faint)" stroke-width="1.5"/><line x1="140" y1="115" x2="260" y2="115" stroke="var(--color-text-faint)" stroke-width="1.5"/><line x1="140" y1="135" x2="260" y2="135" stroke="var(--color-text-faint)" stroke-width="1.5"/><line x1="140" y1="155" x2="260" y2="155" stroke="var(--color-text-faint)" stroke-width="1.5"/></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">MERV Ratings Explained: Which HVAC Filter Do You Actually Need?</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="erv-vs-hrv-ventilation-recovery.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ventilation recovery"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="130" y="70" width="140" height="85" rx="10" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><path d="M150 100 L170 100 M250 100 L230 100" stroke="var(--color-warm)" stroke-width="2"/><path d="M150 125 L170 125 M250 125 L230 125" stroke="var(--color-cool)" stroke-width="2"/></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">ERV vs HRV: Which Ventilation Recovery System Is Right?</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

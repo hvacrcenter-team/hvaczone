@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thermal Bridging &amp; Continuous Insulation: Why Your Wall's R-Value Is a Lie | HVAC Zone</title>
+  <meta name="description" content="An R-13 wall only delivers R-9.4 in practice — thermal bridging through studs, steel, and concrete bypasses insulation. Continuous insulation fixes this. Here's what ASHRAE 90.1 and DOE require." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height="32" rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Building</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 27, 2026 · 8 min read</span>
+          </div>
+        </div>
+        <h1>Thermal Bridging &amp; Continuous Insulation: Why Your Wall's R-Value Isn't What You Think</h1>
+        <p class="article-lead">A wall labeled R-13 may only deliver R-9.4 in the real world. The culprit is thermal bridging — heat flowing through studs, steel framing, and concrete that bypasses cavity insulation entirely. Continuous insulation is the fix, and energy codes are increasingly requiring it.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 340" role="img" aria-label="Cross-section comparing standard stud wall with thermal bridging vs wall with continuous insulation">
+        <rect width="800" height="340" fill="var(--color-surface-offset)"/>
+        <!-- Left: Standard wall with thermal bridging -->
+        <text x="200" y="30" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-warm)" font-weight="700">Standard Wall — Thermal Bridging</text>
+        <!-- Exterior -->
+        <rect x="60" y="50" width="20" height="240" fill="var(--color-cool)" opacity="0.3"/>
+        <text x="70" y="305" text-anchor="middle" font-family="Inter" font-size="9" fill="var(--color-text-muted)">Siding</text>
+        <!-- Studs -->
+        <rect x="80" y="50" width="180" height="240" fill="var(--color-surface)" stroke="var(--color-border)" stroke-width="1"/>
+        <rect x="110" y="50" width="14" height="240" fill="var(--color-warm)" opacity="0.6"/>
+        <rect x="170" y="50" width="14" height="240" fill="var(--color-warm)" opacity="0.6"/>
+        <rect x="230" y="50" width="14" height="240" fill="var(--color-warm)" opacity="0.6"/>
+        <text x="117" y="305" text-anchor="middle" font-family="Inter" font-size="9" fill="var(--color-warm)">Stud</text>
+        <!-- Cavity insulation between studs -->
+        <rect x="124" y="50" width="46" height="240" fill="var(--color-success)" opacity="0.2"/>
+        <rect x="184" y="50" width="46" height="240" fill="var(--color-success)" opacity="0.2"/>
+        <!-- Heat flow arrows through studs -->
+        <path d="M40 100 L110 100 L110 50" stroke="var(--color-warm)" stroke-width="2" fill="none" marker-end="url(#h1)"/>
+        <path d="M40 180 L170 180 L170 50" stroke="var(--color-warm)" stroke-width="2" fill="none" marker-end="url(#h1)"/>
+        <path d="M40 260 L230 260 L230 50" stroke="var(--color-warm)" stroke-width="2" fill="none" marker-end="url(#h1)"/>
+        <text x="200" y="330" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-warm)">Labeled R-13 → Actual R-9.4 (72%)</text>
+        <defs><marker id="h1" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0 0L6 3L0 6z" fill="var(--color-warm)"/></marker></defs>
+
+        <!-- Right: Wall with continuous insulation -->
+        <text x="600" y="30" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-success)" font-weight="700">With Continuous Insulation</text>
+        <!-- Continuous insulation layer -->
+        <rect x="440" y="50" width="24" height="240" fill="var(--color-success)" opacity="0.4" stroke="var(--color-success)" stroke-width="1.5"/>
+        <text x="452" y="305" text-anchor="middle" font-family="Inter" font-size="9" fill="var(--color-success)">c.i.</text>
+        <!-- Siding -->
+        <rect x="420" y="50" width="20" height="240" fill="var(--color-cool)" opacity="0.3"/>
+        <!-- Studs + cavity -->
+        <rect x="464" y="50" width="180" height="240" fill="var(--color-surface)" stroke="var(--color-border)" stroke-width="1"/>
+        <rect x="494" y="50" width="14" height="240" fill="var(--color-warm)" opacity="0.4"/>
+        <rect x="554" y="50" width="14" height="240" fill="var(--color-warm)" opacity="0.4"/>
+        <rect x="614" y="50" width="14" height="240" fill="var(--color-warm)" opacity="0.4"/>
+        <rect x="508" y="50" width="46" height="240" fill="var(--color-success)" opacity="0.15"/>
+        <rect x="568" y="50" width="46" height="240" fill="var(--color-success)" opacity="0.15"/>
+        <!-- Blocked heat flow -->
+        <line x1="400" y1="100" x2="440" y2="100" stroke="var(--color-warm)" stroke-width="2" stroke-dasharray="4 3"/>
+        <line x1="400" y1="180" x2="440" y2="180" stroke="var(--color-warm)" stroke-width="2" stroke-dasharray="4 3"/>
+        <line x1="400" y1="260" x2="440" y2="260" stroke="var(--color-warm)" stroke-width="2" stroke-dasharray="4 3"/>
+        <text x="600" y="330" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-success)">Heat flow blocked by continuous layer</text>
+      </svg>
+      <figcaption>Left: In a standard stud wall, heat flows through studs (shown in warm tones), bypassing cavity insulation and reducing the whole-wall R-value by up to 28%. Right: Continuous insulation installed on the exterior blocks thermal bridging, allowing the full rated R-value to perform as intended.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>When you buy an R-13 fiberglass batt, you probably expect an R-13 wall. You don't get one. According to research by the Building Science Corporation, a standard 2x4 wood-framed wall at 16-inch on-center spacing, insulated with R-13 batts, delivers an actual whole-wall insulation value of only <strong>R-9.4 — just 72% of the labeled R-value</strong>. The missing 28% is lost to thermal bridging through the wood studs ([PNNL/BASC, Advanced Framing](https://basc.pnnl.gov/resource-guides/advanced-framing-minimum-wall-studs)).</p>
+
+        <p>The DOE's Building America program puts it plainly: <em>"Every stud marks the absence of insulation and therefore the opportunity for heat loss or 'thermal bridging.' Heat can use stud framing to bypass insulation, effectively reducing the R-value of the wall assembly"</em> ([DOE Building America, Wall Insulation Strategy](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/gut_rehab_thermal_break_guide.pdf)).</p>
+
+        <h2>What is thermal bridging?</h2>
+        <p>Thermal bridging occurs whenever a material with high thermal conductivity spans through the building envelope from interior to exterior. The problem is most severe with steel framing, which conducts heat roughly <strong>300 times faster than insulation</strong>. Per-inch R-values tell the story:</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Material</th><th>R-value per inch</th><th>vs. insulation</th></tr></thead>
+          <tbody>
+            <tr><td>Rigid insulation</td><td>R-3.2 to R-6.5</td><td>Baseline</td></tr>
+            <tr><td>Wood (softwood)</td><td>R-1.0</td><td>3-6x more conductive</td></tr>
+            <tr><td>Concrete</td><td>R-0.1</td><td>30-65x more conductive</td></tr>
+            <tr><td>Steel</td><td>R-0.003</td><td>1,000-2,000x more conductive</td></tr>
+          </tbody>
+        </table>
+
+        <p>Source: [PNNL/BASC, Reducing Thermal Bridging](https://basc.pnnl.gov/resource-guides/reducing-thermal-bridging-mass-and-steel-framed-multifamily-buildings) and [PNNL/BASC, Continuous Rigid Insulation](https://basc.pnnl.gov/resource-guides/continuous-rigid-insulation-sheathing).</p>
+
+        <p>In a steel-framed building, the problem is extreme. PNNL's Building America Solution Center warns that when steel Z-bars or cold-formed anchors pass directly through exterior sheathing to connect cladding to wall framing, <strong>over 50% of the thermal resistance of the continuous insulation can be lost</strong> ([PNNL/BASC, Reducing Thermal Bridging](https://basc.pnnl.gov/resource-guides/reducing-thermal-bridging-mass-and-steel-framed-multifamily-buildings)).</p>
+
+        <p>In traditional wood-framed construction, the framing itself — studs, top plates, bottom plates, headers, jack studs, and cripple studs — comprises <strong>nearly one-fourth of the wall area</strong>, creating a massive network of thermal bridges ([PNNL/BASC, Continuous Rigid Insulation](https://basc.pnnl.gov/resource-guides/continuous-rigid-insulation-sheathing)).</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>Why this matters for HVAC.</b>Thermal bridging increases heating and cooling loads in two ways. First, the lower effective R-value means more heat escapes in winter and enters in summer. Second, thermal bridges create cold spots on interior surfaces where condensation can form, leading to moisture damage and potential mold growth. Your HVAC system was sized using the Manual J load calculation — if that calculation assumed R-13 instead of R-9.4, the equipment is undersized for the actual thermal performance of the wall.</p>
+        </div>
+
+        <h2>The fix: continuous insulation</h2>
+        <p>ASHRAE Standard 90.1 defines the solution: <em>"continuous insulation (c.i.): insulation that is uncompressed and continuous across all structural members without thermal bridges other than fasteners and service openings"</em> ([ASHRAE 90.1-2016](https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/90.1-2016/90_1_2016_t_v_y_al_an_ao_at_aw_ay...pdf)).</p>
+
+        <p>For metal building walls, ASHRAE 90.1 requires that continuous insulation be <em>"installed on the outside or inside of the girts, uncompressed and uninterrupted by the framing members"</em>. The standard also mandates thermal spacer blocks — ranging from R-0.375 to R-3 — between metal panels and structural members when continuous insulation is not used. The U-factor tables tell the story dramatically: an uninsulated metal building wall has a U-factor of 1.180. Adding R-6.5 continuous insulation drops it to 0.136 — an <strong>88% reduction in heat transfer</strong>. Adding R-32 continuous insulation brings it to 0.026, a 98% reduction ([ASHRAE 90.1-2016, Table A3.2.3](https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/90.1-2016/90_1_2016_t_v_y_al_an_ao_at_aw_ay...pdf)).</p>
+
+        <p>ASHRAE 90.1-2022 goes further, requiring that where a wall has exterior continuous insulation, <em>"such insulation shall extend continuously past the floor edge"</em> — closing the thermal bridge at slab edges and balcony intersections ([ASHRAE 90.1-2022](https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/90_1_2022_r_20240531.pdf)).</p>
+
+        <h2>Advanced framing: fewer studs, less bridging</h2>
+        <p>For wood-framed construction, reducing the number of thermal bridges is just as important as adding continuous insulation. PNNL's Building America Solution Center recommends advanced framing techniques:</p>
+        <ul>
+          <li><strong>2x6 studs at 24-inch on-center</strong> instead of 2x4 at 16-inch on-center — fewer studs mean fewer bridges, and the deeper cavity allows higher R-value insulation.</li>
+          <li><strong>Single top plates</strong> with aligned framing (studs, joists, rafters share the same spacing).</li>
+          <li><strong>Two-stud corners</strong> instead of three-stud California corners.</li>
+          <li><strong>Insulated headers</strong> using structural hangers instead of jack studs.</li>
+          <li><strong>Minimal framing at openings</strong> — no more than one pair of king studs and one pair of jack studs per window.</li>
+        </ul>
+
+        <p>The energy savings are significant: one study found that switching from 2x4 16-inch on-center to 2x6 24-inch on-center framing alone accounted for <strong>11% energy savings</strong> — before adding continuous insulation. Combined with other advanced framing techniques, the total reached 13% ([PNNL/BASC, Advanced Framing](https://basc.pnnl.gov/resource-guides/advanced-framing-minimum-wall-studs), citing Lstiburek and Grin 2010).</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Steel framing is the worst-case scenario.</b>If your building uses steel studs, cavity insulation alone is almost useless at stopping heat flow. A steel stud wall with R-13 cavity insulation may have an effective R-value as low as R-6 to R-7, because steel conducts heat so efficiently that it creates a highway straight through the insulation. For steel-framed buildings, continuous exterior insulation isn't optional — it's the only way to achieve code-compliant U-factors.</p>
+        </div>
+
+        <h2>Climate zone requirements</h2>
+        <p>The International Energy Conservation Code (IECC), referenced by ASHRAE 90.1, requires continuous insulation in most climate zones for wood-framed and steel-framed walls. In colder zones, the ratio of continuous insulation to total wall R-value becomes critical for condensation control — the rigid board must keep the sheathing above the dew point to prevent moisture accumulation inside the wall assembly ([PNNL/BASC, Condensation Control](https://basc.pnnl.gov/resource-guides/condensation-control-walls-cold-weather)).</p>
+
+        <p>The DOE also notes that adding a <em>"continuous layer of exterior insulation between the wall sheathing and the siding"</em> is an eligible method to meet the Energy-Efficient Home Improvement Credit R-value criteria for walls ([DOE, Insulation Tax Credit](https://www.energy.gov/cmei/buildings/articles/energy-efficient-home-improvement-credit-insulation-and-air-sealing)).</p>
+
+        <h2>Evaluating thermal bridges: two methods</h2>
+        <p>ASHRAE research identifies two general methods for evaluating thermal bridges in building assemblies: the <strong>area-weighted average method</strong> (calculating an effective R-value based on the percentage of framing vs. insulation) and the <strong>linear and point thermal transmittance method</strong> (calculating psi-values for linear bridges like slab edges and chi-values for point bridges like steel connections) ([ASHRAE Buildings XV](https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/Buildings%20XV%20-%20Papers/C002.pdf)). For complex details — balcony connections, steel angle supports, cladding attachment systems — three-dimensional finite element modeling (using tools like THERM) is recommended ([PNNL/BASC, Reducing Thermal Bridging](https://basc.pnnl.gov/resource-guides/reducing-thermal-bridging-mass-and-steel-framed-multifamily-buildings)).</p>
+
+        <h2>The bottom line for building owners</h2>
+        <p>Thermal bridging silently increases your heating and cooling loads by 10-30% depending on your framing type. The fixes are well-established: continuous exterior insulation for steel-framed buildings, advanced framing (2x6 at 24" on-center) for wood-framed buildings, and thermal breaks at slab edges and cladding attachments. These measures don't just save energy — they also reduce condensation risk, improve comfort by eliminating cold spots, and may qualify for tax credits.</p>
+
+        <p>When evaluating your building's thermal performance, don't trust the insulation label. Ask about the <em>assembly</em> R-value, not just the cavity insulation R-value. And if you're replacing HVAC equipment, make sure the Manual J load calculation accounts for thermal bridging — otherwise you'll be paying for oversized equipment that still can't maintain comfort on the coldest nights.</p>
+
+        <p><em>Naming a product or manufacturer in this article is for identification purposes only and does not constitute an endorsement by HVAC Zone Inc. We are a multi-brand dealer and remain neutral on brand preference.</em></p>
+
+        <p>Want to know if thermal bridging is inflating your heating and cooling costs? <a href="../index.html#contact">Request a consultation</a> — we'll evaluate your building envelope, identify thermal bridges, and recommend insulation upgrades that reduce HVAC loads and improve comfort.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Building</span><span class="tag">Thermal Bridging</span><span class="tag">Continuous Insulation</span><span class="tag">Building Envelope</span><span class="tag">ASHRAE 90.1</span><span class="tag">Advanced Framing</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="blower-door-testing-air-sealing-ach50-building-envelope.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Blower door test"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="140" y="50" width="120" height="130" rx="6" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><circle cx="200" cy="115" r="35" fill="none" stroke="var(--color-warm)" stroke-width="3"/><path d="M200 80v35l20 20" stroke="var(--color-warm)" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
+              <span class="card-cat">Building</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Blower Door Testing &amp; Air Sealing</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+          <a href="manual-j-load-calculation-hvac-sizing.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Manual J"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="120" y="70" width="160" height="90" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2"/><text x="200" y="120" text-anchor="middle" font-family="Space Grotesk" font-size="20" fill="var(--color-primary)" font-weight="700">Manual J</text></svg>
+              <span class="card-cat">Building</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Manual J Load Calculation</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="attic-insulation-ventilation-radiant-barriers.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Attic insulation"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M80 180L200 60L320 180Z" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><rect x="120" y="120" width="160" height="50" fill="var(--color-success)" opacity="0.2"/></svg>
+              <span class="card-cat">Building</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Attic Insulation &amp; Radiant Barriers</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

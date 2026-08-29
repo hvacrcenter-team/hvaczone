@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blower Door Testing and Air Sealing: The Hidden 30% Energy Waste in Homes | HVAC Zone</title>
+  <meta name="description" content="Air leakage accounts for 25-40% of heating and cooling energy. Here's how blower door tests work, what ACH50 means, building code requirements, and where the biggest hidden leaks are." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Building</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 20, 2026 · 8 min read</span>
+          </div>
+        </div>
+        <h1>Blower Door Testing and Air Sealing: The Hidden 30% Energy Waste in Homes</h1>
+        <p class="article-lead">In a typical home, air leakage accounts for 25% to 40% of the energy used for heating and cooling. The biggest leaks aren't around windows and doors — they're hidden in attics, crawl spaces, and basements. Here's how blower door testing finds them, what ACH50 means, and why building codes have gotten dramatically stricter.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 300" role="img" aria-label="Diagram of a blower door test showing a sealed exterior door with a fan, pressure gauge, and house cross-section">
+        <rect width="800" height="300" fill="var(--color-surface-offset)"/>
+        <!-- House outline -->
+        <path d="M120 260 L120 120 L280 60 L440 120 L440 260 Z" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <!-- Roof -->
+        <path d="M120 120 L280 60 L440 120" fill="none" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <!-- Blower door -->
+        <rect x="260" y="160" width="40" height="80" rx="3" fill="var(--color-surface-offset)" stroke="var(--color-warm)" stroke-width="2.5"/>
+        <circle cx="280" cy="200" r="14" fill="var(--color-warm)" opacity="0.3" stroke="var(--color-warm)" stroke-width="2"/>
+        <circle cx="280" cy="200" r="6" fill="var(--color-warm)"/>
+        <!-- Fan blades -->
+        <path d="M280 194 L276 206 M274 200 L286 200 M280 194 L284 206" stroke="var(--color-warm)" stroke-width="1.5"/>
+        <!-- Pressure gauge -->
+        <rect x="310" y="185" width="50" height="30" rx="4" fill="var(--color-surface)" stroke="var(--color-cool)" stroke-width="2"/>
+        <text x="335" y="205" text-anchor="middle" font-family="Space Grotesk" font-size="11" fill="var(--color-cool)" font-weight="700">50 Pa</text>
+        <!-- Air flow arrows -->
+        <path d="M150 200 L250 200" stroke="var(--color-success)" stroke-width="2" stroke-dasharray="6 4" fill="none" marker-end="url(#arrow)"/>
+        <path d="M190 160 L250 200" stroke="var(--color-success)" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+        <path d="M150 240 L250 210" stroke="var(--color-success)" stroke-width="2" stroke-dasharray="6 4" fill="none"/>
+        <!-- Labels -->
+        <text x="100" y="200" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-faint)">Outdoor air</text>
+        <text x="375" y="200" text-anchor="start" font-family="Inter" font-size="11" fill="var(--color-text-faint)">Gauge</text>
+        <text x="280" y="270" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-faint)">Blower door (sealed in exterior door frame)</text>
+        <!-- Result box -->
+        <rect x="500" y="100" width="180" height="100" rx="8" fill="var(--color-surface)" stroke="var(--color-cool)" stroke-width="2"/>
+        <text x="590" y="130" text-anchor="middle" font-family="Space Grotesk" font-size="14" fill="var(--color-cool)" font-weight="700">Result: ACH50</text>
+        <text x="590" y="152" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">Air Changes per Hour</text>
+        <text x="590" y="168" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">at 50 Pascals</text>
+        <text x="590" y="188" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-faint)">Lower = tighter</text>
+        <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="var(--color-success)"/></marker></defs>
+      </svg>
+      <figcaption>A blower door test seals an exterior door opening with a calibrated fan, depressurizes the house to 50 Pascals, and measures how much air leaks in through gaps throughout the building envelope.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>You can have R-49 insulation in your attic and a high-efficiency furnace, but if your building envelope leaks like a sieve, you're paying to heat and cool the outdoors. According to the U.S. Department of Energy, heating and cooling account for 50% to 70% of the energy used in the average American home, and <strong>air leakage accounts for 25% to 40% of that heating and cooling energy</strong> ([DOE, Energy Renovations — Insulation Guide](https://www.energy.gov/sites/prod/files/2013/11/f5/insulation_guide.pdf)). A separate DOE fact sheet puts it even more bluntly: air infiltration can account for 30 percent or more of a home's heating and cooling costs ([DOE, Air Sealing Fact Sheet](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/26446.pdf)).</p>
+
+        <p>The scale nationally is enormous. An ASHRAE research paper found that infiltration is the leading cause of heating and cooling energy demand in residential buildings, resulting in <strong>2.95 EJ (2.8 Quads) of primary energy consumption</strong> — roughly 29% of the energy attributable to building envelope components ([ASHRAE Buildings XV Conference Paper](https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/Buildings%20XV%20-%20Papers/C015.pdf)).</p>
+
+        <h2>What causes air leakage</h2>
+        <p>Air moves through a building driven by three forces:</p>
+        <ul>
+          <li><strong>Stack effect</strong> — warm air rises and escapes through gaps in the upper portion of the building (attic penetrations, top-plate gaps, recessed lights), creating negative pressure that pulls cold outdoor air in through the lower portion (rim joists, basement penetrations, crawl space vents).</li>
+          <li><strong>Wind pressure</strong> — wind hitting one side of the building creates positive pressure that pushes air in, while the leeward side has negative pressure that pulls air out.</li>
+          <li><strong>Mechanical systems</strong> — unbalanced duct leakage, exhaust fans, and combustion appliances can create pressure imbalances that drive infiltration independently of weather conditions.</li>
+        </ul>
+
+        <p>Counterintuitively, the biggest leaks are rarely around windows and doors. DOE research found that the largest hidden penetrations connect the living space to the attic, crawl space, or basement — gaps around plumbing, wiring, chimneys, and dropped soffits that are invisible from inside the finished rooms ([DOE, Energy Efficiency Pays](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/26290.pdf)).</p>
+
+        <h2>How a blower door test works</h2>
+        <p>A blower door is a calibrated fan mounted in a flexible panel that seals an exterior doorway. The fan depressurizes the building to a standardized pressure differential of 50 Pascals — roughly the pressure exerted by a 20 mph wind. A pressure gauge measures how much air the fan must move to maintain that pressure. The result is expressed as <strong>ACH50</strong>: Air Changes per Hour at 50 Pascals.</p>
+
+        <p>An ACH50 of 7 means the entire volume of air in the building is replaced 7 times per hour under test pressure. Lower numbers mean a tighter building. The test itself takes less than an hour and can also be used with smoke pencils or thermal imaging to pinpoint specific leak locations ([DOE, Air Sealing Fact Sheet](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/26446.pdf)).</p>
+
+        <h2>Building code requirements: from 7 to 3 ACH50</h2>
+        <p>Building codes have tightened dramatically over the past two decades. Here's how the allowed air leakage has changed:</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Standard / Code</th><th>Climate Zones 1-2</th><th>Climate Zones 3-8</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>2009 IECC</td><td>≤ 7 ACH50</td><td>≤ 7 ACH50</td><td>Visual inspection OR blower door</td></tr>
+            <tr><td>2012 IECC</td><td>≤ 5 ACH50</td><td>≤ 3 ACH50</td><td>Blower door test mandatory</td></tr>
+            <tr><td>ENERGY STAR v3.3</td><td colspan="2">≤ 3.5 ACH50</td><td>Tested per ANSI/RESNET/ICC 380</td></tr>
+            <tr><td>DOE Zero Energy Ready Home</td><td>≤ 2.75 ACH50</td><td>1.5-2.25 ACH50</td><td>Voluntary high-performance standard</td></tr>
+            <tr><td>Passive House (PHIUS)</td><td colspan="2">≤ 0.6 ACH50</td><td>Ultra-tight; requires HRV/ERV</td></tr>
+          </tbody>
+        </table>
+
+        <p>The 2012 IECC was a watershed moment — it made blower door testing mandatory for all new homes and cut the allowed leakage from 7 to 3 ACH50 in northern climate zones ([DOE, Thermal Bypass Air Barriers in the IECC](https://www.energy.gov/sites/prod/files/2014/01/f6/4_3d_ba_innov_thermalbypassairbarriers_011713.pdf)). ENERGY STAR certified homes must meet ≤ 3.5 ACH50 under v3.3, tested to the ANSI/RESNET/ICC 380 standard ([EPA ENERGY STAR Rater Field Checklist](https://www.energystar.gov/sites/default/files/2025-04/National%20Rater%20Field%20Checklist_Rev%2014_MU.pdf)). DOE's Zero Energy Ready Home program goes further, requiring 1.5 to 2.75 ACH50 depending on climate zone ([DOE ZERH V2 Program Requirements](https://www.energy.gov/sites/default/files/2023-10/DOE%20ZERH%20V2%20(Rev.%201)%20National%20Program%20Requirements.pdf)).</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>The 3 ACH50 threshold changes everything.</b>Below roughly 3 ACH50, natural infiltration can no longer provide enough fresh air for occupants. Building codes that require this level of tightness also require whole-house mechanical ventilation (ASHRAE 62.2 or equivalent). Sealing a home tight without adding mechanical ventilation creates indoor air quality problems — moisture, CO2 buildup, and pollutant accumulation. Tightness and ventilation are two sides of the same coin.</p>
+        </div>
+
+        <h2>Where to air seal: the priority list</h2>
+        <p>DOE recommends sealing large holes first, then large cracks and penetrations, and finally smaller cracks and seams. The highest-impact targets are:</p>
+
+        <ul>
+          <li><strong>Attic floor penetrations</strong> — plumbing stacks, chimney chases, electrical wire holes, recessed light fixtures, dropped soffits, and open partition walls. These are the biggest stack-effect leakage paths.</li>
+          <li><strong>Rim joists and band joists</strong> — the interface between the foundation and wood framing is a major infiltration point in both new and older homes.</li>
+          <li><strong>Basement and crawl space penetrations</strong> — utility holes, duct boot penetrations through floors, and gaps around plumbing lines.</li>
+          <li><strong>Exterior wall penetrations</strong> — electrical boxes, outdoor fixture boxes, phone/cable/security wire holes, and window/door rough openings.</li>
+          <li><strong>Interior top plates</strong> — the gap between the top of interior walls and the ceiling drywall is a hidden highway for air moving from conditioned space to the attic.</li>
+        </ul>
+
+        <h2>Materials and costs</h2>
+        <p>The good news: basic air sealing is inexpensive. DOE reports that reducing air leakage in new construction typically costs <strong>less than $200 for the average home</strong> and does not require specialized labor ([DOE, Energy Efficiency Pays](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/26290.pdf)). Common materials include:</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Material</th><th>Best for</th><th>Gap size</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Caulk (acrylic latex)</td><td>Window/door trim, baseboards</td><td>≤ 1/4 inch</td><td>Paintable, interior use</td></tr>
+            <tr><td>High-temp silicone</td><td>Chimneys, flues, combustion vents</td><td>≤ 1/4 inch</td><td>Rated to 450°F</td></tr>
+            <tr><td>Spray foam (polyurethane)</td><td>Plumbing/electrical penetrations, rim joists</td><td>1/4 to 3 inches</td><td>Expands to fill; avoid around windows</td></tr>
+            <tr><td>Weatherstripping</td><td>Doors, windows, attic hatches</td><td>Moving joints</td><td>Replace when compressed/worn</td></tr>
+            <tr><td>Rigid foam board + spray foam</td><td>Large openings, attic hatches</td><td>> 3 inches</td><td>Cut to fit, seal perimeter with foam</td></tr>
+          </tbody>
+        </table>
+
+        <p>For older homes, the EPA notes that air leakage and improperly installed insulation can waste 20 percent or more of heating and cooling energy ([EPA, Air Sealing and IAQ](https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100V2BM.TXT)). DOE research shows that proper insulation combined with air sealing can achieve <strong>10% to 20% whole-house energy savings</strong> over pre-retrofit usage ([DOE, Energy Renovations — Insulation Guide](https://www.energy.gov/sites/prod/files/2013/11/f5/insulation_guide.pdf)).</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Fiberglass insulation does not stop air.</b>It filters air, but it doesn't block it. Dense-packed cellulose and spray foam can reduce air flow as well as heat flow, but fiberglass batts in a leaky wall cavity allow air to move freely through them. This is why air sealing must happen before or alongside insulation — not instead of it.</p>
+        </div>
+
+        <h2>The tightness-ventilation balance</h2>
+        <p>Here's the critical point that connects air sealing to HVAC: as you tighten a building, you reduce natural infiltration, which means you also reduce the dilution of indoor pollutants. Below roughly 3 ACH50, natural infiltration is no longer sufficient to maintain acceptable indoor air quality. That's why modern building codes that mandate tight construction also require <strong>whole-house mechanical ventilation</strong> — typically an HRV (heat recovery ventilator) or ERV (energy recovery ventilator) that brings in controlled outside air while recovering 60-80% of the heating or cooling energy from the exhaust air.</p>
+
+        <p>The EPA's Building Codes and Indoor Air Quality guidance notes that tighter building envelopes, when paired with properly designed mechanical ventilation, actually improve indoor air quality compared to leaky buildings that rely on random infiltration ([EPA, Building Codes and IAQ](https://www.epa.gov/sites/default/files/2014-08/documents/building_codes_and_iaq.pdf)). Controlled ventilation is always better than uncontrolled infiltration — you get fresh air where and when you need it, filtered and conditioned, instead of drafts and pollutant entry through wall cavities.</p>
+
+        <p>The ASHRAE research reinforces this: reducing air leakage from 13 ACH50 to 0.6 ACH50 (Passive House level) produced electricity savings up to 20% in the coldest climate zones and natural gas savings exceeding 40% for space heating across most climate zones ([ASHRAE Buildings XV Conference Paper](https://www.ashrae.org/File%20Library/Conferences/Specialty%20Conferences/Buildings%20XV%20-%20Papers/C015.pdf)). But achieving those savings requires a properly designed ventilation system to replace the lost infiltration.</p>
+
+        <p>Naming specific air sealing products or blower door manufacturers in this article is for reference only — not an endorsement. HVAC Zone Inc is a multi-brand dealer and works with homeowners to evaluate air sealing and ventilation options without manufacturer bias.</p>
+
+        <p>Wondering whether your home is leaking energy through hidden gaps? <a href="../index.html#contact">Request a consultation</a> — we'll assess your building envelope, identify where the biggest leaks are, and give you an honest recommendation on whether air sealing, insulation upgrades, or ventilation improvements make sense for your situation.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Air Sealing</span><span class="tag">Blower Door</span><span class="tag">ACH50</span><span class="tag">Building Envelope</span><span class="tag">Infiltration</span><span class="tag">Energy Efficiency</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="attic-insulation-ventilation-radiant-barriers.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Attic insulation"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M80 120 L200 60 L320 120 L320 180 L80 180 Z" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><path d="M100 130 L300 130" stroke="var(--color-warm)" stroke-width="2" stroke-dasharray="8 4"/></svg>
+              <span class="card-cat">Building</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Attic Insulation, Ventilation, and Radiant Barriers</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="duct-leakage-sealing-distribution-system.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Duct leakage"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="100" y="80" width="200" height="60" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><circle cx="200" cy="110" r="20" fill="var(--color-warm)" opacity="0.2" stroke="var(--color-warm)" stroke-width="2"/></svg>
+              <span class="card-cat">Building</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Duct Leakage and Sealing the Distribution System</h3><div class="card-meta"><span>6 min read</span></div></div>
+          </a>
+          <a href="erv-vs-hrv-ventilation-recovery.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="ERV vs HRV"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="130" y="70" width="140" height="80" rx="8" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><path d="M150 110 L250 110" stroke="var(--color-cool)" stroke-width="2"/><path d="M150 120 L250 120" stroke="var(--color-warm)" stroke-width="2"/></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">ERV vs HRV: Ventilation Recovery Explained</h3><div class="card-meta"><span>6 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

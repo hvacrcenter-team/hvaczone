@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HVAC Zone Inc | NJ Master HVAC Contractor — Installation, Repair & Air Quality</title>
+  <meta name="description" content="HVAC Zone Inc is a NJ Master HVACR Contractor. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Plus the HVAC Information Hub — daily product reviews, tools, IAQ, smart thermostats and building science." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Anton&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230a0a0a'/%3E%3Cpath d='M16 5 C13 9 11 11 11 15 a5 5 0 0 0 10 0 c0-4-2-6-5-10z' fill='%23e07a1a'/%3E%3Cpath d='M16 11 a3 3 0 0 0 0 6 3 3 0 0 0 0-6z' fill='%23ffc857'/%3E%3Ccircle cx='16' cy='22' r='5' fill='%230b4f8a'/%3E%3Cpath d='M16 19v6M13 22h6M14 20l4 4M18 20l-4 4' stroke='%234fc3f7' stroke-width='1' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- Full-width logo banner -->
+  <div class="logo-banner">
+    <div class="logo-banner-inner">
+      <img src="img/hvac-zone-logo.png" alt="HVAC Zone Inc" class="logo-banner-img" />
+      <a href="tel:+19736876386" class="banner-phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>973-687-6386</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" role="list">
+          <li><a href="index.html" class="is-active">Home</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#meet-the-brands">Brands</a></li>
+          <li><a href="hub.html">Information Hub</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="index.html#contact" class="btn btn--primary header-cta">Request a Consultation</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Local HVAC Outlook — TOP of page, visitor gets value immediately -->
+    <section class="outlook-band" id="outlook">
+      <div class="container">
+        <div class="outlook-band-inner">
+          <div class="outlook-band-copy">
+            <span class="eyebrow eyebrow--light">Local HVAC Outlook</span>
+            <h2>Your week, your building, your weather</h2>
+            <p>Enter your city or use your location for a 7-day forecast translated into heating, cooling, humidity, and IAQ demand — wherever you are in the world.</p>
+          </div>
+          <form id="outlook-form" class="outlook-form" autocomplete="off">
+            <input id="outlook-city" type="text" placeholder="Enter city or postal code…" aria-label="City or postal code" />
+            <button type="submit" class="btn btn--primary">Get outlook</button>
+            <button type="button" id="outlook-geo" class="btn btn--ghost">Use my location</button>
+          </form>
+        </div>
+        <p id="outlook-status" class="outlook-status" role="status" aria-live="polite"></p>
+        <div id="outlook-result" class="outlook-result" style="display:none"></div>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">NJ Master HVACR Contractor</span>
+            <h1 class="hero-headline">Stay <span class="comfort">Comfortable</span><br />And Breathe <span class="clean">Clean Air</span></h1>
+            <p class="hero-lead">
+              HVAC Zone Inc is a multi-service New Jersey Master HVACR contractor. From installation and
+              repair to maintenance and indoor air quality, our in-house team of installers and service techs
+              keeps homeowners, builders, and property managers comfortable year-round.
+            </p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn--accent btn--lg">Request a Consultation
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a href="hub.html" class="btn btn--ghost btn--lg">Explore the Information Hub</a>
+            </div>
+            <div class="hero-badges">
+              <span class="hero-badge">Licensed &amp; Insured</span>
+              <span class="hero-badge">Financing Available</span>
+              <span class="hero-badge">No Charge for Warranty</span>
+            </div>
+          </div>
+
+          <div class="hero-logo-panel">
+            <img src="img/hvac-zone-logo.png" alt="HVAC Zone Inc" class="hero-logo-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust bar -->
+    <section class="trust-bar">
+      <div class="container">
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+          Licensed & Insured
+        </span>
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+          24/7 Emergency Service
+        </span>
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          Financing Available
+        </span>
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 12l9 4 9-4M3 17l9 4 9-4"/></svg>
+          Most major brands
+        </span>
+        <span class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+          No Charge for Warranty
+        </span>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">What we do</span>
+          <h2>Full-service heating, cooling &amp; air quality</h2>
+          <p>Residential and medium commercial — installation, repair, maintenance, and sales across most major brands on the market today.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/svc-installation.webp" alt="HVAC technician installing an outdoor condenser unit beside a home" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Installation</h3>
+              <p>New construction, replacements, and system upgrades — sized and engineered for your space, not just swapped in.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/svc-repair.webp" alt="HVAC technician diagnosing an air handler control board with a multimeter" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Repair</h3>
+              <p>Fast, honest diagnostics on any brand. We find the root cause instead of just swapping parts.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/svc-maintenance.webp" alt="Cleaned outdoor condenser unit with a service toolkit" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Maintenance</h3>
+              <p>Planned service plans that extend equipment life, keep efficiency up, and prevent the mid-season breakdown.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/svc-indoor-air-quality.webp" alt="Bright clean living room with fresh air and a wall-mounted air quality monitor" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Indoor Air Quality</h3>
+              <p>Filtration, ventilation, humidity control, and IAQ monitoring — because comfort means clean, healthy air.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/svc-commercial.webp" alt="Commercial rooftop HVAC units on a flat roof" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Commercial &amp; Builders</h3>
+              <p>A capable team for property managers and building contractors — coordinated, reliable, and code-compliant.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/svc-sales.webp" alt="Row of new HVAC condenser units in a warehouse" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Sales &amp; Equipment</h3>
+              <p>Multi-brand dealer with access to a wide network of manufacturers and vendors — the right equipment at fair pricing, no single-brand bias.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- IAQ products -->
+    <section class="section" id="iaq" style="background:var(--color-surface-offset)">
+      <div class="container">
+        <div class="section-head" style="max-width:720px">
+          <span class="eyebrow">Indoor air quality</span>
+          <h2>IAQ products we install &amp; service</h2>
+          <p style="color:var(--color-text-muted)">Clean air is half of comfort. These whole-home systems integrate with your HVAC equipment to filter, ventilate, and balance humidity — far beyond what a standard 1-inch filter can do. We specify, install, and service them all, with no single-brand bias.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/iaq-media.webp" alt="Pleated high-MERV media air filter installed in ductwork" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Media air cleaners</h3>
+              <p>High-MERV (MERV 13–16) media filtration built into your ductwork — captures dust, pollen, pet dander, and fine particles with minimal airflow loss.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/iaq-uvc.webp" alt="UV-C germicidal light glowing inside an air handler" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>UV-C germicidal lights</h3>
+              <p>Ultraviolet light in the airstream and at the coil to reduce bacteria, viruses, and mold — and keep the evaporator coil clean for better efficiency.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/iaq-humidifiers.webp" alt="Whole-home bypass humidifier mounted on a furnace" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Whole-home humidifiers</h3>
+              <p>Bypass, fan-powered, and steam humidifiers that hold a healthy 30–50% relative humidity in winter — protecting sinuses, woodwork, and electronics.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/iaq-dehumidifiers.webp" alt="Whole-home dehumidifier in a clean basement" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Whole-home dehumidifiers</h3>
+              <p>Tackle damp basements and humid summers, cut mold and dust-mite growth, and let you set the thermostat a few degrees higher while staying comfortable.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/iaq-erv-hrv.webp" alt="Energy recovery ventilator mounted on a basement wall with ductwork" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Ventilation (ERV / HRV)</h3>
+              <p>Energy and heat recovery ventilators bring in fresh, filtered outdoor air and exhaust stale air while recovering the heating or cooling you already paid for.</p>
+            </div>
+          </article>
+          <article class="service-card service-card--media">
+            <div class="service-media"><img src="img/services/iaq-air-purifiers.webp" alt="In-duct whole-home air purifier installed in residential ductwork" loading="lazy" decoding="async" width="1200" height="675"></div>
+            <div class="service-body">
+              <h3>Air purifiers &amp; VOC control</h3>
+              <p>Whole-home purifiers with carbon and photocatalytic stages that neutralize odors, smoke, and volatile organic compounds from cooking, cleaning, and furnishings.</p>
+            </div>
+          </article>
+        </div>
+        <p style="margin-top:var(--space-6);font-size:var(--text-sm);color:var(--color-text-muted);max-width:780px">Already monitoring your air? See our explainer on <a href="articles/iaq-monitors-explained.html">IAQ monitors &amp; sensors</a>. Guidance grounded in the <a href="https://www.epa.gov/indoor-air-quality-iaq">U.S. EPA’s Indoor Air Quality</a> resources. Not sure what you need? <a href="#contact">Request a consultation</a> and we’ll assess your home or building.</p>
+      </div>
+    </section>
+
+    <!-- Why us split -->
+    <section class="section" id="about" style="background:var(--color-surface)">
+      <div class="container">
+        <div class="split">
+          <div class="split-copy">
+            <span class="eyebrow">Why HVAC Zone</span>
+            <h2>A team capable — and the network to back it up</h2>
+            <p>
+              Our wide network of equipment manufacturers, vendors, engineering consultants, and contractors
+              throughout the HVAC industry lets us help builders, property managers, and homeowners meet their
+              needs. We run our own in-house team of installers and service techs, so the job gets done right
+              — the first time.
+            </p>
+            <ul class="feature-list" role="list">
+              <li>
+                <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5 9-9"/></svg></span>
+                <span><b>Peace of mind for homeowners</b>Clear pricing, honest diagnostics, and work you can trust.</span>
+              </li>
+              <li>
+                <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5 9-9"/></svg></span>
+                <span><b>A capable team for contractors</b>Coordinated scheduling and code-compliant installs that keep your project moving.</span>
+              </li>
+              <li>
+                <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5 9-9"/></svg></span>
+                <span><b>Most brands serviced</b>Multi-brand dealer carrying Daikin/Goodman, Rheem/Ruud, Coleman, American Standard, Mitsubishi, Carrier/Bryant and more — and we service nearly every brand on the market.</span>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Request a consultation
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <div class="split-visual">
+            <div class="panel">
+              <div class="panel-title">Service Areas</div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;font-size:var(--text-sm)">
+                <span> Bergen County</span><span> Hudson County</span>
+                <span> Essex County</span><span> Union County</span>
+                <span> Passaic County</span><span> Middlesex</span>
+                <span> Morris County</span><span> + statewide</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands we service & install -->
+    <section class="section brand-band" id="brands">
+      <div class="container">
+        <div class="section-head" style="text-align:center;max-width:640px;margin:0 auto var(--space-8)">
+          <span class="eyebrow">Multi-brand dealer</span>
+          <h2>Brands we service &amp; install</h2>
+          <p style="color:var(--color-text-muted)">We carry, service, and install equipment from the industry's leading manufacturers — and most other brands on the market too.</p>
+        </div>
+        <div class="brand-strip">
+          <a href="https://www.daikin.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Daikin official site"><img src="img/brands/daikin.svg" alt="Daikin" loading="lazy"></a>
+          <a href="https://www.goodmanmfg.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Goodman official site"><img src="img/brands/goodman.png" alt="Goodman" loading="lazy"></a>
+          <a href="https://www.carrier.com/residential/en/us/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Carrier official site"><img src="img/brands/carrier.svg" alt="Carrier" loading="lazy"></a>
+          <a href="https://www.bryant.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Bryant official site"><img src="img/brands/bryant.svg" alt="Bryant" loading="lazy"></a>
+          <a href="https://www.rheem.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Rheem official site"><img src="img/brands/rheem.svg" alt="Rheem" loading="lazy"></a>
+          <a href="https://www.ruud.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Ruud official site"><img src="img/brands/ruud.png" alt="Ruud" loading="lazy"></a>
+          <a href="https://www.americanstandardair.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="American Standard official site"><img src="img/brands/american-standard.svg" alt="American Standard" loading="lazy"></a>
+          <a href="https://www.armstrongair.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Armstrong Air official site"><img src="img/brands/armstrong.png" alt="Armstrong Air" loading="lazy"></a>
+          <a href="https://www.colemanac.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Coleman official site"><img src="img/brands/coleman.png" alt="Coleman" loading="lazy"></a>
+          <a href="https://www.mitsubishipro.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Mitsubishi Electric official site"><img src="img/brands/mitsubishi.svg" alt="Mitsubishi" loading="lazy"></a>
+          <a href="https://www.samsunghvac.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Samsung HVAC official site"><img src="img/brands/samsung.svg" alt="Samsung" loading="lazy"></a>
+          <a href="https://www.lghvac.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="LG HVAC official site"><img src="img/brands/lg.svg" alt="LG" loading="lazy"></a>
+          <a href="https://cooperandhunterusa.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Cooper & Hunter official site"><img src="img/brands/cooper-hunter.png" alt="Cooper &amp; Hunter" loading="lazy"></a>
+          <a href="https://www.gree.com/" target="_blank" rel="noopener noreferrer" class="brand-tile" title="Gree official site"><img src="img/brands/gree.svg" alt="Gree" loading="lazy"></a>
+          <span class="brand-tile is-more"><span class="wm">+ most brands</span></span>
+        </div>
+        <p class="brand-note">Brand names and logos are trademarks of their respective owners, shown here only to indicate the brands we service and install. Links go to official manufacturer sites for your research — HVAC Zone remains brand-neutral.</p>
+      </div>
+    </section>
+
+    <!-- Meet the Brands: who owns whom -->
+    <section class="section brands-tree" id="meet-the-brands">
+      <div class="container">
+        <div class="section-head" style="max-width:720px">
+          <span class="eyebrow">Industry ownership</span>
+          <h2>Meet the brands</h2>
+          <p style="color:var(--color-text-muted)">The HVAC industry has consolidated into a handful of global parents, so several “competing” labels are actually built by the same company. Here’s who owns whom today — and what each brand is positioned to offer. We stay neutral: knowing the family tree helps you compare value, not pick a logo.</p>
+        </div>
+        <div class="parent-grid">
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Daikin Industries <span class="parent-country">Japan</span> <a href="https://www.daikin.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">The world’s largest air-conditioning manufacturer.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Daikin</span><span class="sub-desc">Premium full line — high-efficiency furnaces, ACs and heat pumps, plus the industry’s widest ductless and VRF range.</span></div>
+              <div class="sub"><span class="sub-name">Goodman</span><span class="sub-desc">Value-oriented, builder-friendly equipment sold through distribution. Daikin’s high-volume brand.</span></div>
+              <div class="sub"><span class="sub-name">Amana</span><span class="sub-desc">Value tier sharing Goodman’s platform, set apart by stronger warranties — including a lifetime unit-replacement compressor warranty.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Carrier Global <span class="parent-country">USA</span> <a href="https://www.corporate.carrier.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Pioneered modern air conditioning; broad residential and commercial portfolio.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Carrier</span><span class="sub-desc">Flagship premium brand; full residential and commercial line.</span></div>
+              <div class="sub"><span class="sub-name">Bryant</span><span class="sub-desc">Carrier’s dealer-channel sister brand — near-identical equipment under a different nameplate.</span></div>
+              <div class="sub"><span class="sub-name">Payne</span><span class="sub-desc">Builder / entry-level tier of the Carrier family.</span></div>
+              <div class="sub"><span class="sub-name">ICP brands: Heil, Tempstar, Comfortmaker, Arcoaire, Day &amp; Night, Keeprite</span><span class="sub-desc">Value and contractor tiers sharing common platforms (International Comfort Products).</span></div>
+              <div class="sub"><span class="sub-name">Viessmann Climate Solutions <span class="parent-tag">Acquired 2024</span></span><span class="sub-desc">European heat-pump and heating leader added to Carrier’s portfolio.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Trane Technologies <span class="parent-country">USA / Ireland</span> <a href="https://www.tranetechnologies.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Global climate-innovation company spanning residential and commercial.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Trane</span><span class="sub-desc">Premium brand with deep commercial heritage and high-efficiency residential equipment.</span></div>
+              <div class="sub"><span class="sub-name">American Standard Heating &amp; Air Conditioning</span><span class="sub-desc">Trane’s consumer sister brand — comparable engineering under a different name.</span></div>
+              <div class="sub"><span class="sub-name">Oxbox</span><span class="sub-desc">Contractor-direct, online-first value brand.</span></div>
+              <div class="sub"><span class="sub-name">RunTru</span><span class="sub-desc">Budget / builder tier.</span></div>
+              <div class="sub"><span class="sub-name">Thermo Pride</span><span class="sub-desc">Rugged, long-life oil-fired furnaces.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Rheem Manufacturing <span class="parent-country">USA / Paloma (Japan)</span> <a href="https://www.rheem.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Air and water-heating specialist; owned by Paloma Industries of Japan.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Rheem</span><span class="sub-desc">Full residential and commercial line sold through retail and contractor channels.</span></div>
+              <div class="sub"><span class="sub-name">Ruud</span><span class="sub-desc">Contractor-channel sister brand — same equipment as Rheem under a different label.</span></div>
+              <div class="sub"><span class="sub-name">Nortek / Nordyne family <span class="parent-tag">Acquired Oct 2024</span></span><span class="sub-desc">Frigidaire HVAC, Maytag HVAC, Miller, Gibson and Intertherm — value, retail and manufactured-housing tiers; plus Broan ventilation.</span></div>
+              <div class="sub"><span class="sub-name">Fujitsu General <span class="parent-tag">Acquired 2025</span></span><span class="sub-desc">Ductless mini-split brand added to the Paloma/Rheem group.</span></div>
+              <div class="sub"><span class="sub-name">Value tiers: Richmond, Sure Comfort, WeatherKing</span><span class="sub-desc">Entry-level and private-label water-heating and HVAC lines.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Bosch Home Comfort Group <span class="parent-country">Germany</span> <span class="parent-tag">New owner 2025</span> <a href="https://www.bosch-thermotechnology.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Acquired Johnson Controls’ residential &amp; light-commercial HVAC business in August 2025 — a major ownership shift.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">York</span><span class="sub-desc">Mid-tier dealer brand (formerly Johnson Controls).</span></div>
+              <div class="sub"><span class="sub-name">Coleman</span><span class="sub-desc">Manufactured-housing and residential value brand (formerly Johnson Controls).</span></div>
+              <div class="sub"><span class="sub-name">Luxaire</span><span class="sub-desc">York’s sister brand (formerly Johnson Controls).</span></div>
+              <div class="sub"><span class="sub-name">Champion</span><span class="sub-desc">Value tier (formerly Johnson Controls).</span></div>
+              <div class="sub"><span class="sub-name">JCI–Hitachi Air Conditioning JV</span><span class="sub-desc">The former Johnson Controls–Hitachi joint venture moved to Bosch with the deal.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Lennox International <span class="parent-country">USA</span> <a href="https://www.lennox.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Premium residential and commercial; dealer-only distribution.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Lennox</span><span class="sub-desc">Flagship premium brand known for high-efficiency, smart-home-ready equipment.</span></div>
+              <div class="sub"><span class="sub-name">Armstrong Air</span><span class="sub-desc">Lennox engineering at a lower price point — built by Allied Air Enterprises.</span></div>
+              <div class="sub"><span class="sub-name">Allied Air Enterprises: AirEase, Concord, Ducane, Allied Commercial, MagicPak</span><span class="sub-desc">Value and specialty tiers under the Lennox-owned Allied umbrella.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Mitsubishi Electric <span class="parent-country">Japan</span> <a href="https://www.mitsubishielectric.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Global leader in ductless and variable-refrigerant-flow systems.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Mitsubishi Electric (Mr. Slim, City Multi, M-/P-Series)</span><span class="sub-desc">Premium ductless mini-splits and VRF; strong cold-climate heat-pump performance.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Samsung <span class="parent-country">South Korea</span> <a href="https://www.samsunghvac.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Tech-forward HVAC within the Samsung group.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Samsung HVAC</span><span class="sub-desc">WindFree ductless and Digital VRF systems with smart-home integration.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">LG Electronics <span class="parent-country">South Korea</span> <a href="https://www.lghvac.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Design- and connectivity-focused HVAC.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">LG HVAC</span><span class="sub-desc">Art Cool and Multi F ductless, Multi V VRF — strong on design and smart controls.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Gree Electric Appliances <span class="parent-country">China</span> <a href="https://www.gree.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">One of the world’s largest air-conditioner manufacturers; a major OEM for other labels.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Gree</span><span class="sub-desc">High-volume residential and light-commercial full line.</span></div>
+              <div class="sub"><span class="sub-name">TOSOT</span><span class="sub-desc">Gree’s lifestyle sub-brand for comfort and appliances.</span></div>
+              <div class="sub"><span class="sub-name">KINGHOME</span><span class="sub-desc">Gree sub-brand.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">Midea Group <span class="parent-country">China</span> <a href="https://www.midea.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">One of the world’s largest appliance and HVAC manufacturers. Midea is a major OEM — it builds equipment sold under many other labels, not just its own name.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">Cooper &amp; Hunter</span><span class="sub-desc">Value-oriented ductless brand (Ukraine-founded, distributed in the US by ComfortSide). Its mini-splits are rebadged Midea units — Midea is the manufacturer, not the brand’s corporate owner. Some models are sourced from Gree.</span></div>
+              <div class="sub"><span class="sub-name">Also OEM-built on Midea platforms</span><span class="sub-desc">Carrier and Bryant ductless systems, the Bosch Climate 5000 series, MRCOOL and Durastar are widely reported to use Midea equipment.</span></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div class="parent-head">
+              <div class="parent-name">TCL Technology <span class="parent-country">China</span> <span class="parent-tag">Growing fast</span> <a href="https://www.tcl.com/" target="_blank" rel="noopener noreferrer" class="parent-link">Official site &rarr;</a></div>
+              <div class="parent-note">Consumer-electronics giant that has become one of the world’s largest air-conditioner exporters — roughly 20 million AC units a year across 160+ countries.</div>
+            </div>
+            <div class="subs">
+              <div class="sub"><span class="sub-name">TCL Air Conditioner (T-Pro, FreshIN, BreezeIN, SaveIN AI)</span><span class="sub-desc">Ductless mini-splits, window units, portables and light-commercial systems; value-to-mid positioning with smart-home and AI energy-saving features. Sold via retail (e.g., Home Depot) and as OEM/ODM for other labels.</span></div>
+            </div>
+          </div>
+
+        </div>
+        <p class="sources">Ownership and brand-positioning details compiled from [Carrier’s brand portfolio](https://www.carrier.com/us/en/our-brands/), [Carrier’s Viessmann acquisition](https://www.viessmann-climatesolutions.com/en/newsroom/company/carrier-completes-acquisition-of-viessmann-climate-solutions.html), [Bosch on the Johnson Controls HVAC acquisition](https://www.bosch.co.jp/press/rbjp-2606-03/?lang=en), [Rheem / Paloma and the Nortek acquisition](https://www.factorstoday.com/research/RHEEM), [Nortek/Nordyne under Rheem](https://www.linkedin.com/pulse/nortek-nordyne-recent-hvac-innovations-a2l-apex-coils-jules-williams-nc3zc), [ServiceTitan’s manufacturer guide](https://www.servicetitan.com/blog/hvac-manufacturers), [Allied Air Enterprises (Lennox)](https://www.alliedair.com/), [Gree / TOSOT / KINGHOME](https://manuals.plus/fr/category/gree), and reporting on [Midea as the manufacturer behind Cooper &amp; Hunter and other labels](https://www.heatpumped.org/p/web-confusion) and [Midea vs. Cooper &amp; Hunter](https://titan-supply.com/info/midea-vs-hunter-cooper), [TCL’s scale and product range](https://us.tcl.com/pages/our-story), and [TCL air-conditioner manufacturing overview](https://www.accio.com/supplier/tcl-aircond-from-which-country). Accurate as of July 2026; M&amp;A in this sector moves quickly, so we revisit periodically.</p>
+      </div>
+    </section>
+
+    <!-- Hub preview -->
+    <section class="section hub-band">
+      <div class="container">
+        <div class="section-head" style="display:flex;justify-content:space-between;align-items:flex-end;max-width:none;gap:var(--space-6)">
+          <div style="max-width:60ch">
+            <span class="eyebrow">The HVAC Information Hub</span>
+            <h2>Your daily source for HVAC knowledge</h2>
+            <p>Equipment reviews, tools, indoor air quality, smart thermostats, and building science — the goal is the most comprehensive HVAC information hub on the internet.</p>
+          </div>
+          <a href="hub.html" class="btn btn--ghost header-cta" style="flex-shrink:0">All articles
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="article-grid">
+          <!--HUB-PREVIEW-START-->
+          <a href="articles/uvgi-ultraviolet-germicidal-irradiation-hvac-coil-air-disinfection.html" class="card card--feature" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 600 340" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Indoor air quality"><rect width="600" height="340" fill="var(--color-surface-offset)"/><circle cx="300" cy="170" r="130" fill="var(--color-cool-highlight)"/><path d="M300 90 a55 55 0 0 1 0 160 a45 45 0 0 1 0 -160z" fill="var(--color-cool)" opacity="0.85"/><text x="300" y="180" text-anchor="middle" font-family="Space Grotesk" font-size="28" fill="#fff" font-weight="700">AQI 18</text></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">UVGI in HVAC: How Ultraviolet Germicidal Irradiation Cleans Coils and Disinfects Air</h3>
+              <p class="card-excerpt">UVGI uses UV-C light at 253.7 nm to damage DNA and RNA of microorganisms, preventing replication. ASHRAE recognizes it as the only technology for effective disinfection of air and surfaces in HVAC systems, with documented kill rates above 99% and coil-cleaning energy savings of 10-30%.</p>
+              <div class="card-meta"><span class="author">HVAC Zone Team</span><span>&#8226;</span><span>8 min read</span><span>&#8226;</span><span>Today</span></div>
+            </div>
+          </a>
+          <a href="articles/vrf-systems-variable-refrigerant-flow-commercial-hvac.html" class="card" data-cat="equipment">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="HVAC equipment"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="140" y="60" width="120" height="110" rx="10" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><g stroke="var(--color-primary)" stroke-width="2" opacity="0.5"><path d="M150 75 v80 M165 75 v80 M180 75 v80 M195 75 v80 M210 75 v80 M225 75 v80 M240 75 v80 M255 75 v80"/></g><circle cx="200" cy="135" r="14" fill="none" stroke="var(--color-accent)" stroke-width="3"/></svg>
+              <span class="card-cat">Equipment</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">VRF Systems Explained: How Variable Refrigerant Flow Cuts Commercial HVAC Energy 30-50%</h3>
+              <p class="card-excerpt">VRF systems use inverter-driven compressors and electronic expansion valves to serve multiple zones from one outdoor unit. DOE, ORNL, and GSA studies document 15-52% HVAC energy savings over conventional systems, with heat recovery enabling simultaneous heating and cooling.</p>
+              <div class="card-meta"><span class="author">HVAC Zone Team</span><span>&#8226;</span><span>8 min read</span><span>&#8226;</span><span>Yesterday</span></div>
+            </div>
+          </a>
+          <a href="articles/thermal-bridging-continuous-insulation-building-science.html" class="card" data-cat="building">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="House thermal envelope"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M90 180 L90 110 L200 60 L310 110 L310 180 Z" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/><path d="M90 180 L310 180" stroke="var(--color-accent)" stroke-width="4"/><path d="M120 130 h30 v30 h-30z M250 130 h30 v30 h-30z" fill="var(--color-primary-highlight)" stroke="var(--color-primary)" stroke-width="1.5"/></svg>
+              <span class="card-cat">Building Science</span>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Thermal Bridging &amp; Continuous Insulation: Why Your Wall's R-Value Isn't What You Think</h3>
+              <p class="card-excerpt">An R-13 wall only delivers R-9.4 in practice — thermal bridging through studs, steel, and concrete bypasses insulation. Continuous insulation fixes this. ASHRAE 90.1 requires it in most climate zones.</p>
+              <div class="card-meta"><span class="author">HVAC Zone Team</span><span>&#8226;</span><span>8 min read</span><span>&#8226;</span><span>2 days ago</span></div>
+            </div>
+          </a>
+          <!--HUB-PREVIEW-END-->
+        </div>
+        </div>
+
+        <div class="mt-10 text-center">
+          <a href="hub.html" class="btn btn--primary btn--lg">Browse the full hub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content operating model -->
+    <section class="section section--tight" style="background:var(--color-surface)">
+      <div class="container">
+        <div class="section-head section-head--center" style="margin-inline:auto">
+          <span class="eyebrow" style="justify-content:center">The vision</span>
+          <h2>Built to be the HVAC go-to spot</h2>
+          <p>The Information Hub is more than a blog. Here's how it grows into a daily, multi-channel resource.</p>
+        </div>
+        <div class="model-grid">
+          <div class="model-card">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></span>
+            <h3>Daily Posts</h3>
+            <p>New product trends, reviews, and building science articles published every day.</p>
+            <span class="freq">Daily</span>
+          </div>
+          <div class="model-card">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <h3>Email Brief</h3>
+            <p>The weekly HVAC Zone Brief — the week's best reads delivered to your inbox.</p>
+            <span class="freq">Weekly</span>
+          </div>
+          <div class="model-card">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4l16 16M20 4L4 20"/><circle cx="12" cy="12" r="9"/></svg></span>
+            <h3>Social Clips</h3>
+            <p>Short explainers and reviews adapted for your feeds — the hub, everywhere you are.</p>
+            <span class="freq">Ongoing</span>
+          </div>
+          <div class="model-card">
+            <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 12l9 4 9-4M3 17l9 4 9-4"/></svg></span>
+            <h3>One-Click Reference</h3>
+            <p>Searchable, categorized library so the answer you need is always a click away.</p>
+            <span class="freq">Always on</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA band -->
+    <section class="section" id="contact">
+      <div class="container container--narrow">
+        <div class="cta-band">
+          <h2>Need service, a quote, or a second opinion?</h2>
+          <p>Tell us what's going on with your system and a real tech will get back to you. Residential and medium commercial across New Jersey.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:var(--space-3);justify-content:center">
+            <a href="mailto:info@hvaczonenj.com" class="btn btn--accent btn--lg">Email HVAC Zone</a>
+            <a href="tel:+19736876386" class="btn btn--ghost btn--lg">Call (973) 687-6386</a>
+          </div>
+          <p style="font-size:var(--text-xs);margin-top:var(--space-6);opacity:0.8">24/7 emergency service available for existing and new customers across NJ.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand" aria-label="HVAC Zone home">
+            <img src="img/hvac-zone-logo.png" alt="HVAC Zone Inc" class="brand-logo brand-logo--footer" width="56" height="44" />
+          </a>
+          <p>Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list">
+            <li><a href="index.html#services">Installation</a></li>
+            <li><a href="index.html#services">Repair</a></li>
+            <li><a href="index.html#services">Maintenance</a></li>
+            <li><a href="index.html#services">Indoor Air Quality</a></li>
+            <li><a href="index.html#services">Commercial</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list">
+            <li><a href="hub.html">All Articles</a></li>
+            <li><a href="hub.html">Equipment Reviews</a></li>
+            <li><a href="hub.html">Smart Thermostats</a></li>
+            <li><a href="hub.html">Building Science</a></li>
+            <li><a href="hub.html">Product Trends</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li>
+            <li><a href="tel:+19736876386">(973) 687-6386</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>

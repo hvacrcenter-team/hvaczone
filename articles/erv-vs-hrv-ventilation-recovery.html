@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ERV vs HRV: Heat & Energy Recovery Ventilation Explained | HVAC Zone</title>
+  <meta name="description" content="Tight modern homes need mechanical ventilation. Here's the difference between HRV and ERV recovery ventilators, when each fits, what the EPA and peer-reviewed research say about IAQ and energy, and why a recovery ventilator isn't a dehumidifier." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Ventilation &amp; IAQ</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Jul 22, 2026 · 7 min read</span>
+          </div>
+        </div>
+        <h1>ERV vs HRV: Heat &amp; Energy Recovery Ventilation Explained</h1>
+        <p class="article-lead">Tight modern homes need fresh air brought in mechanically — but conditioning that air costs energy. A recovery ventilator brings fresh air in while clawing back heat (and, with an ERV, moisture) from the air going out. Here's how HRV and ERV differ, when each fits, and what they can't do.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Diagram: stale indoor air exhausting and fresh outdoor air entering through a recovery core; the ERV core transfers both heat and moisture; a CO2 reading drops from high to low">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <!-- house -->
+        <path d="M120 250 L120 120 L240 70 L360 120 L360 250 Z" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2.5"/>
+        <text x="240" y="105" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">Indoor (stale, warm)</text>
+        <!-- exhaust arrow out (top) -->
+        <path d="M260 120 H520" stroke="var(--color-accent)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M500 113 l18 7 -18 7" fill="none" stroke="var(--color-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- intake arrow in (bottom) -->
+        <path d="M520 200 H260" stroke="var(--color-cool)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M280 193 l-18 7 18 7" fill="none" stroke="var(--color-cool)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="392" y="112" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-accent)">exhaust (heat + moisture out)</text>
+        <text x="392" y="216" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-cool)">fresh intake (pre-conditioned)</text>
+        <!-- recovery core -->
+        <rect x="520" y="120" width="110" height="80" rx="8" fill="var(--color-surface)" stroke="var(--color-success)" stroke-width="2.5"/>
+        <path d="M540 140 h70 M540 160 h70 M540 180 h70 M560 120 v80 M580 120 v80 M600 120 v80" stroke="var(--color-success)" stroke-width="1.6"/>
+        <text x="575" y="218" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-success)">ERV core</text>
+        <!-- moisture droplets at core -->
+        <g fill="var(--color-cool)"><circle cx="545" cy="150" r="4"/><circle cx="610" cy="172" r="4"/></g>
+        <!-- CO2 gauge -->
+        <rect x="680" y="120" width="100" height="80" rx="10" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="2"/>
+        <text x="730" y="152" text-anchor="middle" font-family="Space Grotesk" font-size="20" font-weight="700" fill="var(--color-success)">677</text>
+        <text x="730" y="172" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">ppm CO2</text>
+        <text x="730" y="188" text-anchor="middle" font-family="Inter" font-size="10" fill="var(--color-text-faint)">was 976</text>
+        <text x="60" y="298" font-family="Inter" font-size="12" fill="var(--color-text-faint)">A balanced recovery ventilator swaps stale indoor air for fresh outdoor air through a core that recovers heat — and, in an ERV, moisture.</text>
+      </svg>
+      <figcaption>A balanced recovery ventilator moves equal amounts of air in and out through a core. An HRV core transfers heat; an ERV core transfers heat and moisture. The payoff is fresh air with far less conditioning penalty.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>The EPA notes that most residential forced-air heating and cooling systems "do not bring outdoor air into the house mechanically," relying on infiltration and natural ventilation instead — and that advanced new-home designs increasingly add mechanical ventilation, sometimes including energy-efficient heat recovery ventilators "to mitigate the cost of cooling and heating this air" ([EPA](https://www.epa.gov/indoor-air-quality-iaq/improving-indoor-air-quality)). That's the core trade-off: tighter envelopes save energy but trap pollutants, so you have to ventilate on purpose — and the question becomes how to do it without throwing away conditioned air.</p>
+
+        <h2>HRV vs ERV: the definition</h2>
+        <p>ENERGY STAR's heat/energy recovery ventilator specification draws the line cleanly. A <strong>heat-recovery ventilator (HRV)</strong> is a packaged unit with fans that "transfers heat between two isolated airstreams." An <strong>energy-recovery ventilator (ERV)</strong> is "a heat-recovery ventilator designed to transfer heat <em>and</em> moisture" ([ENERGY STAR](https://www.energystar.gov/sites/default/files/Final_Draft_HERV_spec.pdf)). The spec also caps qualifying residential units at 500 cfm and rules out units with electric-resistance heaters. In plain terms: an HRV recovers temperature, an ERV recovers temperature <em>and</em> humidity.</p>
+
+        <h2>When each fits</h2>
+        <p>As a building-science rule of thumb — not a universal law — ERVs are often a good fit in hot-humid or mixed-humid climates, because transferring some moisture out of the incoming fresh air reduces the latent (dehumidification) load the AC has to handle. ERVs can also help retain indoor moisture in dry winter conditions. HRVs are often preferred where you want heat recovery <em>without</em> moisture transfer — for example, in a home that already runs high indoor humidity or has condensation risk, where bringing any extra moisture across the core is undesirable. The right call depends on your climate, the building envelope, and the rest of the HVAC system, not on a one-size-fits-all chart.</p>
+
+        <h2>What the research shows</h2>
+        <p>The indoor-air-quality payoff is real. A two-year study of ventilation retrofits in 40 existing Chicago homes found that all three system types tested (continuous exhaust-only, intermittent central-fan-integrated supply, and continuous balanced ventilation with an ERV) reduced indoor-to-outdoor pollutant ratios — for CO2 by about 12%, and for PM2.5 by about 39% on average — with the largest reductions generally in the homes that received continuous balanced ERV ventilation ([Kang et al., 2022](https://doi.org/10.1016/j.scitotenv.2021.150129)). In a hot-and-humid-climate field study, an ERV-based system cut indoor CO2 from roughly 976 ppm to 677 ppm while also lowering PM2.5, at the cost of only about a 2.3% increase in electricity use ([Liu et al., 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10209410/)).</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Approach</th><th>What it recovers</th><th>Best fit</th><th>Limitation</th></tr></thead>
+          <tbody>
+            <tr><td>HRV</td><td>Heat (sensible) only</td><td>Heat recovery without moisture transfer; homes with humidity/condensation risk</td><td>No moisture recovery; can dry winter air further</td></tr>
+            <tr><td>ERV</td><td>Heat + moisture (latent)</td><td>Hot-humid / mixed-humid; retaining winter humidity</td><td>Transfers some moisture — not a dehumidifier</td></tr>
+            <tr><td>Exhaust-only fan</td><td>Nothing</td><td>Cheapest retrofit (bath/kitchen fans)</td><td>No recovery, so ventilation adds full heating/cooling load; can depressurize</td></tr>
+            <tr><td>Supply-only fan</td><td>Nothing</td><td>Brings in filtered outdoor air</td><td>No recovery; can pressurize and push moist air into walls</td></tr>
+          </tbody>
+        </table>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>Balanced ventilation has to be commissioned.</b>The in-and-out airflows have to be balanced, the filters maintained, the condensate drain kept clear, and frost/defrost handled in extreme cold — and the duct routing has to actually deliver fresh air where people are. Skip that and you lose both the IAQ benefit and the energy savings. (We cover commissioning <a href="hvac-commissioning-tests-explained.html">here</a>.)</p>
+        </div>
+
+        <h2>What a recovery ventilator can't do</h2>
+        <p>Two limits matter. First, an ERV <strong>is not a dehumidifier</strong>. It transfers some moisture between airstreams and can reduce the incoming latent load, but it won't pull humidity out of an already-damp house — that's still a dehumidifier's job (see our <a href="indoor-humidity-dehumidification-mold.html">humidity article</a>). Second, recovery <strong>reduces the heating and cooling penalty of ventilation</strong> compared with exhaust-only or supply-only systems — it doesn't guarantee net savings. Actual performance depends on climate, how airtight the building is, airflow rate, controls, utility rates, and, above all, maintenance: a fouled core or clogged filter quietly erases both the energy and the air-quality gains.</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Filtration still matters.</b>A recovery ventilator moves air; it doesn't clean outdoor pollution out of it. In wildfire-smoke or high-PM2.5 conditions, pair ventilation with a high-efficiency filter (MERV 13+) on the intake, or you'll just deliver smoke faster — see our <a href="wildfire-smoke-air-filtration-hvac.html">wildfire-smoke filtration article</a>. Use a PM2.5/CO2 monitor to confirm the system is actually working (our <a href="iaq-monitors-explained.html">IAQ monitors guide</a>).</p>
+        </div>
+
+        <h2>The bottom line</h2>
+        <p>If your home is tight enough to need mechanical ventilation, a balanced recovery ventilator is the efficient way to get it: an HRV recovers heat, an ERV recovers heat and moisture, and both beat exhaust-only fans on energy. Pick HRV vs ERV by climate and moisture strategy, size and balance the airflows correctly, maintain the filters and core, and remember it's a ventilation and energy-recovery device — not a dehumidifier, a humidifier, or an air purifier.</p>
+
+        <p><em>HVAC Zone Inc is a multi-brand dealer; this article is brand-neutral and names no product as "best." This content is educational and not a substitute for a site-specific assessment by a licensed professional.</em> Want help deciding whether an HRV or ERV fits your home, climate, and existing HVAC — and getting it balanced and filtered right? <a href="../index.html#contact">Request a consultation</a> and we'll size the airflow to the building, not the other way around.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">ERV</span><span class="tag">HRV</span><span class="tag">Ventilation</span><span class="tag">Recovery</span><span class="tag">IAQ</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="iaq-monitors-explained.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="IAQ monitor"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="150" y="45" width="100" height="135" rx="12" fill="var(--color-surface)" stroke="var(--color-cool)" stroke-width="2.5"/><circle cx="200" cy="90" r="10" fill="var(--color-success)"/></svg>
+              <span class="card-cat">IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">IAQ Monitors Explained: PM2.5, CO₂, VOCs &amp; What to Track</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="wildfire-smoke-air-filtration-hvac.html" class="card" data-cat="iaq">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Smoke filtration"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="140" y="60" width="120" height="120" rx="10" fill="var(--color-surface)" stroke="var(--color-cool)" stroke-width="2.5"/><line x1="200" y1="60" x2="200" y2="180" stroke="var(--color-cool)" stroke-width="5"/></svg>
+              <span class="card-cat">Air Filtration &amp; IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Wildfire Smoke &amp; HVAC: Does Your System Actually Filter It?</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="hvac-commissioning-tests-explained.html" class="card" data-cat="tools">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Gauge"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="125" r="60" fill="var(--color-surface)" stroke="var(--color-primary)" stroke-width="3"/><path d="M200 125 L230 95" stroke="var(--color-primary)" stroke-width="3" stroke-linecap="round"/></svg>
+              <span class="card-cat">Field Tools &amp; Methods</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">The Tests Behind a Real HVAC Install: Commissioning Explained</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geothermal Heat Pumps: COP, Ground Loop Types, and Whether the Math Still Works | HVAC Zone</title>
+  <meta name="description" content="Geothermal heat pumps run 300-600% efficient per DOE, with ENERGY STAR requiring COP 3.6+ closed-loop and 4.1+ open-loop. But at $20K-$45K installed vs $5K-$12K for air-source, does the efficiency advantage justify the cost? The federal 30% tax credit expired Dec 31, 2025." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Equipment</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 14, 2026 · 8 min read</span>
+          </div>
+        </div>
+        <h1>Geothermal Heat Pumps: COP, Ground Loop Types, and Whether the Math Still Works</h1>
+        <p class="article-lead">The DOE says geothermal heat pumps reach 300-600% efficiency and cut energy use 25-50% versus air-source systems. ENERGY STAR requires COP 3.6+ for closed-loop and 4.1+ for open-loop. But with installation costs of $20,000-$45,000 and the federal 30% tax credit expired as of December 31, 2025, does the efficiency advantage still justify the premium?</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 360" role="img" aria-label="Diagram showing four geothermal ground loop types: horizontal, vertical, pond/lake, and open-loop">
+        <rect width="800" height="360" fill="var(--color-surface-offset)"/>
+        <text x="400" y="28" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="var(--color-text)">Four Geothermal Ground Loop Types</text>
+        <g font-family="Inter" font-size="9" fill="var(--color-text-muted)">
+          <!-- Horizontal loop -->
+          <rect x="20" y="55" width="185" height="280" rx="8" fill="var(--color-primary)" opacity="0.05" stroke="var(--color-primary)" stroke-width="1.5"/>
+          <text x="112" y="78" text-anchor="middle" font-weight="700" font-size="11" fill="var(--color-primary)">HORIZONTAL</text>
+          <text x="112" y="92" text-anchor="middle" font-size="8">Closed-loop · Most cost-effective</text>
+          <!-- House -->
+          <rect x="85" y="100" width="55" height="35" rx="4" fill="var(--color-primary)" opacity="0.15" stroke="var(--color-primary)" stroke-width="1"/>
+          <text x="112" y="122" text-anchor="middle" font-size="7">House</text>
+          <!-- Ground line -->
+          <line x1="25" y1="145" x2="200" y2="145" stroke="var(--color-text-muted)" stroke-width="1" stroke-dasharray="3,2"/>
+          <text x="195" y="142" text-anchor="end" font-size="7">4ft min</text>
+          <!-- Horizontal pipes -->
+          <path d="M40 165 L180 165 L180 185 L40 185 L40 205 L180 205 L180 225 L40 225 L40 245 L180 245" fill="none" stroke="var(--color-primary)" stroke-width="2"/>
+          <!-- Connection to house -->
+          <path d="M112 135 L112 145 M112 145 L40 165 M112 145 L180 165" fill="none" stroke="var(--color-primary)" stroke-width="1.5"/>
+          <text x="112" y="275" text-anchor="middle" font-size="8">Trenches 4ft+ deep</text>
+          <text x="112" y="290" text-anchor="middle" font-size="8">Best for: new construction</text>
+          <text x="112" y="305" text-anchor="middle" font-size="8">with sufficient land</text>
+          <text x="112" y="322" text-anchor="middle" font-size="8">Cost: $10K-$18K loop</text>
+
+          <!-- Vertical loop -->
+          <rect x="215" y="55" width="185" height="280" rx="8" fill="var(--color-success)" opacity="0.05" stroke="var(--color-success)" stroke-width="1.5"/>
+          <text x="307" y="78" text-anchor="middle" font-weight="700" font-size="11" fill="var(--color-success)">VERTICAL</text>
+          <text x="307" y="92" text-anchor="middle" font-size="8">Closed-loop · Limited land</text>
+          <!-- House -->
+          <rect x="280" y="100" width="55" height="35" rx="4" fill="var(--color-success)" opacity="0.15" stroke="var(--color-success)" stroke-width="1"/>
+          <text x="307" y="122" text-anchor="middle" font-size="7">House</text>
+          <line x1="220" y1="145" x2="395" y2="145" stroke="var(--color-text-muted)" stroke-width="1" stroke-dasharray="3,2"/>
+          <!-- Vertical bores -->
+          <line x1="260" y1="145" x2="260" y2="280" stroke="var(--color-success)" stroke-width="2"/>
+          <line x1="307" y1="145" x2="307" y2="290" stroke="var(--color-success)" stroke-width="2"/>
+          <line x1="354" y1="145" x2="354" y2="280" stroke="var(--color-success)" stroke-width="2"/>
+          <!-- U-bends at bottom -->
+          <path d="M260 280 Q260 290 280 290 Q307 290 307 290" fill="none" stroke="var(--color-success)" stroke-width="2"/>
+          <path d="M307 290 Q354 290 354 280" fill="none" stroke="var(--color-success)" stroke-width="2"/>
+          <!-- Header pipe -->
+          <line x1="260" y1="145" x2="354" y2="145" stroke="var(--color-success)" stroke-width="2"/>
+          <line x1="307" y1="135" x2="307" y2="145" stroke="var(--color-success)" stroke-width="1.5"/>
+          <text x="307" y="305" text-anchor="middle" font-size="8">100-400ft deep bores</text>
+          <text x="307" y="318" text-anchor="middle" font-size="8">Best for: small lots,</text>
+          <text x="307" y="330" text-anchor="middle" font-size="8">commercial buildings</text>
+
+          <!-- Pond/Lake loop -->
+          <rect x="410" y="55" width="185" height="280" rx="8" fill="var(--color-accent)" opacity="0.05" stroke="var(--color-accent)" stroke-width="1.5"/>
+          <text x="502" y="78" text-anchor="middle" font-weight="700" font-size="11" fill="var(--color-accent)">POND / LAKE</text>
+          <text x="502" y="92" text-anchor="middle" font-size="8">Closed-loop · Least expensive</text>
+          <rect x="475" y="100" width="55" height="35" rx="4" fill="var(--color-accent)" opacity="0.15" stroke="var(--color-accent)" stroke-width="1"/>
+          <text x="502" y="122" text-anchor="middle" font-size="7">House</text>
+          <line x1="415" y1="145" x2="590" y2="145" stroke="var(--color-text-muted)" stroke-width="1" stroke-dasharray="3,2"/>
+          <!-- Water body -->
+          <rect x="425" y="160" width="155" height="130" rx="12" fill="var(--color-accent)" opacity="0.08"/>
+          <text x="502" y="175" text-anchor="middle" font-size="8" fill="var(--color-accent)">Water body</text>
+          <!-- Coils -->
+          <ellipse cx="460" cy="220" rx="18" ry="35" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+          <ellipse cx="502" cy="225" rx="18" ry="38" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+          <ellipse cx="545" cy="220" rx="18" ry="35" fill="none" stroke="var(--color-accent)" stroke-width="2"/>
+          <!-- Supply pipe -->
+          <path d="M502 135 L502 145 L502 160" fill="none" stroke="var(--color-accent)" stroke-width="1.5"/>
+          <text x="502" y="305" text-anchor="middle" font-size="8">Coils 8ft+ deep</text>
+          <text x="502" y="318" text-anchor="middle" font-size="8">Best for: properties with</text>
+          <text x="502" y="330" text-anchor="middle" font-size="8">adequate water body</text>
+
+          <!-- Open loop -->
+          <rect x="605" y="55" width="185" height="280" rx="8" fill="#6b3fa0" opacity="0.05" stroke="#6b3fa0" stroke-width="1.5"/>
+          <text x="697" y="78" text-anchor="middle" font-weight="700" font-size="11" fill="#6b3fa0">OPEN-LOOP</text>
+          <text x="697" y="92" text-anchor="middle" font-size="8">Uses well/surface water</text>
+          <rect x="670" y="100" width="55" height="35" rx="4" fill="#6b3fa0" opacity="0.15" stroke="#6b3fa0" stroke-width="1"/>
+          <text x="697" y="122" text-anchor="middle" font-size="7">House</text>
+          <line x1="610" y1="145" x2="785" y2="145" stroke="var(--color-text-muted)" stroke-width="1" stroke-dasharray="3,2"/>
+          <!-- Well -->
+          <rect x="640" y="145" width="20" height="140" fill="#6b3fa0" opacity="0.1" stroke="#6b3fa0" stroke-width="1.5"/>
+          <text x="650" y="300" text-anchor="middle" font-size="7">Supply well</text>
+          <!-- Recharge well -->
+          <rect x="735" y="145" width="20" height="140" fill="#6b3fa0" opacity="0.1" stroke="#6b3fa0" stroke-width="1.5"/>
+          <text x="745" y="300" text-anchor="middle" font-size="7">Recharge</text>
+          <!-- Pipes -->
+          <path d="M650 145 L650 100 L670 117" fill="none" stroke="#6b3fa0" stroke-width="2"/>
+          <path d="M745 145 L745 100 L725 117" fill="none" stroke="#6b3fa0" stroke-width="2"/>
+          <text x="697" y="305" text-anchor="middle" font-size="8">Needs clean water</text>
+          <text x="697" y="318" text-anchor="middle" font-size="8">supply + discharge</text>
+          <text x="697" y="330" text-anchor="middle" font-size="8">code compliance</text>
+        </g>
+      </svg>
+      <figcaption>Four ground loop configurations for geothermal heat pumps. Horizontal (left) is most cost-effective for new construction with land. Vertical (center-left) is used where land is limited. Pond/lake (center-right) is least expensive when a suitable water body exists. Open-loop (right) uses well water directly and requires adequate supply and discharge compliance.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Geothermal heat pumps — also called ground-source heat pumps — use the stable temperature of the earth (typically 45-75°F depending on latitude) as a heat source in winter and a heat sink in summer. The DOE reports they "reach high efficiencies (300%-600%) on the coldest of winter nights" and "can reduce energy consumption by approximately 25% to 50% compared to air source heat pump systems" ([DOE](https://www.energy.gov/sites/prod/files/guide_to_geothermal_heat_pumps.pdf)).</p>
+
+        <p>That efficiency advantage is real and well-documented. The question is whether it justifies an installation cost that runs $20,000-$45,000 — especially now that the federal 30% tax credit expired on December 31, 2025.</p>
+
+        <h2>Efficiency ratings: COP and EER by loop type</h2>
+        <p>ENERGY STAR's Version 3.2 specification sets different minimum efficiency thresholds depending on loop type and system configuration. Closed-loop systems, which circulate an antifreeze solution through buried plastic tubing, have lower minimums than open-loop systems, which use well water directly ([ENERGY STAR](https://www.energystar.gov/sites/default/files/Geothermal%20Heat%20Pump%20Version%203.2%20Final%20Specification.pdf)):</p>
+
+        <table class="compare-table">
+          <thead><tr><th>System Type</th><th>Loop Type</th><th>Min EER (Cooling)</th><th>Min COP (Heating)</th><th>Test Standard</th></tr></thead>
+          <tbody>
+            <tr><td>Water-to-Air</td><td>Closed Loop</td><td>17.1</td><td>3.6</td><td>ISO 13256-1</td></tr>
+            <tr><td>Water-to-Air</td><td>Open Loop</td><td>21.1</td><td>4.1</td><td>ISO 13256-1</td></tr>
+            <tr><td>Water-to-Water</td><td>Closed Loop</td><td>16.1</td><td>3.1</td><td>ISO 13256-2</td></tr>
+            <tr><td>Water-to-Water</td><td>Open Loop</td><td>20.1</td><td>3.5</td><td>ISO 13256-2</td></tr>
+            <tr><td>Direct Geoexchange (DGX)</td><td>Copper tubing</td><td>16.0</td><td>3.6</td><td>AHRI 870</td></tr>
+          </tbody>
+        </table>
+
+        <p>For context, ENERGY STAR's minimum for air-source heat pumps is 15.2 SEER2 and 7.8 HSPF2 for split systems — roughly equivalent to COP 2.3 at mild temperatures and COP 1.75 at 5°F for cold-climate designation ([ENERGY STAR](https://www.energystar.gov/products/air_source_heat_pumps/key-product-criteria)). Even the lowest-tier geothermal system (closed-loop water-to-water at COP 3.1) delivers 78% more heating output per watt than an air-source heat pump at 5°F.</p>
+
+        <p>The gap widens in cold weather. At 5°F outdoor temperature, a cold-climate air-source heat pump runs COP 1.75-2.2. A geothermal system at the same outdoor temperature still runs COP 3.5-4.5 because the ground temperature hasn't changed. The DOE notes geothermal systems "move between three and five times the energy they consume" ([DOE](https://www.energy.gov/sites/prod/files/guide_to_geothermal_heat_pumps.pdf)).</p>
+
+        <h2>Four ground loop types</h2>
+        <p>The DOE identifies four loop configurations, each suited to different site conditions ([DOE](https://www.energy.gov/energysaver/geothermal-heat-pumps)):</p>
+        <ul>
+          <li><strong>Horizontal closed-loop:</strong>The most cost-effective for residential installations with sufficient land. Requires trenches at least 4 feet deep. Best for new construction where excavation equipment is already on-site.</li>
+          <li><strong>Vertical closed-loop:</strong>Used where land is limited or soil is too shallow for horizontal loops. Bore holes are drilled 100-400 feet deep. More expensive but minimizes landscape disturbance. Common in commercial and urban residential.</li>
+          <li><strong>Pond/lake closed-loop:</strong>Often the least expensive option when a suitable water body is available. Coils are placed at least 8 feet below the surface to prevent freezing. Requires minimum volume, depth, and water quality.</li>
+          <li><strong>Open-loop:</strong>Uses well or surface water directly as the heat exchange fluid, then returns it to the ground. Achieves the highest efficiency (COP 4.1+ vs 3.6+ for closed-loop) but requires an adequate supply of relatively clean water and compliance with groundwater discharge codes.</li>
+        </ul>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>Open-loop efficiency advantage.</b>Open-loop systems consistently outperform closed-loop systems on efficiency because well water maintains a stable temperature year-round (typically 50-60°F in northern climates, 65-75°F in southern). The ENERGY STAR minimum for open-loop water-to-air is 21.1 EER / 4.1 COP versus 17.1 EER / 3.6 COP for closed-loop — a 23% cooling efficiency advantage and 14% heating advantage. But open-loop requires a reliable water source (typically 2-3 gallons per minute per ton of capacity), adequate water quality, and discharge permits. In areas with water restrictions or hard water, closed-loop is the safer choice despite lower efficiency.</p>
+        </div>
+
+        <h2>Cost vs. savings: the payback problem</h2>
+        <p>The DOE estimates geothermal installation costs at approximately $2,500 per ton of capacity for equipment, plus drilling or trenching costs. A 3-ton system runs about $7,500 in equipment alone, with total installed costs reaching $20,000-$45,000 depending on loop type and site conditions ([DOE](https://www.energy.gov/sites/prod/files/guide_to_geothermal_heat_pumps.pdf)). A comparable air-source heat pump system costs $5,000-$12,000 installed.</p>
+
+        <p>The DOE says the additional cost can be recouped through energy savings in 5 to 10 years, depending on local energy costs and available incentives ([DOE](https://www.energy.gov/energysaver/geothermal-heat-pumps)). But that payback calculation assumed the 30% federal tax credit was available. It no longer is.</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Factor</th><th>Geothermal (Closed-Loop)</th><th>Air-Source Heat Pump</th></tr></thead>
+          <tbody>
+            <tr><td>Typical installed cost</td><td>$20,000-$30,000</td><td>$5,000-$12,000</td></tr>
+            <tr><td>Heating COP (ENERGY STAR min)</td><td>3.6</td><td>~2.3 (at 47°F), 1.75 (at 5°F cold-climate)</td></tr>
+            <tr><td>Cooling EER (ENERGY STAR min)</td><td>17.1</td><td>11.0 EER2 (~12.6 EER)</td></tr>
+            <tr><td>Indoor component life</td><td>20-24 years</td><td>15-20 years</td></tr>
+            <tr><td>Ground loop life</td><td>50+ years</td><td>N/A</td></tr>
+            <tr><td>Federal tax credit (2026)</td><td>Expired (25D ended Dec 31, 2025)</td><td>Expired (25C ended Dec 31, 2025)</td></tr>
+            <tr><td>Payback without incentives</td><td>8-15+ years</td><td>Baseline</td></tr>
+          </tbody>
+        </table>
+
+        <h2>The tax credit expiration</h2>
+        <p>The Residential Clean Energy Credit under IRS Section 25D provided a 30% federal tax credit for geothermal heat pump installations with no dollar cap. Homeowners could claim it on IRS Form 5695 for systems placed in service through December 31, 2025 ([IRS](https://www.irs.gov/credits-deductions/residential-clean-energy-credit)). The credit was non-refundable but could be carried forward to future tax years.</p>
+
+        <p>The One Big Beautiful Bill Act (OBBBA), signed July 4, 2025, accelerated the termination of Section 25D. The IRS confirmed that "the credit will not be allowed for any expenditures made after December 31, 2025" — and clarified that an expenditure is treated as made when installation is completed, not when equipment is purchased ([IRS](https://www.irs.gov/newsroom/faqs-for-modification-of-sections-25c-25d-25e-30c-30d-45l-45w-and-179d-under-public-law-119-21-139-stat-72-july-4-2025-commonly-known-as-the-one-big-beautiful-bill-obbb)). Systems installed on or after January 1, 2026 do not qualify.</p>
+
+        <p>This significantly changes the geothermal payback equation. A $25,000 system that would have cost $17,500 after the 30% credit now costs the full $25,000. State and utility incentives may still be available — DSIRE (dsireusa.org) is the best resource for finding programs in your area — but the federal credit was the largest single incentive.</p>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Not an endorsement.</b>References to ENERGY STAR specifications, DOE efficiency data, and IRS tax credit provisions are informational only. This article does not recommend specific geothermal products, brands, or manufacturers. HVAC Zone Inc is brand-neutral. Geothermal system feasibility depends on site conditions (soil type, lot size, water table, drilling costs) that vary significantly by location. Consult a qualified installer and tax professional for project-specific guidance.</p>
+        </div>
+
+        <h2>When geothermal still makes sense</h2>
+        <p>Despite the loss of the federal tax credit, geothermal can still be the right choice in specific scenarios:</p>
+        <ul>
+          <li><strong>New construction with land:</strong>Horizontal loop installation during excavation costs significantly less than retrofitting. The loop cost is folded into construction financing.</li>
+          <li><strong>Cold climates (Zones 5-7):</strong>The efficiency gap between geothermal and air-source is largest in cold weather. A COP 4.0 geothermal system delivers 2.3x more heat per watt than a COP 1.75 cold-climate ASHP at 5°F.</li>
+          <li><strong>Properties with water bodies:</strong>Pond/lake loops are the least expensive closed-loop option and can dramatically reduce installation costs.</li>
+          <li><strong>Long-term ownership:</strong>With indoor components lasting 20-24 years and ground loops lasting 50+ years ([DOE](https://www.energy.gov/energysaver/geothermal-heat-pumps)), geothermal's lifecycle cost can beat air-source systems over 20+ years despite higher upfront cost.</li>
+          <li><strong>States with active incentives:</strong>Some states (NY, NJ, CT, MA) maintain their own geothermal rebate programs independent of the federal credit.</li>
+        </ul>
+
+        <h2>The bottom line</h2>
+        <p>Geothermal heat pumps are the most efficient HVAC technology available for residential use, with COP ratings 50-130% higher than air-source heat pumps and a lifespan that doubles or triples the ground-loop portion. But the federal 30% tax credit that made the payback math work expired December 31, 2025. Without it, the $15,000-$33,000 cost premium over air-source heat pumps requires 8-15+ years of energy savings to recover — and that's before considering the time value of money. For homeowners in cold climates with sufficient land, a reliable water source, or strong state incentives, geothermal can still pencil out. For everyone else, a cold-climate air-source heat pump at one-third the installed cost is the more practical choice.</p>
+
+        <p>Curious whether geothermal makes sense for your property? <a href="../index.html#contact">Request a consultation</a> — we'll evaluate your site conditions, soil type, lot size, and heating load to give you an honest assessment of whether ground-source is worth the investment or whether air-source is the better path.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Geothermal Heat Pumps</span><span class="tag">Ground Loop</span><span class="tag">COP Ratings</span><span class="tag">ENERGY STAR</span><span class="tag">Tax Credits</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="cold-climate-heat-pumps-electrification.html" class="card" data-cat="equipment">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Cold climate heat pump"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="35" fill="none" stroke="var(--color-primary)" stroke-width="2"/><path d="M200 90 L190 112 L210 112 L200 134" fill="none" stroke="var(--color-primary)" stroke-width="2"/></svg>
+              <span class="card-cat">Equipment</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Cold-Climate Heat Pumps and Electrification</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+          <a href="variable-speed-vs-two-stage-compressor-hvac.html" class="card" data-cat="equipment">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Compressor types"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="30" fill="none" stroke="var(--color-success)" stroke-width="2"/><path d="M170 112 Q200 80 230 112" fill="none" stroke="var(--color-success)" stroke-width="2"/></svg>
+              <span class="card-cat">Equipment</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Variable-Speed vs Two-Stage Compressors</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="hvac-tax-credits-rebates-2026-what-changed.html" class="card" data-cat="trends">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Tax credits"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="150" y="80" width="100" height="65" rx="8" fill="none" stroke="var(--color-accent)" stroke-width="2"/></svg>
+              <span class="card-cat">Trends</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">HVAC Tax Credits and Rebates 2026: What Changed</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

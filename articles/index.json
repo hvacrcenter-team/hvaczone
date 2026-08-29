@@ -1,0 +1,987 @@
+[
+  {
+    "slug": "uvgi-ultraviolet-germicidal-irradiation-hvac-coil-air-disinfection",
+    "title": "UVGI in HVAC: How Ultraviolet Germicidal Irradiation Cleans Coils and Disinfects Air",
+    "excerpt": "UVGI uses UV-C light at 253.7 nm to damage DNA and RNA of microorganisms, preventing replication. ASHRAE recognizes it as the only technology for effective disinfection of air and surfaces in HVAC systems, with documented kill rates above 99% and coil-cleaning energy savings of 10-30%.",
+    "category": "iaq",
+    "categoryLabel": "IAQ",
+    "date": "2026-08-29",
+    "dateLabel": "Today",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/uvgi-ultraviolet-germicidal-irradiation-hvac-coil-air-disinfection.html",
+    "tags": [
+      "UVGI",
+      "UV-C",
+      "Ultraviolet Germicidal Irradiation",
+      "Coil Cleaning",
+      "Air Disinfection",
+      "ASHRAE Standard 185"
+    ]
+  },
+  {
+    "slug": "vrf-systems-variable-refrigerant-flow-commercial-hvac",
+    "title": "VRF Systems Explained: How Variable Refrigerant Flow Cuts Commercial HVAC Energy 30-50%",
+    "excerpt": "VRF systems use inverter-driven compressors and electronic expansion valves to serve multiple zones from one outdoor unit. DOE, ORNL, and GSA studies document 15-52% HVAC energy savings over conventional systems, with heat recovery enabling simultaneous heating and cooling.",
+    "category": "equipment",
+    "categoryLabel": "Equipment",
+    "date": "2026-08-28",
+    "dateLabel": "Yesterday",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/vrf-systems-variable-refrigerant-flow-commercial-hvac.html",
+    "tags": [
+      "VRF",
+      "Variable Refrigerant Flow",
+      "Heat Recovery",
+      "Commercial HVAC",
+      "Energy Efficiency",
+      "Inverter Compressor"
+    ]
+  },
+  {
+    "slug": "thermal-bridging-continuous-insulation-building-science",
+    "title": "Thermal Bridging & Continuous Insulation: Why Your Wall's R-Value Isn't What You Think",
+    "excerpt": "An R-13 wall only delivers R-9.4 in practice \u2014 thermal bridging through studs, steel, and concrete bypasses insulation. Continuous insulation fixes this. ASHRAE 90.1 requires it in most climate zones.",
+    "category": "building",
+    "categoryLabel": "Building Science",
+    "date": "2026-08-27",
+    "dateLabel": "2 days ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/thermal-bridging-continuous-insulation-building-science.html",
+    "tags": [
+      "Thermal Bridging",
+      "Continuous Insulation",
+      "Building Envelope",
+      "ASHRAE 90.1",
+      "Advanced Framing",
+      "R-Value"
+    ]
+  },
+  {
+    "slug": "hvac-fault-detection-diagnostics-afdd-energy-savings",
+    "title": "HVAC Fault Detection & Diagnostics: How Automated Monitoring Cuts Energy Waste",
+    "excerpt": "5-30% of commercial building energy is wasted due to HVAC control faults. DOE/LBNL studies show FDD software delivers median savings of 8-9% with payback under 2 years. Residential faults waste 20.7 TWh and $2.5 billion annually.",
+    "category": "smart",
+    "categoryLabel": "Smart Tech",
+    "date": "2026-08-26",
+    "dateLabel": "3 days ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-fault-detection-diagnostics-afdd-energy-savings.html",
+    "tags": [
+      "FDD",
+      "Fault Detection",
+      "Energy Efficiency",
+      "Diagnostics",
+      "Building Automation",
+      "Smart Monitoring"
+    ]
+  },
+  {
+    "slug": "grid-interactive-efficient-buildings-hvac-demand-response",
+    "title": "Grid-Interactive Efficient Buildings: How HVAC Demand Response Reshapes the Grid",
+    "excerpt": "Buildings consume 75% of U.S. electricity. DOE, ASHRAE, and NREL are advancing a framework where HVAC systems actively balance the grid by shedding and shifting load \u2014 potentially reducing peak demand by 246 GW and cutting the need for new generation by 25% by 2035.",
+    "category": "outlook",
+    "categoryLabel": "Industry Outlook",
+    "date": "2026-08-25",
+    "dateLabel": "4 days ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/grid-interactive-efficient-buildings-hvac-demand-response.html",
+    "tags": [
+      "Grid-Interactive",
+      "Demand Response",
+      "OpenADR",
+      "Smart Grid",
+      "Decarbonization",
+      "ASHRAE 223P"
+    ]
+  },
+  {
+    "slug": "hvac-week-in-review-aug-17-23-2026",
+    "title": "HVAC Week in Review: August 17\u201323, 2026",
+    "excerpt": "ASHRAE opens public review for Standards 62.2, 90.1, 180, and 189.1. Senate Energy Efficiency Reform Act targets DOE's six-year review requirement. August brings another round of manufacturer price increases. Commercial HVAC market projected to reach $113B by 2035.",
+    "category": "trends",
+    "categoryLabel": "Industry Trends",
+    "date": "2026-08-24",
+    "dateLabel": "5 days ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-week-in-review-aug-17-23-2026.html",
+    "tags": [
+      "Weekly Roundup",
+      "ASHRAE",
+      "DOE",
+      "Price Increases",
+      "Refrigerants",
+      "Industry News"
+    ]
+  },
+  {
+    "slug": "psychrometrics-chart-wet-bulb-dew-point-hvac",
+    "title": "Psychrometrics for HVAC: The Psychrometric Chart, Wet Bulb & Dew Point",
+    "excerpt": "Dry bulb, wet bulb, and dew point aren't textbook terms \u2014 they're the measurements every HVAC tech uses to diagnose comfort, verify dehumidification, and prevent the condensation that causes mold. EPA's 55\u00b0F dew point rule, ASHRAE 55 comfort zones, and how to read the psychrometric chart.",
+    "category": "tools",
+    "categoryLabel": "Tools",
+    "date": "2026-08-23",
+    "dateLabel": "6 days ago",
+    "readTime": "9 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/psychrometrics-chart-wet-bulb-dew-point-hvac.html",
+    "tags": [
+      "Psychrometrics",
+      "Wet Bulb",
+      "Dew Point",
+      "ASHRAE 55",
+      "Mold Prevention",
+      "Psychrometric Chart"
+    ]
+  },
+  {
+    "slug": "volatile-organic-compounds-vocs-homes-ventilation-health",
+    "title": "Volatile Organic Compounds (VOCs) in Homes: Sources, Health Effects, and How Ventilation Removes Them",
+    "excerpt": "Indoor VOC concentrations are up to 10 times higher than outdoors (EPA). Here's what emits VOCs \u2014 paints, building materials, furniture, cleaning products \u2014 the health effects including cancer risk from formaldehyde, EPA's three strategies for reduction, and how ASHRAE 62.2 ventilation requirements protect indoor air quality.",
+    "category": "iaq",
+    "categoryLabel": "Indoor Air Quality",
+    "date": "2026-08-22",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/volatile-organic-compounds-vocs-homes-ventilation-health.html",
+    "tags": [
+      "VOCs",
+      "Formaldehyde",
+      "Indoor Air Quality",
+      "ASHRAE 62.2",
+      "Ventilation",
+      "Source Control"
+    ]
+  },
+  {
+    "slug": "ductless-mini-split-vs-central-hvac-efficiency-cost",
+    "title": "Ductless Mini-Split Heat Pumps vs Central HVAC: Efficiency, Cost, and When to Choose",
+    "excerpt": "Ductless mini-splits eliminate the duct losses that waste 25-40% of heating and cooling energy. The DOE says heat pumps cut electricity use by 50% vs furnaces and baseboard heaters. Here's how mini-splits compare to central HVAC on SEER2, cost, cold-climate performance, and when each system wins.",
+    "category": "equipment",
+    "categoryLabel": "Equipment",
+    "date": "2026-08-21",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/ductless-mini-split-vs-central-hvac-efficiency-cost.html",
+    "tags": [
+      "Mini-Split",
+      "Heat Pump",
+      "Ductless",
+      "SEER2",
+      "Energy Efficiency",
+      "Cold Climate"
+    ]
+  },
+  {
+    "slug": "blower-door-testing-air-sealing-ach50-building-envelope",
+    "title": "Blower Door Testing and Air Sealing: The Hidden 30% Energy Waste in Homes",
+    "excerpt": "Air leakage accounts for 25-40% of heating and cooling energy in a typical home. Here's how blower door tests measure ACH50, how building codes tightened from 7 to 3 ACH50, where the biggest hidden leaks are, and why tightening a home requires mechanical ventilation.",
+    "category": "building",
+    "categoryLabel": "Building Science",
+    "date": "2026-08-20",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/blower-door-testing-air-sealing-ach50-building-envelope.html",
+    "tags": [
+      "Air Sealing",
+      "Blower Door",
+      "ACH50",
+      "Building Envelope",
+      "Infiltration",
+      "Energy Efficiency"
+    ]
+  },
+  {
+    "slug": "building-automation-systems-bacnet-hvac-smart-controls",
+    "title": "Building Automation Systems for HVAC: How Smart Buildings Cut Energy by 30%",
+    "excerpt": "The DOE says high-performance controls can cut commercial HVAC energy use by 30%. Here's how BACnet (ASHRAE Standard 135), Modbus, and five core control strategies work, what BAS costs per square foot, and why systems degrade 3% per year without recommissioning.",
+    "category": "smart",
+    "categoryLabel": "Smart Controls",
+    "date": "2026-08-19",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/building-automation-systems-bacnet-hvac-smart-controls.html",
+    "tags": [
+      "BAS",
+      "BACnet",
+      "ASHRAE 135",
+      "Commercial HVAC",
+      "Energy Efficiency",
+      "Smart Controls"
+    ]
+  },
+  {
+    "slug": "hvac-system-evacuation-micron-gauges-vacuum-pumps",
+    "title": "HVAC System Evacuation: Micron Gauges, Vacuum Pumps, and Why Deep Vacuum Matters",
+    "excerpt": "Skipping evacuation is one of the most common causes of premature compressor failure. EPA Section 608 sets legal recovery minimums; ASHRAE requires 500 microns or below before charging. Here's what micron gauges measure, why POE oil makes moisture lethal, and how to verify a proper evacuation.",
+    "category": "tools",
+    "categoryLabel": "Tools & Equipment",
+    "date": "2026-08-18",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-system-evacuation-micron-gauges-vacuum-pumps.html",
+    "tags": [
+      "Evacuation",
+      "Micron Gauge",
+      "Vacuum Pump",
+      "POE Oil",
+      "ASHRAE",
+      "EPA Section 608"
+    ]
+  },
+  {
+    "slug": "hvac-week-in-review-aug-10-16-2026",
+    "title": "HVAC Week in Review: August 11-17, 2026",
+    "excerpt": "Industry price hikes up to 25%, a Senate bill to overhaul DOE efficiency standards, Samsung's AI data center cooling push, R-290 heat pumps reaching multi-family scale, and refrigerant litigation intensifying. Here's the week in HVAC.",
+    "category": "trends",
+    "categoryLabel": "Industry Trends",
+    "date": "2026-08-17",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-week-in-review-aug-10-16-2026.html",
+    "tags": [
+      "Weekly Roundup",
+      "Price Increases",
+      "DOE Standards",
+      "R-290",
+      "AIM Act",
+      "Data Center Cooling"
+    ]
+  },
+  {
+    "slug": "natural-refrigerants-r744-r290-r717-outlook",
+    "title": "Natural Refrigerants: The Next Frontier Beyond A2Ls",
+    "excerpt": "A2L refrigerants like R-32 and R-454B are the bridge from R-410A, but they still carry GWP of 466-675. The real endgame is natural refrigerants \u2014 CO2 (GWP 1), propane (GWP 3), and ammonia (GWP 0). Here's how each compares on safety, efficiency, cost, and real-world readiness.",
+    "category": "outlook",
+    "categoryLabel": "Industry Outlook",
+    "date": "2026-08-16",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/natural-refrigerants-r744-r290-r717-outlook.html",
+    "tags": [
+      "Natural Refrigerants",
+      "R-744",
+      "R-290",
+      "R-717",
+      "GWP",
+      "Electrification"
+    ]
+  },
+  {
+    "slug": "radon-gas-hvac-mitigation-lung-cancer",
+    "title": "Radon Gas and HVAC: The Second Leading Cause of Lung Cancer Hides in Your Basement",
+    "excerpt": "Radon causes about 21,000 lung cancer deaths per year. The EPA action level is 4 pCi/L; WHO recommends 100 Bq/m\u00b3 (2.7 pCi/L). Sub-slab depressurization reduces radon 50-99% for $800-$2,500. Here's how HVAC systems interact with radon and which mitigation methods work.",
+    "category": "iaq",
+    "categoryLabel": "Indoor Air Quality",
+    "date": "2026-08-15",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/radon-gas-hvac-mitigation-lung-cancer.html",
+    "tags": [
+      "Radon",
+      "IAQ",
+      "Lung Cancer",
+      "Sub-Slab Depressurization",
+      "Mitigation"
+    ]
+  },
+  {
+    "slug": "geothermal-heat-pumps-cop-ground-loops-cost",
+    "title": "Geothermal Heat Pumps: COP, Ground Loop Types, and Whether the Math Still Works",
+    "excerpt": "The DOE says geothermal heat pumps reach 300-600% efficiency and cut energy use 25-50% versus air-source systems. ENERGY STAR requires COP 3.6+ for closed-loop and 4.1+ for open-loop. But with installation costs of $20K-$45K and the federal 30% tax credit expired as of December 31, 2025, does the efficiency advantage still justify the premium?",
+    "category": "equipment",
+    "categoryLabel": "Equipment",
+    "date": "2026-08-14",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/geothermal-heat-pumps-cop-ground-loops-cost.html",
+    "tags": [
+      "Geothermal Heat Pumps",
+      "Ground Loop",
+      "COP Ratings",
+      "ENERGY STAR",
+      "Tax Credits"
+    ]
+  },
+  {
+    "slug": "vapor-barriers-vapor-retarders-climate-zones",
+    "title": "Vapor Barriers and Vapor Retarders: Where They Go and Why Getting It Wrong Causes Mold",
+    "excerpt": "Building Science Corporation classifies vapor control into three permeance classes \u2014 and the wrong one in the wrong climate zone traps moisture inside walls. The IRC requires Class I or II in cold climates, but BSC recommends avoiding Class I in most wall assemblies.",
+    "category": "building",
+    "categoryLabel": "Building Science",
+    "date": "2026-08-13",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/vapor-barriers-vapor-retarders-climate-zones.html",
+    "tags": [
+      "Vapor Barriers",
+      "Building Science",
+      "Moisture Control",
+      "Mold Prevention",
+      "Air Sealing"
+    ]
+  },
+  {
+    "slug": "hvac-zoning-systems-motorized-dampers-savings",
+    "title": "HVAC Zoning Systems: Do Motorized Dampers Save Enough to Justify the Cost?",
+    "excerpt": "A peer-reviewed study found HVAC zoning saves 21-42% on heating and cooling with payback periods of 3.2-4.3 years. NREL found smart home systems save 7-35%. Here's how zoning works, what it costs to retrofit, and when it makes sense.",
+    "category": "smart",
+    "categoryLabel": "Smart Controls & Zoning",
+    "date": "2026-08-12",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-zoning-systems-motorized-dampers-savings.html",
+    "tags": [
+      "HVAC Zoning",
+      "Motorized Dampers",
+      "Smart Controls",
+      "Energy Savings",
+      "Bypass Damper"
+    ]
+  },
+  {
+    "slug": "thermal-imaging-ir-cameras-hvac-diagnostics",
+    "title": "Thermal Imaging for HVAC Diagnostics: What IR Cameras Reveal",
+    "excerpt": "Infrared thermography lets technicians see duct leaks, insulation gaps, thermal bridges, and electrical faults without cutting walls. Peer-reviewed research confirms it identifies air leakage locations and relative severity. Here's what the technology can and can't do, and when it's worth the cost.",
+    "category": "tools",
+    "categoryLabel": "Tools & Diagnostics",
+    "date": "2026-08-11",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/thermal-imaging-ir-cameras-hvac-diagnostics.html",
+    "tags": [
+      "Thermal Imaging",
+      "Infrared Thermography",
+      "Duct Leaks",
+      "Diagnostics",
+      "Building Envelope"
+    ]
+  },
+  {
+    "slug": "hvac-week-in-review-aug-3-9-2026",
+    "title": "HVAC Week in Review: Aug 3-9, 2026",
+    "excerpt": "Senate bill would codify DOE Process Rule and void the 95% gas furnace rule. Heat pump shipments outpace furnaces by 32% in Q1 2026. DOE rebate fuel-switching deadline hits Aug 29. EPA R-410A Reconsideration Rule takes effect. Chicago wildfire smoke study finds indoor AQI 340 at 600+ outdoor.",
+    "category": "trends",
+    "categoryLabel": "Weekly Roundup",
+    "date": "2026-08-10",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-week-in-review-aug-3-9-2026.html",
+    "tags": [
+      "Weekly Roundup",
+      "DOE Process Rule",
+      "Heat Pump Shipments",
+      "HEAR Rebates",
+      "R-410A",
+      "Wildfire Smoke"
+    ]
+  },
+  {
+    "slug": "r410a-phase-down-outlook-2026-2027",
+    "title": "The R-410A Phase-Down: What Homeowners and Contractors Face in 2026-2027",
+    "excerpt": "R-410A manufacturing for new equipment ended January 1, 2025. EPA's May 2026 Reconsideration Rule adds new twists. R-454B and R-32 are the leading A2L replacements, but they bring new safety requirements, tool changes, and service protocols. Here's the full timeline and what it means for your next HVAC decision.",
+    "category": "outlook",
+    "categoryLabel": "Regulatory Outlook",
+    "date": "2026-08-09",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/r410a-phase-down-outlook-2026-2027.html",
+    "tags": [
+      "R-410A Phase-Down",
+      "A2L",
+      "R-454B",
+      "AIM Act",
+      "Refrigerant Transition"
+    ]
+  },
+  {
+    "slug": "heat-pump-water-heater-uef-2029-doe-standard",
+    "title": "Heat Pump Water Heaters: How They Work and Why DOE Is Forcing the Shift",
+    "excerpt": "A heat pump water heater moves 3-4 units of heat for every 1 unit of electricity \u2014 3x more efficient than electric resistance. DOE's 2029 standard will require heat pump technology for most electric tanks over 35 gallons, shifting 61% of the market. Here's how the technology works, what it costs, and when it makes sense.",
+    "category": "equipment",
+    "categoryLabel": "Equipment & Efficiency",
+    "date": "2026-08-08",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/heat-pump-water-heater-uef-2029-doe-standard.html",
+    "tags": [
+      "Heat Pump Water Heater",
+      "UEF",
+      "DOE 2029 Standard",
+      "Electrification",
+      "25C Tax Credit"
+    ]
+  },
+  {
+    "slug": "wildfire-smoke-hvac-filtration-pm25",
+    "title": "Wildfire Smoke and Your HVAC: How Filtration Responds to PM2.5 Events",
+    "excerpt": "When wildfire smoke pushes outdoor PM2.5 past 200 \u00b5g/m\u00b3, your HVAC filter is the first line of defense. EPA data shows indoor PM2.5 typically reaches 55-60% of outdoor levels. ASHRAE recommends MERV 13+ \u2014 but new research reveals filter media type matters as much as the rating.",
+    "category": "iaq",
+    "categoryLabel": "IAQ & Filtration",
+    "date": "2026-08-07",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/wildfire-smoke-hvac-filtration-pm25.html",
+    "tags": [
+      "Wildfire Smoke",
+      "PM2.5",
+      "MERV 13",
+      "Filtration",
+      "IAQ"
+    ]
+  },
+  {
+    "slug": "manual-j-load-calculation-hvac-sizing",
+    "title": "Manual J and HVAC Sizing: Why Oversizing Is the Most Common Installation Mistake",
+    "excerpt": "DOE research found that 33-48% of residential HVAC systems are oversized. A study of 941 homes found only 1% had right-sized heating equipment and 6% had right-sized cooling. The fix \u2014 an ACCA Manual J load calculation \u2014 takes 30-60 minutes. Here's why most contractors skip it and what it costs you.",
+    "category": "building",
+    "categoryLabel": "Building Science & Sizing",
+    "date": "2026-08-06",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/manual-j-load-calculation-hvac-sizing.html",
+    "tags": [
+      "Manual J",
+      "Load Calculation",
+      "Oversizing",
+      "ACCA",
+      "Right-Sizing"
+    ]
+  },
+  {
+    "slug": "smart-thermostat-energy-savings-what-data-shows",
+    "title": "Smart Thermostat Energy Savings: What the Data Actually Shows",
+    "excerpt": "Manufacturers advertise savings of 23-26%. ENERGY STAR's field data shows an average of 8% ($50/year). NREL's simulation research finds 0-12% depending on the algorithm. Here's what DOE, NREL, and EPA data actually say \u2014 and why the gap between marketing and measured savings matters.",
+    "category": "smart",
+    "categoryLabel": "Thermostats & Controls",
+    "date": "2026-08-05",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/smart-thermostat-energy-savings-what-data-shows.html",
+    "tags": [
+      "Smart Thermostat",
+      "Energy Savings",
+      "ENERGY STAR",
+      "NREL",
+      "Setback"
+    ]
+  },
+  {
+    "slug": "refrigerant-leak-detection-methods-hvac-tools",
+    "title": "Refrigerant Leak Detection: Methods, Tools, and A2L Safety",
+    "excerpt": "EPA Section 608 requires leak repair for systems with 50+ lb charge at 10-30% annual leak rates. Here's how electronic detectors, dye testing, nitrogen pressure testing, and ultrasonic methods compare \u2014 and what changes with A2L flammable refrigerants.",
+    "category": "tools",
+    "categoryLabel": "Leak Detection & Safety",
+    "date": "2026-08-04",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/refrigerant-leak-detection-methods-hvac-tools.html",
+    "tags": [
+      "Leak Detection",
+      "Section 608",
+      "A2L Safety",
+      "Refrigerant",
+      "ASHRAE 15"
+    ]
+  },
+  {
+    "slug": "hvac-week-in-review-july-27-aug-2-2026",
+    "title": "HVAC Week in Review: July 27 - August 2, 2026",
+    "excerpt": "DOE finalizes stricter commercial RTU efficiency rules with mandatory part-load testing. Nineteen AGs sue over EPA refrigerant rollback. EU cuts Q4 F-gas quotas 35%. Carrier and Watsco report stabilizing post-A2L demand. NEC GFCI exemption for outdoor HVAC expires Sept 1.",
+    "category": "trends",
+    "categoryLabel": "HVAC Week in Review",
+    "date": "2026-08-03",
+    "dateLabel": "1 week ago",
+    "readTime": "9 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-week-in-review-july-27-aug-2-2026.html",
+    "tags": [
+      "Weekly Roundup",
+      "DOE",
+      "EPA",
+      "AIM Act",
+      "A2L",
+      "Refrigerants",
+      "NEC"
+    ]
+  },
+  {
+    "slug": "hvac-tax-credits-rebates-2026-what-changed",
+    "title": "HVAC Tax Credits and Rebates in 2026: What Expired and What's Still Available",
+    "excerpt": "The 25C tax credit \u2014 up to $2,000 for heat pumps and $600 for central AC \u2014 expired December 31, 2025. The Residential Clean Energy Credit for geothermal heat pumps is also gone. Here's what the IRS, DOE, and Treasury now say about what homeowners can actually claim.",
+    "category": "outlook",
+    "categoryLabel": "Incentives & Regulations",
+    "date": "2026-08-02",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-tax-credits-rebates-2026-what-changed.html",
+    "tags": [
+      "Tax Credits",
+      "25C",
+      "Rebates",
+      "Inflation Reduction Act",
+      "OBBB"
+    ]
+  },
+  {
+    "slug": "variable-speed-vs-two-stage-compressor-hvac",
+    "title": "Variable-Speed vs Two-Stage vs Single-Stage: What Compressor Technology Means for Comfort and Efficiency",
+    "excerpt": "DOE research shows 15-40% energy savings from variable-speed compressors. NREL field studies confirm inverter-driven heat pumps exceed rated efficiency at part load. But cycling losses, minimum capacity floors, and real-world installation quality determine whether you actually see those savings.",
+    "category": "equipment",
+    "categoryLabel": "Compressors & Efficiency",
+    "date": "2026-08-01",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/variable-speed-vs-two-stage-compressor-hvac.html",
+    "tags": [
+      "Variable-Speed",
+      "Inverter Compressor",
+      "Two-Stage",
+      "SEER2",
+      "Efficiency"
+    ]
+  },
+  {
+    "slug": "merv-ratings-hvac-air-filters-explained",
+    "title": "MERV Ratings Explained: Which HVAC Air Filter Actually Protects Your Air",
+    "excerpt": "EPA recommends MERV 13, but most residential HVAC systems were designed for a MERV 2 fiberglass filter. Slapping a high-MERV filter in a standard 1-inch slot can freeze your coil and spike your energy bill. Here's how to balance filtration with airflow.",
+    "category": "iaq",
+    "categoryLabel": "IAQ & Filtration",
+    "date": "2026-07-31",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/merv-ratings-hvac-air-filters-explained.html",
+    "tags": [
+      "MERV Ratings",
+      "Air Filters",
+      "Pressure Drop",
+      "PM2.5",
+      "Indoor Air Quality"
+    ]
+  },
+  {
+    "slug": "attic-insulation-ventilation-radiant-barriers",
+    "title": "Your Attic Is Costing You: Insulation, Ventilation, and Radiant Barriers That Cut HVAC Load",
+    "excerpt": "50-70% of US homes have HVAC ductwork in the attic, losing 30-50 MBtu per year. Here is what DOE, ENERGY STAR, and building science research say about attic insulation, ventilation, and radiant barriers \u2014 and which upgrades actually pay off.",
+    "category": "building",
+    "categoryLabel": "Building Science & Envelope",
+    "date": "2026-07-30",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/attic-insulation-ventilation-radiant-barriers.html",
+    "tags": [
+      "Attic Insulation",
+      "Radiant Barriers",
+      "Air Sealing",
+      "Ductwork",
+      "Building Science"
+    ]
+  },
+  {
+    "slug": "doe-process-rule-hvac-efficiency-standards",
+    "title": "The DOE Process Rule Overhaul: What It Means for HVAC Efficiency Standards",
+    "excerpt": "The Department of Energy has proposed sweeping changes to the rule that governs how every HVAC efficiency standard is set. The comment window is open now \u2014 here's what changes, what doesn't, and why it matters for furnaces, ACs, and heat pumps.",
+    "category": "outlook",
+    "categoryLabel": "Regulations & Outlook",
+    "date": "2026-07-29",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/doe-process-rule-hvac-efficiency-standards.html",
+    "tags": [
+      "DOE",
+      "Process Rule",
+      "Efficiency Standards",
+      "SEER2",
+      "Regulation"
+    ]
+  },
+  {
+    "slug": "demand-controlled-ventilation-co2-sensors",
+    "title": "Demand-Controlled Ventilation: CO\u2082 Sensors That Cut Waste, Not Air",
+    "excerpt": "Buildings are often overventilated by up to six times the required minimum. CO2-based demand-controlled ventilation modulates outdoor air based on actual occupancy \u2014 but CO2 is a ventilation proxy, not a complete IAQ score. Here's what DOE, NIST, EPA, and field research say about the savings and the tradeoffs.",
+    "category": "smart",
+    "categoryLabel": "Smart Ventilation & IAQ",
+    "date": "2026-07-28",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/demand-controlled-ventilation-co2-sensors.html",
+    "tags": [
+      "Demand-Controlled Ventilation",
+      "CO2 Sensors",
+      "Smart Ventilation",
+      "Energy Savings",
+      "IAQ"
+    ]
+  },
+  {
+    "slug": "hvac-week-in-review-july-20-26-2026",
+    "title": "HVAC Week in Review: July 20\u201326, 2026",
+    "excerpt": "A refrigerant rule under legal fire, an efficiency rulemaking open for comment, a European electrification target, and new cross-border tariffs \u2014 all active this week and each one reaches into how buildings are heated, cooled, and supplied.",
+    "category": "trends",
+    "categoryLabel": "HVAC Week in Review",
+    "date": "2026-07-27",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-week-in-review-july-20-26-2026.html",
+    "tags": [
+      "Weekly Roundup",
+      "Refrigerant",
+      "Regulation",
+      "Electrification",
+      "Supply Chain"
+    ]
+  },
+  {
+    "slug": "heat-pump-water-heaters-electrification",
+    "title": "Heat Pump Water Heaters: Efficient, But Not Plug-and-Forget",
+    "excerpt": "A heat pump water heater can be 2-3x more efficient than an electric resistance tank \u2014 but it cools and dehumidifies the room it sits in. Here's what DOE, ENERGY STAR, and field research say about HPWH efficiency, the new federal standard, and the install trade-offs.",
+    "category": "equipment",
+    "categoryLabel": "Water Heating & Electrification",
+    "date": "2026-07-26",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/heat-pump-water-heaters-electrification.html",
+    "tags": [
+      "Heat Pump Water Heater",
+      "UEF",
+      "Electrification",
+      "DOE Standards",
+      "Energy Efficiency"
+    ]
+  },
+  {
+    "slug": "carbon-monoxide-combustion-safety-hvac-checks",
+    "title": "Carbon Monoxide & Combustion Safety: The HVAC Checks That Matter",
+    "excerpt": "CO is the HVAC hazard you can't see or smell. Here's what CPSC, EPA, NFPA, and peer-reviewed research say about CO sources, backdrafting, alarms, and the combustion-safety checks that matter for fuel-burning equipment.",
+    "category": "tools",
+    "categoryLabel": "Combustion Safety",
+    "date": "2026-07-25",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/carbon-monoxide-combustion-safety-hvac-checks.html",
+    "tags": [
+      "Carbon Monoxide",
+      "Combustion Safety",
+      "Backdrafting",
+      "CO Alarms",
+      "Draft Testing"
+    ]
+  },
+  {
+    "slug": "time-of-use-rates-hvac-load-shifting",
+    "title": "Time-of-Use Rates & HVAC: Shift Cooling Without Losing Comfort",
+    "excerpt": "Under time-of-use pricing, the cost to run your AC can change by the hour. Here's what EIA and DOE say about demand response, load shifting, and precooling \u2014 and when chasing a lower rate isn't worth it.",
+    "category": "smart",
+    "categoryLabel": "Smart Grid & Controls",
+    "date": "2026-07-24",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/time-of-use-rates-hvac-load-shifting.html",
+    "tags": [
+      "Time-of-Use",
+      "Demand Response",
+      "Load Shifting",
+      "Precooling",
+      "Smart Grid"
+    ]
+  },
+  {
+    "slug": "duct-leakage-sealing-distribution-system",
+    "title": "Duct Leakage & Sealing: The Distribution System You're Forgetting",
+    "excerpt": "You can buy a high-SEER2 system and still lose 20-30% of conditioned air to leaky ducts. Here's what ENERGY STAR, DOE, and EPA say about how much leaks, where it hurts, and the methods that actually hold up.",
+    "category": "building",
+    "categoryLabel": "Ducts & Airflow",
+    "date": "2026-07-23",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/duct-leakage-sealing-distribution-system.html",
+    "tags": [
+      "Duct Leakage",
+      "Duct Sealing",
+      "Mastic",
+      "Airflow",
+      "Building Science"
+    ]
+  },
+  {
+    "slug": "erv-vs-hrv-ventilation-recovery",
+    "title": "ERV vs HRV: Heat & Energy Recovery Ventilation Explained",
+    "excerpt": "Tight modern homes need mechanical ventilation. Here's the difference between HRV and ERV recovery ventilators, when each fits, what the EPA and peer-reviewed research say about IAQ and energy, and why a recovery ventilator isn't a dehumidifier.",
+    "category": "iaq",
+    "categoryLabel": "Ventilation & IAQ",
+    "date": "2026-07-22",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/erv-vs-hrv-ventilation-recovery.html",
+    "tags": [
+      "ERV",
+      "HRV",
+      "Ventilation",
+      "Recovery",
+      "IAQ"
+    ]
+  },
+  {
+    "slug": "cold-climate-heat-pumps-electrification",
+    "title": "Cold-Climate Heat Pumps & Electrification: What Actually Works",
+    "excerpt": "Do heat pumps work in cold climates? What ENERGY STAR, NREL, and peer-reviewed research say about cold-climate heat pumps \u2014 COP at 5\u00b0F \u22651.75, HSPF2, backup heat, defrost, and the electrification cost trade-offs.",
+    "category": "equipment",
+    "categoryLabel": "Heat Pumps & Electrification",
+    "date": "2026-07-21",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/cold-climate-heat-pumps-electrification.html",
+    "tags": [
+      "Heat Pumps",
+      "Cold Climate",
+      "Electrification",
+      "COP",
+      "HSPF2"
+    ]
+  },
+  {
+    "slug": "hvac-week-in-review-july-13-19-2026",
+    "title": "HVAC Week in Review: July 13-19, 2026",
+    "excerpt": "A policy-and-supply-chain week: a federal housing law, a state ultra-low-GWP refrigerant task force, a regional efficiency-standards bill, a grid-cost proposal, and a $100B semiconductor investment \u2014 each tied back to HVACR and IAQ.",
+    "category": "trends",
+    "categoryLabel": "HVAC Week in Review",
+    "date": "2026-07-20",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-week-in-review-july-13-19-2026.html",
+    "tags": [
+      "Weekly Roundup",
+      "Policy",
+      "Refrigerant",
+      "Supply Chain",
+      "Electrification"
+    ]
+  },
+  {
+    "slug": "indoor-humidity-dehumidification-mold",
+    "title": "Indoor Humidity, Dehumidifiers & Mold: A Contractor's Guide",
+    "excerpt": "High indoor humidity feeds mold and dust mites long before you see them. What the EPA and peer-reviewed research say about the 30-60% RH target, why AC alone isn't always enough, and how to size a dehumidifier.",
+    "category": "iaq",
+    "categoryLabel": "Humidity & IAQ",
+    "date": "2026-07-19",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/indoor-humidity-dehumidification-mold.html",
+    "tags": [
+      "Humidity",
+      "Dehumidifier",
+      "Mold",
+      "Relative Humidity",
+      "IAQ"
+    ]
+  },
+  {
+    "slug": "wildfire-smoke-air-filtration-hvac",
+    "title": "Wildfire Smoke & HVAC: Does Your System Actually Filter It?",
+    "excerpt": "Wildfire smoke is mostly PM2.5, and not every AC filters it. Here's what MERV 13, portable HEPA, and DIY filters actually do \u2014 and the gap between 'the AC is on' and 'the air is clean.'",
+    "category": "iaq",
+    "categoryLabel": "Air Filtration & IAQ",
+    "date": "2026-07-18",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/wildfire-smoke-air-filtration-hvac.html",
+    "tags": [
+      "Wildfire Smoke",
+      "MERV 13",
+      "HEPA",
+      "PM2.5",
+      "Filtration"
+    ]
+  },
+  {
+    "slug": "hvac-commissioning-tests-explained",
+    "title": "The Tests Behind a Real HVAC Install: Commissioning Explained",
+    "excerpt": "A unit bolted to the pad and powered up isn't 'installed' \u2014 it's commissioned. Here are the field tests (vacuum, static pressure, refrigerant charge) that separate a system from a hookup.",
+    "category": "tools",
+    "categoryLabel": "Field Tools & Methods",
+    "date": "2026-07-17",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/hvac-commissioning-tests-explained.html",
+    "tags": [
+      "Commissioning",
+      "Field Tools",
+      "Vacuum",
+      "Airflow",
+      "Refrigerant Charge"
+    ]
+  },
+  {
+    "slug": "copper-tariffs-2026-hvac-supply-chain",
+    "title": "Why Your AC Quote Is Sensitive to Copper and Tariffs",
+    "excerpt": "Copper prices, Section 232 tariffs, and rolling manufacturer increases all feed the price on your HVAC quote. Here's what actually moves equipment cost \u2014 and what to ask before you sign.",
+    "category": "outlook",
+    "categoryLabel": "Supply Chain & Outlook",
+    "date": "2026-07-16",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/copper-tariffs-2026-hvac-supply-chain.html",
+    "tags": [
+      "Supply Chain",
+      "Copper",
+      "Tariffs",
+      "Pricing",
+      "2026"
+    ]
+  },
+  {
+    "slug": "seer2-efficiency-ratings-explained",
+    "title": "SEER2 vs SEER: What the 2023 Rating Change Means for Your AC",
+    "excerpt": "Since January 1, 2023, every new central AC and heat pump carries SEER2, EER2 and HSPF2 ratings. Here's what changed, the federal minimums by region, and why ENERGY STAR just dropped central ACs.",
+    "category": "equipment",
+    "categoryLabel": "Equipment & Efficiency",
+    "date": "2026-07-15",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/seer2-efficiency-ratings-explained.html",
+    "tags": [
+      "SEER2",
+      "Efficiency",
+      "DOE Standards",
+      "ENERGY STAR",
+      "Heat Pumps"
+    ]
+  },
+  {
+    "slug": "a2l-refrigerant-transition-r410a-phase-down",
+    "title": "The A2L Refrigerant Transition: What the R-410A Phase-Down Means for You",
+    "excerpt": "Since January 1, 2025, new residential AC and heat pumps no longer ship with R-410A. Here's what the EPA AIM Act rule says, what A2L refrigerants are, and what it means for your system.",
+    "category": "outlook",
+    "categoryLabel": "Regulations & Outlook",
+    "date": "2026-07-14",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/a2l-refrigerant-transition-r410a-phase-down.html",
+    "tags": [
+      "Refrigerants",
+      "A2L",
+      "R-410A",
+      "Regulations",
+      "AIM Act"
+    ]
+  },
+  {
+    "slug": "ac-cant-keep-up-heat-wave",
+    "title": "Why Your AC Can't Keep Up in a Heat Wave (and When It's Actually Broken)",
+    "excerpt": "A heat dome reaches the East Coast starting July 14. Here's how to tell whether your AC is just overworked or genuinely broken \u2014 the 20-degree rule, what to check before you call, and heat-safety basics.",
+    "category": "trends",
+    "categoryLabel": "Climate & Trends",
+    "date": "2026-07-13",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/ac-cant-keep-up-heat-wave.html",
+    "tags": [
+      "Heat Wave",
+      "AC Not Cooling",
+      "Maintenance",
+      "Climate",
+      "Summer"
+    ]
+  },
+  {
+    "slug": "smart-thermostat-shootout",
+    "title": "Smart Thermostat Shootout: Which Learning Thermostat Actually Saves Money?",
+    "excerpt": "We compared real-world heating and cooling runtimes across the most popular learning thermostats. Here's what the data says about actual savings \u2014 not marketing claims.",
+    "category": "smart",
+    "categoryLabel": "Smart Thermostats",
+    "date": "2026-07-13",
+    "dateLabel": "1 week ago",
+    "readTime": "8 min read",
+    "author": "HVAC Zone Team",
+    "file": "article.html",
+    "tags": [
+      "Smart Thermostats",
+      "Energy Savings",
+      "Reviews",
+      "Residential",
+      "NJ"
+    ]
+  },
+  {
+    "slug": "iaq-monitors-explained",
+    "title": "IAQ Monitors Explained: PM2.5, CO2, VOCs & What to Actually Track",
+    "excerpt": "Indoor air quality monitors promise a lot. Here's what each metric means, what the health-based thresholds actually are, and which numbers matter for a healthy home.",
+    "category": "iaq",
+    "categoryLabel": "IAQ",
+    "date": "2026-07-12",
+    "dateLabel": "1 week ago",
+    "readTime": "7 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/iaq-monitors-explained.html",
+    "tags": [
+      "IAQ",
+      "Indoor Air Quality",
+      "PM2.5",
+      "CO2",
+      "Health"
+    ]
+  },
+  {
+    "slug": "thermal-envelope",
+    "title": "The Thermal Envelope: Why Your HVAC Can't Fix a Bad Building",
+    "excerpt": "You can install the most efficient equipment on the market \u2014 if the building leaks, you're paying to condition the neighborhood. A practical guide to the envelope first.",
+    "category": "building",
+    "categoryLabel": "Building Science",
+    "date": "2026-07-11",
+    "dateLabel": "1 week ago",
+    "readTime": "9 min read",
+    "author": "HVAC Zone Team",
+    "file": "articles/thermal-envelope.html",
+    "tags": [
+      "Building Science",
+      "Insulation",
+      "Air Sealing",
+      "Efficiency"
+    ]
+  }
+]

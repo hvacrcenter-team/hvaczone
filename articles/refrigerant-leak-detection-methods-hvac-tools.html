@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refrigerant Leak Detection: Methods, Tools, and A2L Safety | HVAC Zone</title>
+  <meta name="description" content="EPA Section 608 requires leak repair for systems with 50+ lb charge at 10-30% annual leak rates. Here's how electronic detectors, dye testing, nitrogen pressure testing, and ultrasonic methods compare — and what changes with A2L flammable refrigerants." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Tools</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 4, 2026 · 8 min read</span>
+          </div>
+        </div>
+        <h1>Refrigerant Leak Detection: Methods, Tools, and A2L Safety</h1>
+        <p class="article-lead">EPA Section 608 requires leak repair for systems with 50+ pounds of refrigerant at annual leak rates of 10-30%. With R-410A supply tightening and A2L refrigerants in new equipment, proper leak detection matters more than ever — and A2L flammability changes how you search.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Comparison of five refrigerant leak detection methods with sensitivity and application">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <text x="400" y="30" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="var(--color-text)">Leak Detection Method Comparison</text>
+        <g font-family="Inter" font-size="11" fill="var(--color-text-muted)">
+          <rect x="60" y="55" width="130" height="180" rx="8" fill="var(--color-success)" opacity="0.08" stroke="var(--color-success)" stroke-width="1.5"/>
+          <text x="125" y="80" text-anchor="middle" font-weight="700" font-size="12" fill="var(--color-success)">Electronic</text>
+          <text x="125" y="100" text-anchor="middle" font-size="9">Heated diode</text>
+          <text x="125" y="115" text-anchor="middle" font-size="9">Infrared</text>
+          <text x="125" y="135" text-anchor="middle" font-size="9">Sensitivity:</text>
+          <text x="125" y="150" text-anchor="middle" font-size="9">0.1-0.5 oz/yr</text>
+          <text x="125" y="175" text-anchor="middle" font-size="9">Speed: Fast</text>
+          <text x="125" y="200" text-anchor="middle" font-size="9">A2L: Must use</text>
+          <text x="125" y="215" text-anchor="middle" font-size="9">rated detector</text>
+
+          <rect x="210" y="55" width="130" height="180" rx="8" fill="var(--color-primary)" opacity="0.08" stroke="var(--color-primary)" stroke-width="1.5"/>
+          <text x="275" y="80" text-anchor="middle" font-weight="700" font-size="12" fill="var(--color-primary)">UV Dye</text>
+          <text x="275" y="100" text-anchor="middle" font-size="9">Fluorescent</text>
+          <text x="275" y="115" text-anchor="middle" font-size="9">injection</text>
+          <text x="275" y="135" text-anchor="middle" font-size="9">Sensitivity:</text>
+          <text x="275" y="150" text-anchor="middle" font-size="9">~0.5 oz/yr</text>
+          <text x="275" y="175" text-anchor="middle" font-size="9">Speed: Slow</text>
+          <text x="275" y="200" text-anchor="middle" font-size="9">Requires UV</text>
+          <text x="275" y="215" text-anchor="middle" font-size="9">lamp + system run</text>
+
+          <rect x="360" y="55" width="130" height="180" rx="8" fill="var(--color-accent)" opacity="0.08" stroke="var(--color-accent)" stroke-width="1.5"/>
+          <text x="425" y="80" text-anchor="middle" font-weight="700" font-size="12" fill="var(--color-accent)">Bubble</text>
+          <text x="425" y="100" text-anchor="middle" font-size="9">Soap solution</text>
+          <text x="425" y="135" text-anchor="middle" font-size="9">Sensitivity:</text>
+          <text x="425" y="150" text-anchor="middle" font-size="9">~1.5 oz/yr</text>
+          <text x="425" y="175" text-anchor="middle" font-size="9">Speed: Medium</text>
+          <text x="425" y="200" text-anchor="middle" font-size="9">Accessible joints</text>
+          <text x="425" y="215" text-anchor="middle" font-size="9">only</text>
+
+          <rect x="510" y="55" width="130" height="180" rx="8" fill="#e74c3c" opacity="0.08" stroke="#e74c3c" stroke-width="1.5"/>
+          <text x="575" y="80" text-anchor="middle" font-weight="700" font-size="12" fill="#e74c3c">Nitrogen</text>
+          <text x="575" y="100" text-anchor="middle" font-size="9">Pressure test</text>
+          <text x="575" y="135" text-anchor="middle" font-size="9">Sensitivity:</text>
+          <text x="575" y="150" text-anchor="middle" font-size="9">~0.5 oz/yr</text>
+          <text x="575" y="175" text-anchor="middle" font-size="9">Speed: Slow</text>
+          <text x="575" y="200" text-anchor="middle" font-size="9">System offline</text>
+          <text x="575" y="215" text-anchor="middle" font-size="9">requires recovery</text>
+
+          <rect x="660" y="55" width="130" height="180" rx="8" fill="var(--color-cool)" opacity="0.08" stroke="var(--color-cool)" stroke-width="1.5"/>
+          <text x="725" y="80" text-anchor="middle" font-weight="700" font-size="12" fill="var(--color-cool)">Ultrasonic</text>
+          <text x="725" y="100" text-anchor="middle" font-size="9">Acoustic</text>
+          <text x="725" y="135" text-anchor="middle" font-size="9">Sensitivity:</text>
+          <text x="725" y="150" text-anchor="middle" font-size="9">~0.5 oz/yr</text>
+          <text x="725" y="175" text-anchor="middle" font-size="9">Speed: Medium</text>
+          <text x="725" y="200" text-anchor="middle" font-size="9">Detects gas</text>
+          <text x="725" y="215" text-anchor="middle" font-size="9">ultrasound</text>
+        </g>
+        <text x="400" y="270" text-anchor="middle" font-family="Inter" font-size="11" fill="var(--color-text-muted)">No single method finds every leak. EPA requires initial + follow-up verification tests.</text>
+        <text x="400" y="290" text-anchor="middle" font-family="Inter" font-size="10" fill="var(--color-text-faint)">Sources: EPA Section 608, ASHRAE Standard 15-2019</text>
+      </svg>
+      <figcaption>Five common leak detection methods compared by sensitivity, speed, and A2L compatibility. No method is universally best — most technicians use a combination.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>A refrigerant leak is the most common cause of HVAC system performance degradation. A system running 10% low on charge can see efficiency drop 10-15%. At 25% low, the compressor is at risk. EPA Section 608 requires that commercial comfort cooling systems with 50+ pounds of refrigerant charge be repaired when the annual leak rate exceeds 10% ([EPA](https://www.epa.gov/section608/leak-repair-requirements)). Industrial process refrigeration has a 30% threshold; commercial refrigeration has 20%.</p>
+
+        <p>With the AIM Act tightening R-410A supply and A2L refrigerants (R-32, R-454B) now in new equipment, finding leaks quickly and safely matters more than ever. Here's what the standards say about each detection method — and what changes with flammable refrigerants.</p>
+
+        <h2>EPA Section 608: the regulatory framework</h2>
+        <p>Under EPA's Section 608 regulations, technicians must perform an initial verification test to confirm a leak exists before repairing, and a follow-up verification test after the repair to confirm the leak is fixed. The owner or operator must repair leaks within 30 days of adding refrigerant to the system. Records of leak inspections and repairs must be retained ([EPA](https://www.epa.gov/section608/leak-repair-requirements)).</p>
+
+        <p>Only EPA-certified technicians may maintain, service, repair, or dispose of refrigerant-containing equipment. The certification covers safe handling, leak detection, recovery, and proper disposal practices ([EPA](https://www.epa.gov/section608/section-608-technician-certification)).</p>
+
+        <h2>The five leak detection methods compared</h2>
+
+        <table class="compare-table">
+          <thead><tr><th>Method</th><th>Sensitivity</th><th>Best for</th><th>Limitation</th></tr></thead>
+          <tbody>
+            <tr><td>Electronic (heated diode)</td><td>0.1-0.5 oz/yr</td><td>Fast screening of joints, coils, Schrader valves</td><td>Sensor degrades over time; must calibrate</td></tr>
+            <tr><td>Electronic (infrared)</td><td>0.1-0.5 oz/yr</td><td>Longer sensor life; less calibration drift</td><td>Slower response than heated diode</td></tr>
+            <tr><td>UV fluorescent dye</td><td>~0.5 oz/yr</td><td>Small, slow leaks in operating systems</td><td>Requires system run time; UV lamp needed</td></tr>
+            <tr><td>Bubble solution</td><td>~1.5 oz/yr</td><td>Accessible joints, visible fittings</td><td>Cannot reach concealed or buried leaks</td></tr>
+            <tr><td>Nitrogen pressure test</td><td>~0.5 oz/yr</td><td>New installations, major repairs</td><td>Requires refrigerant recovery; system offline</td></tr>
+            <tr><td>Ultrasonic acoustic</td><td>~0.5 oz/yr</td><td>Pressurized systems, hard-to-reach areas</td><td>Background noise interference</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Electronic leak detectors</h3>
+        <p>The most common field tool. Heated diode detectors heat a sensor element — when refrigerant contacts it, the electrical resistance changes, triggering an alarm. Infrared detectors use an optical sensor that measures infrared absorption of the refrigerant molecule. Infrared sensors last longer and are less prone to false positives from moisture and cleaning solvents, but respond slightly slower than heated diode models.</p>
+
+        <h3>UV dye injection</h3>
+        <p>A fluorescent dye is injected into the refrigerant circuit. After the system runs and the dye circulates, a UV lamp reveals leaks as bright green or yellow traces at the leak point. This method is excellent for small, slow leaks that electronic detectors miss, but it requires the system to run for several hours and won't work if the system has lost all charge.</p>
+
+        <h3>Bubble solution</h3>
+        <p>The simplest method: apply a soap solution to accessible joints and watch for bubbles. It's inexpensive and reliable for visible fittings, but can't detect leaks in concealed coils, buried lines, or behind walls. Best used as a quick confirmation of a suspected leak at a visible joint.</p>
+
+        <h3>Nitrogen pressure testing</h3>
+        <p>The gold standard for new installations and major repairs. The system is evacuated of refrigerant, pressurized with dry nitrogen to 150-300 psi, and monitored for pressure drop. Nitrogen is inert, so there's no flammability or environmental concern. The limitation: the system must be offline, refrigerant must be recovered first, and the test takes time.</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>Best practice: combine methods.</b>No single method finds every leak. The most effective approach is layered: use an electronic detector for fast screening, confirm with bubble solution at suspected joints, inject UV dye for slow leaks that can't be located immediately, and pressure-test with nitrogen during installation and major repairs. EPA requires both an initial verification test (before repair) and a follow-up verification test (after repair) using one or more of these methods ([EPA](https://www.epa.gov/section608/leak-repair-requirements)).</p>
+        </div>
+
+        <h2>What changes with A2L refrigerants</h2>
+        <p>A2L refrigerants (R-32, R-454B, R-1234yf, R-1234ze) are classified as "mildly flammable" — they have a lower flammability limit (LFL) greater than 0.10 kg/m³, a heat of combustion less than 19,000 kJ/kg, and a maximum burning velocity less than 10 cm/s ([EPA](https://www.epa.gov/sites/default/files/2021-04/documents/10020-41-oar_snap_listing_rule_23_042221_admin_signed_pre-pub.pdf)). This flammability classification changes leak detection in several ways:</p>
+
+        <ul>
+          <li><strong>Electronic detectors must be rated for A2L.</strong>Heated diode detectors use a heated sensor element. With flammable refrigerants, a non-rated detector could be an ignition source. Manufacturers now produce A2L-rated detectors with sealed or intrinsically safe sensor designs.</li>
+          <li><strong>Red color-coded hoses and piping.</strong>EPA SNAP rules require that equipment using flammable refrigerants have "distinguished red (Pantone PMS #185 or RAL 3020) color-coded hoses and piping" with markings extending at least 1 inch on service ports, pipes, and hoses ([EPA](https://www.epa.gov/sites/default/files/2021-04/documents/10020-41-oar_snap_listing_rule_23_042221_admin_signed_pre-pub.pdf)).</li>
+          <li><strong>Warning markings required.</strong>Equipment must display: "WARNING — Risk of Fire. Flammable Refrigerant Used. To Be Repaired Only By Trained Service Personnel. Do Not Puncture Refrigerant Tubing" on the outside, and "WARNING — Risk of Fire. Flammable Refrigerant Used. Consult Repair Manual/Owner's Guide Before Attempting to Service This Product" near the compressor ([EPA](https://www.epa.gov/sites/default/files/2021-04/documents/10020-41-oar_snap_listing_rule_23_042221_admin_signed_pre-pub.pdf)).</li>
+          <li><strong>ASHRAE Standard 15 requires refrigerant detection systems.</strong>For systems using refrigerants with a flammability classification (including A2L), ASHRAE 15-2019 requires a refrigerant detection system that activates at or below the refrigerant concentration limit (RCL) and triggers mitigation measures — typically shutting down equipment and activating ventilation ([ASHRAE](https://www.ashrae.org/file%20library/technical%20resources/standards%20and%20guidelines/standards%20addenda/15_2019_g_20220831.pdf)).</li>
+        </ul>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Not an endorsement.</b>Naming specific detection technologies, refrigerant classifications, or regulatory requirements does not constitute a recommendation for any brand or product. HVAC Zone Inc is brand-neutral. Leak detection method selection depends on refrigerant type, system size, accessibility, and local code requirements. Always follow manufacturer instructions and EPA Section 608 regulations. This article is informational only.</p>
+        </div>
+
+        <h2>Why this matters now</h2>
+        <p>Refrigerant is getting more expensive and harder to get. The AIM Act's 2026 quota reductions are tightening R-410A supply, with distributors reporting allocations and longer lead times. A system that loses a pound of refrigerant per year used to be a minor inconvenience — now it's a supply chain problem. For new A2L systems, proper leak detection during installation (nitrogen pressure test) and at first service is critical, because A2L refrigerants require A2L-rated recovery equipment and have different handling protocols.</p>
+
+        <p>If your system is short on refrigerant or you suspect a leak, the right next step is a professional leak inspection — not just a recharge. Every recharge without repair is a temporary fix that lets refrigerant escape again. <a href="../index.html#contact">Request a consultation</a> — we'll perform a proper leak inspection using the right tools for your system's refrigerant type, repair the leak, and verify the fix.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Leak Detection</span><span class="tag">Section 608</span><span class="tag">A2L Safety</span><span class="tag">Refrigerant</span><span class="tag">ASHRAE 15</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="a2l-refrigerant-transition-r410a-phase-down.html" class="card" data-cat="outlook">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A2L refrigerant"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="55" fill="none" stroke="var(--color-accent)" stroke-width="2.5"/><text x="200" y="118" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="var(--color-accent)">A2L</text></svg>
+              <span class="card-cat">Refrigerants & Transition</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">A2L Refrigerant Transition: What the R-410A Phase-Down Means for You</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="hvac-week-in-review-july-27-aug-2-2026.html" class="card" data-cat="trends">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Weekly roundup"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="100" y="70" width="200" height="85" rx="8" fill="none" stroke="var(--color-primary)" stroke-width="2"/><text x="200" y="118" text-anchor="middle" font-family="Inter" font-size="16" font-weight="700" fill="var(--color-primary)">WEEK</text></svg>
+              <span class="card-cat">HVAC Week in Review</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">HVAC Week in Review: July 27 - August 2, 2026</h3><div class="card-meta"><span>9 min read</span></div></div>
+          </a>
+          <a href="carbon-monoxide-combustion-safety-hvac-checks.html" class="card" data-cat="tools">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Combustion safety"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="50" fill="none" stroke="#e74c3c" stroke-width="2.5"/><text x="200" y="118" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="#e74c3c">CO</text></svg>
+              <span class="card-cat">Combustion Safety</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Carbon Monoxide and Combustion Safety: The HVAC Checks That Matter</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

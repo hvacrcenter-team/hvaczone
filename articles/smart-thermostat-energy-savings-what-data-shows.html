@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Thermostat Energy Savings: What the Data Actually Shows | HVAC Zone</title>
+  <meta name="description" content="Manufacturers claim 23-26% savings. ENERGY STAR says 8% average. NREL simulations show 0-12% depending on algorithm. Here's what DOE, NREL, and EPA field data actually say about smart thermostat savings." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b4f8a'/%3E%3Cpath d='M8 12h16M8 16h12M8 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="../index.html" class="brand" aria-label="HVAC Zone home">
+          <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="38" height="38" rx="10" fill="url(#bg)"/>
+            <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            <circle cx="30" cy="26" r="2.4" fill="#e07a1a"/>
+            <defs><linearGradient id="bg" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse"><stop stop-color="#0b4f8a"/><stop offset="1" stop-color="#072f54"/></linearGradient></defs>
+          </svg>
+          <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+        <ul class="nav-links" role="list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#services">Services</a></li>
+          <li><a href="../hub.html" class="is-active">Information Hub</a></li>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode"></button>
+          <a href="../index.html#contact" class="btn btn--primary header-cta">Request Service</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <header class="article-hero">
+      <div class="container container--prose">
+        <div class="article-meta">
+          <span class="badge cat-tag">Smart</span>
+          <div class="article-byline">
+            <span class="avatar">HZ</span>
+            <span><strong>HVAC Zone Team</strong> · Aug 5, 2026 · 8 min read</span>
+          </div>
+        </div>
+        <h1>Smart Thermostat Energy Savings: What the Data Actually Shows</h1>
+        <p class="article-lead">Manufacturers advertise savings of 23-26%. ENERGY STAR's field data shows an average of 8% ($50/year). NREL's simulation research finds 0-12% depending on the algorithm. Here's what DOE, NREL, and EPA data actually say — and why the gap between marketing and measured savings matters.</p>
+      </div>
+    </header>
+
+    <figure class="article-figure">
+      <svg viewBox="0 0 800 320" role="img" aria-label="Bar chart comparing manufacturer claims, ENERGY STAR average, and NREL simulation results for smart thermostat energy savings">
+        <rect width="800" height="320" fill="var(--color-surface-offset)"/>
+        <text x="400" y="30" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="var(--color-text)">Smart Thermostat Savings: Claims vs. Measured</text>
+        <g font-family="Inter" font-size="11" fill="var(--color-text-muted)">
+          <line x1="80" y1="260" x2="740" y2="260" stroke="var(--color-text-muted)" stroke-width="1.5"/>
+          <text x="50" y="265" text-anchor="end" font-size="10">0%</text>
+          <line x1="80" y1="200" x2="740" y2="200" stroke="var(--color-border)" stroke-dasharray="4 4"/>
+          <text x="50" y="205" text-anchor="end" font-size="10">8%</text>
+          <line x1="80" y1="155" x2="740" y2="155" stroke="var(--color-border)" stroke-dasharray="4 4"/>
+          <text x="50" y="160" text-anchor="end" font-size="10">15%</text>
+          <line x1="80" y1="110" x2="740" y2="110" stroke="var(--color-border)" stroke-dasharray="4 4"/>
+          <text x="50" y="115" text-anchor="end" font-size="10">23%</text>
+          <line x1="80" y1="85" x2="740" y2="85" stroke="var(--color-border)" stroke-dasharray="4 4"/>
+          <text x="50" y="90" text-anchor="end" font-size="10">26%</text>
+
+          <rect x="120" y="85" width="100" height="175" fill="#e74c3c" opacity="0.7" rx="4"/>
+          <text x="170" y="280" text-anchor="middle" font-size="10" font-weight="600">Manufacturer</text>
+          <text x="170" y="295" text-anchor="middle" font-size="9">23-26%</text>
+
+          <rect x="280" y="200" width="100" height="60" fill="var(--color-primary)" opacity="0.7" rx="4"/>
+          <text x="330" y="280" text-anchor="middle" font-size="10" font-weight="600">ENERGY STAR</text>
+          <text x="330" y="295" text-anchor="middle" font-size="9">8% avg</text>
+
+          <rect x="440" y="245" width="100" height="15" fill="var(--color-accent)" opacity="0.7" rx="4"/>
+          <text x="490" y="280" text-anchor="middle" font-size="10" font-weight="600">Occupancy</text>
+          <text x="490" y="295" text-anchor="middle" font-size="9">0-3%</text>
+
+          <rect x="560" y="215" width="100" height="45" fill="var(--color-success)" opacity="0.7" rx="4"/>
+          <text x="610" y="280" text-anchor="middle" font-size="10" font-weight="600">Night Setback</text>
+          <text x="610" y="295" text-anchor="middle" font-size="9">5-8%</text>
+
+          <rect x="680" y="170" width="60" height="90" fill="var(--color-cool)" opacity="0.7" rx="4"/>
+          <text x="710" y="280" text-anchor="middle" font-size="10" font-weight="600">Combined</text>
+          <text x="710" y="295" text-anchor="middle" font-size="9">8-12%</text>
+        </g>
+        <text x="400" y="315" text-anchor="middle" font-family="Inter" font-size="10" fill="var(--color-text-faint)">Sources: ENERGY STAR FAQ, NREL Benchmarking (DOE BTO Peer Review 2023)</text>
+      </svg>
+      <figcaption>Manufacturer savings claims (23-26%) far exceed ENERGY STAR's field-measured average (8%) and NREL's simulation results (0-12% by algorithm type). The gap between marketing and measured data is significant.</figcaption>
+    </figure>
+
+    <article class="section section--tight">
+      <div class="prose">
+        <p>Smart thermostat packaging often advertises savings of 23% or even 26% on HVAC energy. NREL's benchmarking research presented these manufacturer claims alongside field data — and the contrast is striking ([NREL](https://www.energy.gov/sites/default/files/2023-05/bto-peer-2023-32620-benchmarkingthermostats-nrel-benne.pdf)). ENERGY STAR's own certification data, drawn from millions of installed thermostats across US climate zones, shows average savings of approximately 8% of heating and cooling bills, or about $50 per year ([ENERGY STAR](https://www.energystar.gov/products/heating_cooling/smart_thermostats/smart_thermostat_faq)).</p>
+
+        <p>That's not nothing — but it's a third of what the box says. Here's what the data actually shows, where the savings come from, and what determines whether you'll see them.</p>
+
+        <h2>Why programmable thermostats failed</h2>
+        <p>The smart thermostat story starts with a cautionary tale. EPA launched an ENERGY STAR specification for programmable thermostats, then killed it in 2009. The reason: "many programmable thermostats aren't actually running any program" and "many homes with programmable thermostats don't have set points that are much better than homes with manual thermostats" ([DOE](https://www.energy.gov/sites/prod/files/2017/01/f34/bbrn_Summary_Smart_Thermostats_121516-2.pdf)). Multiple studies found that homes with programmable thermostats sometimes consumed more energy than homes with manual thermostats.</p>
+
+        <p>The problem wasn't the technology — it was human behavior. ENERGY STAR notes that "homeowners generally don't understand how programmable thermostats work and may not program them at all, which can lead to higher utility bills" ([ENERGY STAR](https://www.energystar.gov/products/heating_cooling/smart_thermostats/smart_thermostat_faq)). Smart thermostats attempt to solve this by removing the programming burden: they learn schedules, detect occupancy, and adjust automatically.</p>
+
+        <h2>The setback principle: where savings actually come from</h2>
+        <p>All thermostat savings — smart or not — ultimately come from temperature setback. DOE's Building America research found that "for an 8-hour nighttime setback period, every 1°F setback will result in approximately 1% savings in energy consumption" ([DOE](https://www.energy.gov/eere/buildings/articles/building-america-technology-solutions-new-and-existing-homeshydronic)). DOE's Energy Saver program puts it simply: "you can save as much as 10% a year on heating and cooling by simply turning your thermostat back 7°-10°F for 8 hours a day from its normal setting" ([DOE](https://www.energy.gov/energysaver/programmable-thermostats)).</p>
+
+        <p>DOE also debunks the common myth that a furnace "works harder" to recover from setback: "as soon as your house drops below its normal temperature, it will lose energy to the surrounding environment more slowly... the longer your house remains at the lower temperature, the more energy you save" ([DOE](https://www.energy.gov/energysaver/programmable-thermostats)).</p>
+
+        <h2>What NREL's simulation data found</h2>
+        <p>NREL's smart thermostat benchmarking project, funded by DOE's Building Technologies Office at $400,000 per year, simulated four generic thermostat algorithms across a large sample of US homes. The results show which features actually drive savings ([NREL](https://www.energy.gov/sites/default/files/2023-05/bto-peer-2023-32620-benchmarkingthermostats-nrel-benne.pdf)):</p>
+
+        <table class="compare-table">
+          <thead><tr><th>Algorithm</th><th>What it does</th><th>Most homes save</th><th>Range</th></tr></thead>
+          <tbody>
+            <tr><td>A — Hold</td><td>Constant setpoint, no adjustment</td><td>0%</td><td>Baseline</td></tr>
+            <tr><td>B — Occupancy sensing</td><td>Setback when home is unoccupied</td><td>0-3%</td><td>0-10%</td></tr>
+            <tr><td>C — Nighttime setback</td><td>Reduce temperature 8 hours overnight</td><td>5-8%</td><td>3-14%</td></tr>
+            <tr><td>D — Occupancy + setback</td><td>Combined approach (typical smart thermostat default)</td><td>8-12%</td><td>4-20%</td></tr>
+          </tbody>
+        </table>
+
+        <p>NREL concluded that "early results support manufacturers' literature, but with nuance" — the combined algorithm (D) can approach manufacturer claims in best-case scenarios, but most homes cluster in the 8-12% range, not the 23-26% advertised ([NREL](https://www.energy.gov/sites/default/files/2023-05/bto-peer-2023-32620-benchmarkingthermostats-nrel-benne.pdf)).</p>
+
+        <div class="callout">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+          <p><b>The 2% problem.</b>NREL's evaluation protocol highlights a subtle but important point: "smart thermostat savings of 10% of cooling energy use would equate to a 2% reduction in home electricity consumption" because cooling is only about 20% of annual electricity use ([NREL](https://docs.nrel.gov/docs/fy23osti/86175.pdf)). This makes smart thermostat savings hard to detect on utility bills — and easy to overstate in marketing. A 10% HVAC runtime reduction sounds impressive until you realize it's $50 per year for the average household.</p>
+        </div>
+
+        <h2>ENERGY STAR's certification process</h2>
+        <p>To earn the ENERGY STAR label, a smart thermostat must demonstrate field-measured savings from real installations. Manufacturers must collect 12 months of data from hundreds of operating thermostats — HVAC runtimes, indoor temperatures, and setpoints — and submit it to an EPA-supplied software tool that calculates the percentage of runtime reduction compared to a constant-temperature baseline ([LBNL](https://www.energy.gov/sites/default/files/2023-05/bto-peer-2023-certification-thermostats-lbnl-meier.pdf)).</p>
+
+        <p>The minimum thresholds are ([ENERGY STAR](https://www.energystar.gov/products/heating_cooling/smart_thermostats/smart_thermostat_faq)):</p>
+        <ul>
+          <li>Heating: ≥ 8% annual runtime reduction (lower 95% confidence limit)</li>
+          <li>Cooling: ≥ 10% annual runtime reduction (lower 95% confidence limit)</li>
+          <li>Heat pump installations: report resistance heat utilization across temperature bins</li>
+        </ul>
+
+        <h2>What determines whether you'll see savings</h2>
+        <p>DOE's literature review found that "most literature report savings between 1% and 15%" and "in a few cases energy consumption increased following connected thermostat deployment" ([DOE](https://www.energy.gov/sites/prod/files/2017/01/f34/bbrn_Summary_Smart_Thermostats_121516-2.pdf)). The factors that determine actual savings:</p>
+
+        <ol>
+          <li><strong>Your previous thermostat behavior.</strong>If you already set back manually, a smart thermostat adds little. If you held a constant setpoint, the automatic setback delivers real savings.</li>
+          <li><strong>Climate.</strong>NREL found that "climates with larger HVAC loads tend to have more cost savings" ([NREL](https://docs.nrel.gov/docs/fy21osti/76179.pdf)). DOE notes "the colder the weather, the greater the energy savings from thermostat setback" ([DOE](https://www.energy.gov/eere/buildings/articles/building-america-technology-solutions-new-and-existing-homeshydronic)).</li>
+          <li><strong>Occupancy pattern.</strong>Homes that are unoccupied for long stretches benefit most from occupancy sensing. Someone working from home all day gets minimal benefit.</li>
+          <li><strong>System type.</strong>Heat pumps with auxiliary electric heat are a special case — aggressive setback can trigger expensive resistance heat. ENERGY STAR requires reporting of resistance heat utilization for heat pump installations ([ENERGY STAR](https://www.energystar.gov/products/heating_cooling/smart_thermostats/smart_thermostat_faq)).</li>
+          <li><strong>Software updates.</strong>NREL warns that "software updates and continuous optimization... mean future energy savings may differ from first-year savings" ([NREL](https://docs.nrel.gov/docs/fy23osti/86175.pdf)). A thermostat that saves 10% in year one might save more or less after a firmware update.</li>
+        </ol>
+
+        <div class="callout callout--warn">
+          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
+          <p><b>Not an endorsement.</b>Naming thermostat technologies, certification programs, or savings algorithms does not constitute a recommendation for any brand or product. HVAC Zone Inc is brand-neutral. Actual savings depend on climate, occupancy, previous behavior, system type, and installation. The C-wire (common wire) requirement is a separate consideration — many older homes lack the 24V common wire that most smart thermostats need for continuous power. This article is informational only.</p>
+        </div>
+
+        <h2>The bottom line</h2>
+        <p>Smart thermostats do save energy — the data is clear on that. But the savings are typically 8% of HVAC costs (about $50/year), not the 23-26% advertised. The most effective strategy is the one DOE has recommended for decades: setback your temperature 7-10°F for 8 hours when you're asleep or away. A smart thermostat automates that behavior for people who wouldn't program a schedule manually — which is most people. That automation is where the real value sits.</p>
+
+        <p>NREL estimates payback in under 2 years at typical savings levels ([NREL](https://www.energy.gov/sites/default/files/2023-05/bto-peer-2023-32620-benchmarkingthermostats-nrel-benne.pdf)). That makes a smart thermostat a reasonable investment — just don't expect it to cut your energy bill by a quarter.</p>
+
+        <p>Not sure if a smart thermostat is right for your system? <a href="../index.html#contact">Request a consultation</a> — we'll check your wiring, system compatibility, and whether your heat pump or AC setup is a good candidate for smart thermostat savings.</p>
+      </div>
+
+      <div class="article-foot">
+        <div class="tag-row">
+          <span class="tag">Smart Thermostat</span><span class="tag">Energy Savings</span><span class="tag">ENERGY STAR</span><span class="tag">NREL</span><span class="tag">Setback</span>
+        </div>
+      </div>
+    </article>
+
+    <section class="related section section--tight">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Keep reading</span>
+          <h2>Related from the hub</h2>
+        </div>
+        <div class="article-grid">
+          <a href="demand-controlled-ventilation-co2-sensors.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="DCV sensors"><rect width="400" height="225" fill="var(--color-surface-offset)"/><circle cx="200" cy="112" r="50" fill="none" stroke="var(--color-cool)" stroke-width="2.5"/><text x="200" y="118" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="var(--color-cool)">CO2</text></svg>
+              <span class="card-cat">Smart Ventilation & IAQ</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Demand-Controlled Ventilation: CO2 Sensors and Energy Savings</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="time-of-use-rates-hvac-load-shifting.html" class="card" data-cat="smart">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Time of use rates"><rect width="400" height="225" fill="var(--color-surface-offset)"/><rect x="120" y="80" width="160" height="65" rx="8" fill="none" stroke="var(--color-accent)" stroke-width="2"/><text x="200" y="118" text-anchor="middle" font-family="Inter" font-size="14" font-weight="700" fill="var(--color-accent)">TOU</text></svg>
+              <span class="card-cat">Smart Grid & Controls</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Time-of-Use Rates and HVAC Load Shifting: When It Pays</h3><div class="card-meta"><span>7 min read</span></div></div>
+          </a>
+          <a href="variable-speed-vs-two-stage-compressor-hvac.html" class="card" data-cat="equipment">
+            <div class="card-media">
+              <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Compressor types"><rect width="400" height="225" fill="var(--color-surface-offset)"/><path d="M100 140 Q200 80 300 140" fill="none" stroke="var(--color-success)" stroke-width="2.5"/></svg>
+              <span class="card-cat">Compressors & Efficiency</span>
+            </div>
+            <div class="card-body"><h3 class="card-title">Variable-Speed vs Two-Stage vs Single-Stage Compressor Technology</h3><div class="card-meta"><span>8 min read</span></div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <rect x="1" y="1" width="38" height="38" rx="10" fill="var(--color-primary)"/>
+              <path d="M9 14h22M9 20h16M9 26h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round"/>
+            </svg>
+            <span><span class="brand-name">HVAC<b>Zone</b></span><span class="brand-sub">NJ Master Contractor</span></span>
+          </a>
+          <p>Stay comfortable and breathe clean air. Installation, repair, maintenance and sales of heating and cooling equipment across most major brands. Multi-brand dealer — no single-brand bias.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul role="list"><li><a href="../index.html#services">Installation</a></li><li><a href="../index.html#services">Repair</a></li><li><a href="../index.html#services">Maintenance</a></li><li><a href="../index.html#services">Indoor Air Quality</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hub</h4>
+          <ul role="list"><li><a href="../hub.html">All Articles</a></li><li><a href="../hub.html">Equipment Reviews</a></li><li><a href="../hub.html">Smart Thermostats</a></li><li><a href="../hub.html">Building Science</a></li><li><a href="../editorial-policy.html">Editorial Policy</a></li></ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul role="list"><li><a href="../index.html#about">About</a></li><li><a href="../index.html#contact">Contact</a></li><li><a href="mailto:info@hvaczonenj.com">info@hvaczonenj.com</a></li></ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 HVAC Zone Inc · NJ Master HVACR Contractor · Licensed &amp; Insured</span>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1 .3-1.5 1.6-1.5H17V2.2C16.4 2.1 15.3 2 14 2c-2.8 0-4.5 1.7-4.5 4.8V10H6v4h3.5v8H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-2.2-.2-3.4-.5-4.2-.3-.8-1-1.4-1.8-1.7C18.7 5.8 12 5.8 12 5.8s-6.7 0-7.7.3c-.8.3-1.5.9-1.8 1.7C2.2 8.6 2 9.8 2 12s.2 3.4.5 4.2c.3.8 1 1.4 1.8 1.7 1 .3 7.7.3 7.7.3s6.7 0 7.7-.3c.8-.3 1.5-.9 1.8-1.7.3-.8.5-2 .5-4.2zM10 15V9l5 3-5 3z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17 3h3l-7 8 8 10h-6l-4-5-5 5H3l8-9L3 3h6l4 4 4-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
